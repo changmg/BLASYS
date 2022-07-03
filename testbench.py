@@ -124,7 +124,13 @@ def module_info(fname, yosys_path):
          
         if len(tokens) > 0 and tokens[0] == 'module' and modulename is None:
             modulename = tokens[1]
-            port_list = re.split('[,()]', line.strip().strip(';').strip())[1:]
+            fullLine = line
+            while fullLine.find(');') == -1:
+                line = tmp_file.readline()
+                assert line
+                fullLine += line
+            print(fullLine[:-1])
+            port_list = re.split('[,()]', fullLine.strip().strip(';').strip())[1:]
             port_list = [s.strip() for s in port_list if s.strip() != '']
 
 
@@ -154,6 +160,9 @@ def module_info(fname, yosys_path):
     tmp_file.close()  
 
     os.remove(tmp)
+    print(port_list)
+    print(inp)
+    print(out)
 
     return modulename, port_list, inp, inp_count, out, out_count
 

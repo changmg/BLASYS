@@ -1,0 +1,68 @@
+[5, 5, 4, 5, 5, 5, 3, 4, 6]
+Approximated error: 0.000000%	Area percentage: 95.663265%	Time used: 21.158066 sec
+[5, 5, 4, 5, 5, 5, 2, 4, 6]
+Approximated error: 0.000000%	Area percentage: 93.367347%	Time used: 45.957269 sec
+[5, 5, 4, 5, 5, 5, 1, 4, 6]
+Approximated error: 0.000000%	Area percentage: 92.474490%	Time used: 44.020655 sec
+[5, 5, 4, 5, 5, 1, 4, 4, 6]
+Approximated error: 0.000001%	Area percentage: 83.035714%	Time used: 42.118020 sec
+[5, 5, 4, 5, 5, 1, 3, 4, 6]
+Approximated error: 0.000001%	Area percentage: 82.015306%	Time used: 39.316451 sec
+[5, 5, 4, 5, 5, 1, 2, 4, 6]
+Approximated error: 0.000001%	Area percentage: 79.591837%	Time used: 37.503445 sec
+[5, 5, 4, 5, 5, 1, 1, 4, 6]
+Approximated error: 0.000001%	Area percentage: 78.443878%	Time used: 36.828800 sec
+[5, 5, 4, 5, 5, 1, 1, 4, 5]
+Approximated error: 0.000018%	Area percentage: 77.168367%	Time used: 35.680565 sec
+[5, 5, 4, 5, 5, 1, 2, 4, 3]
+Approximated error: 0.000025%	Area percentage: 71.556122%	Time used: 35.822173 sec
+[5, 5, 4, 5, 5, 1, 1, 4, 3]
+Approximated error: 0.000025%	Area percentage: 70.790816%	Time used: 33.705141 sec
+[5, 5, 4, 5, 5, 1, 1, 4, 2]
+Approximated error: 0.000026%	Area percentage: 69.770408%	Time used: 33.081351 sec
+[5, 5, 4, 5, 5, 1, 1, 4, 1]
+Approximated error: 0.000032%	Area percentage: 65.816327%	Time used: 28.324493 sec
+[5, 5, 4, 5, 5, 1, 1, 3, 1]
+Approximated error: 0.000118%	Area percentage: 65.051020%	Time used: 26.945163 sec
+[5, 5, 4, 5, 5, 1, 2, 1, 1]
+Approximated error: 0.000191%	Area percentage: 61.096939%	Time used: 26.424781 sec
+[5, 5, 4, 5, 5, 1, 1, 1, 1]
+Approximated error: 0.000191%	Area percentage: 60.204082%	Time used: 22.972818 sec
+[5, 5, 3, 5, 5, 1, 1, 1, 1]
+Approximated error: 0.000506%	Area percentage: 51.530612%	Time used: 21.526842 sec
+[5, 4, 3, 5, 5, 1, 1, 1, 1]
+Approximated error: 0.000506%	Area percentage: 52.806122%	Time used: 21.639921 sec
+[5, 4, 2, 5, 5, 1, 1, 1, 1]
+Approximated error: 0.000814%	Area percentage: 48.469388%	Time used: 19.397270 sec
+[5, 4, 1, 5, 5, 1, 1, 1, 1]
+Approximated error: 0.001192%	Area percentage: 48.469388%	Time used: 16.253738 sec
+[5, 3, 1, 5, 5, 1, 1, 1, 1]
+Approximated error: 0.005332%	Area percentage: 43.750000%	Time used: 16.218336 sec
+[5, 2, 1, 5, 5, 1, 1, 1, 1]
+Approximated error: 0.005897%	Area percentage: 40.943878%	Time used: 16.237838 sec
+[5, 1, 1, 5, 5, 1, 1, 1, 1]
+Approximated error: 0.007528%	Area percentage: 37.755102%	Time used: 12.809531 sec
+[4, 1, 1, 5, 5, 1, 1, 1, 1]
+Approximated error: 0.076680%	Area percentage: 36.224490%	Time used: 11.917272 sec
+[3, 1, 1, 5, 5, 1, 1, 1, 1]
+Approximated error: 0.093471%	Area percentage: 32.015306%	Time used: 11.519121 sec
+[2, 1, 1, 5, 5, 1, 1, 1, 1]
+Approximated error: 0.101911%	Area percentage: 30.612245%	Time used: 11.101367 sec
+[1, 1, 1, 5, 5, 1, 1, 1, 1]
+Approximated error: 0.103915%	Area percentage: 28.443878%	Time used: 8.440487 sec
+[1, 1, 1, 5, 4, 1, 1, 1, 1]
+Approximated error: 1.222157%	Area percentage: 26.147959%	Time used: 7.411762 sec
+[1, 1, 1, 5, 3, 1, 1, 1, 1]
+Approximated error: 1.496060%	Area percentage: 24.234694%	Time used: 6.944540 sec
+[1, 1, 1, 5, 2, 1, 1, 1, 1]
+Approximated error: 1.653231%	Area percentage: 21.428571%	Time used: 6.705319 sec
+[1, 1, 1, 5, 1, 1, 1, 1, 1]
+Approximated error: 1.688608%	Area percentage: 19.387755%	Time used: 4.290768 sec
+[1, 1, 1, 4, 1, 1, 1, 1, 1]
+Approximated error: 24.466867%	Area percentage: 18.494898%	Time used: 3.595325 sec
+[1, 1, 1, 3, 1, 1, 1, 1, 1]
+Approximated error: 27.492215%	Area percentage: 16.198980%	Time used: 3.247980 sec
+[1, 1, 1, 2, 1, 1, 1, 1, 1]
+Approximated error: 29.919227%	Area percentage: 13.520408%	Time used: 2.983245 sec
+[1, 1, 1, 1, 1, 1, 1, 1, 1]
+Approximated error: 31.333824%	Area percentage: 10.459184%	Time used: 0.906125 sec

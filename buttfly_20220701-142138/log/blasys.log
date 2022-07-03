@@ -1,0 +1,18 @@
+[8, 10, 8, 10, 8, 8]
+Approximated error: 0.000000%	Area percentage: 104.240283%	Time used: 43.285801 sec
+[8, 10, 8, 9, 8, 8]
+Approximated error: 0.000000%	Area percentage: 103.886926%	Time used: 43.517792 sec
+[8, 9, 8, 9, 8, 8]
+Approximated error: 0.000000%	Area percentage: 101.766784%	Time used: 31.538105 sec
+[8, 10, 7, 9, 8, 7]
+Approximated error: 12.476171%	Area percentage: 98.056537%	Time used: 33.889671 sec
+[8, 8, 7, 10, 8, 7]
+Approximated error: 12.514875%	Area percentage: 96.289753%	Time used: 38.977812 sec
+[8, 7, 7, 10, 8, 7]
+Approximated error: 12.511785%	Area percentage: 92.049470%	Time used: 38.176718 sec
+[8, 7, 6, 10, 8, 7]
+Approximated error: 12.507130%	Area percentage: 91.872792%	Time used: 35.175388 sec
+[8, 8, 7, 7, 8, 7]
+Approximated error: 14.170884%	Area percentage: 90.282686%	Time used: 32.932473 sec
+[8, 7, 7, 7, 8, 7]
+Approximated error: 14.127784%	Area percentage: 88.162544%	Time used: 32.175860 sec

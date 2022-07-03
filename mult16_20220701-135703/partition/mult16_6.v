@@ -1,0 +1,27 @@
+module mult16_6(pi0 , pi1 , pi2 , pi3 , pi4 , pi5 , pi6 , po0 , po1 , po2 , po3 );
+  input pi0 , pi1 , pi2 , pi3 , pi4 , pi5 , pi6 ;
+  output po0 , po1 , po2 , po3 ;
+  wire new_n8, new_n9, new_n10, new_n11, new_n12, new_n13, new_n14, new_n15, new_n16, new_n17, new_n18, new_n19, new_n20, new_n21, new_n22, new_n23, new_n24, new_n25;
+  assign new_n8 = ~pi5 & pi6 ;
+  assign new_n9 = pi5 & ~pi6 ;
+  assign new_n10 = ~new_n8 & ~new_n9 ;
+  assign new_n11 = ~pi4 & new_n10 ;
+  assign new_n12 = pi4 & ~new_n10 ;
+  assign new_n13 = ~new_n11 & ~new_n12 ;
+  assign new_n14 = pi3 & new_n13 ;
+  assign new_n15 = ~pi3 & ~new_n13 ;
+  assign new_n16 = ~new_n14 & ~new_n15 ;
+  assign new_n17 = ~pi1 & new_n16 ;
+  assign new_n18 = pi1 & ~new_n16 ;
+  assign new_n19 = ~new_n17 & ~new_n18 ;
+  assign new_n20 = ~pi0 & new_n19 ;
+  assign new_n21 = pi0 & ~new_n19 ;
+  assign new_n22 = ~new_n20 & ~new_n21 ;
+  assign new_n23 = ~pi2 & ~new_n14 ;
+  assign new_n24 = ~new_n8 & ~new_n11 ;
+  assign new_n25 = ~new_n17 & ~new_n20 ;
+  assign po0 = new_n22 ;
+  assign po1 = new_n23 ;
+  assign po2 = new_n24 ;
+  assign po3 = new_n25 ;
+endmodule

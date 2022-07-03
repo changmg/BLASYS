@@ -1,0 +1,16 @@
+[4, 5]
+Approximated error: 1.565558%	Area percentage: 94.771242%	Time used: 5.370505 sec
+[4, 4]
+Approximated error: 3.204501%	Area percentage: 82.352941%	Time used: 6.959704 sec
+[4, 3]
+Approximated error: 3.118885%	Area percentage: 68.627451%	Time used: 8.610555 sec
+[4, 2]
+Approximated error: 3.409369%	Area percentage: 56.209150%	Time used: 8.773132 sec
+[4, 1]
+Approximated error: 3.381085%	Area percentage: 45.098039%	Time used: 8.850131 sec
+[3, 1]
+Approximated error: 26.069584%	Area percentage: 37.908497%	Time used: 6.130515 sec
+[2, 1]
+Approximated error: 37.110689%	Area percentage: 26.797386%	Time used: 4.246563 sec
+[1, 1]
+Approximated error: 43.030777%	Area percentage: 13.071895%	Time used: 1.973803 sec

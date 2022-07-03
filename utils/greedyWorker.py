@@ -592,8 +592,9 @@ class GreedyWorker():
     def plot(self, error_list, area_list):
 
 
+        epsilon = 1e-10
         error_np = np.array(error_list) * 100
-        area_np = np.array( area_list ) / area_list[0] * 100
+        area_np = np.array( area_list ) / (area_list[0] + epsilon) * 100
         c = np.random.rand(len(error_list))
 
         pareto_point, pareto_rank = self.pareto_front(error_np, area_np)

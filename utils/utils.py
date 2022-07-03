@@ -38,7 +38,7 @@ def evaluate_design(k_stream, worker, filename, display=True):
             approximate(directory, approx_degree, worker, i)
         
         verilog_list.append(part_verilog)
-    
+
     # Synthesize and estimate chip area
     try:
         output_syn = os.path.join(worker.output, 'tmp', filename)
@@ -96,6 +96,8 @@ def synth_design(input_file, output_file, lib_file, script, yosys):
                     area = line.split()[-1]
                     break
 
+                if 'Delay' in line:
+                    print(line[:-1])
     else:
         yosys_command = 'read_verilog ' + input_file + '; ' + 'synth -flatten; opt; opt_clean -purge; opt; opt_clean -purge; write_verilog -noattr ' +output_file + '.v; abc -g NAND -script ' + script + '; write_verilog -noattr ' +output_file + '_syn.v;\n '
         area = 0
@@ -496,6 +498,10 @@ def create_wrapper(inp, out, top, vmap, worker):
 
         if len(tokens) > 0 and tokens[0] == 'module':
             out_file.write(line)
+            while line.find(');') == -1:
+                line = tmp_file.readline()
+                assert line
+                out_file.write(line)
 
         if len(tokens) > 0 and ( tokens[0] == 'input' or tokens[0] == 'output' ):
             out_file.write(line)
@@ -692,13 +698,14 @@ def module_info(fname, yosys_path):
     out_count = 0
     modulename = None
     line = tmp_file.readline()
+    port_list = []
     while line:
         tokens = re.split('[ ()]', line.strip().strip(';').strip())
          
         if len(tokens) > 0 and tokens[0] == 'module' and modulename is None:
             modulename = tokens[1]
-            port_list = re.split('[,()]', line.strip().strip(';').strip())[1:]
-            port_list = [s.strip() for s in port_list if s.strip() != '']
+            # port_list = re.split('[,()]', line.strip().strip(';').strip())[1:]
+            # port_list = [s.strip() for s in port_list if s.strip() != '']
 
 
 
@@ -706,9 +713,11 @@ def module_info(fname, yosys_path):
             if tokens[0] == 'input':
                 inp[tokens[1]] = 1
                 inp_count += 1
+                port_list.append(tokens[1])
             if tokens[0] == 'output':
                 out[tokens[1]] = 1
                 out_count += 1
+                port_list.append(tokens[1])
 
         if len(tokens) == 3 and ( tokens[0] == 'input' or tokens[0] == 'output' ):
             range_str = tokens[1][1:-1].split(':')
@@ -717,9 +726,11 @@ def module_info(fname, yosys_path):
             if tokens[0] == 'input':
                 inp[tokens[2]] = length
                 inp_count += length
+                port_list.append(tokens[2])
             if tokens[0] == 'output':
                 out[tokens[2]] = length
                 out_count += length
+                port_list.append(tokens[2])
 
         line = tmp_file.readline()
 
