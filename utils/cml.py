@@ -609,11 +609,11 @@ class Blasys(Cmd):
 
         # Synthesize and estimate chip area
         org_output_syn = os.path.join(folder, 'original')
-        org_area  = synth_design(self.input_file, org_output_syn, self.liberty, self.optimizer.script, self.optimizer.path['yosys'])
+        org_area, _ = synth_design(self.input_file, org_output_syn, self.liberty, self.optimizer.script, self.optimizer.path['yosys'])
 
         try:
             output_syn = os.path.join(folder, 'design')
-            area  = synth_design(args, output_syn, self.liberty, self.optimizer.script, self.optimizer.path['yosys'])
+            area, _ = synth_design(args, output_syn, self.liberty, self.optimizer.script, self.optimizer.path['yosys'])
         except CombinationalLoop:
             print('[Error] Combinational loop detected in approximate design.\n')
             return

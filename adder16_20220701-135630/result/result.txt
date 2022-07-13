@@ -1,3 +1,0 @@
-Metric    Area(um^2)     Power(uW)      Delay(ns)      
-0.00      92.83          nan            nan            
-0.427569  10.11          nan            nan            

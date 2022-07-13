@@ -157,7 +157,7 @@ class GreedyWorker():
             filename = self.modulename+'_k='+str(k)
             out_file = os.path.join(self.output, 'result', filename)
             gen_truth = os.path.join(out_dir, self.modulename+'.truth_wh_'+str(k))
-            area = synth_design(in_file+' '+wrapper, out_file, self.library, self.script, self.path['yosys'])
+            area, _ = synth_design(in_file+' '+wrapper, out_file, self.library, self.script, self.path['yosys'])
             err = self.metric(truth_dir+'.truth', gen_truth)
             err_list.append(err)
             area_list.append(area/self.initial_area)
@@ -200,8 +200,9 @@ class GreedyWorker():
 
         print('Synthesizing input design with original partitions...')
         output_synth = os.path.join(self.output, self.modulename)
-        input_area = synth_design(self.input, output_synth, self.library, self.script, self.path['yosys'])
+        input_area, input_delay = synth_design(self.input, output_synth, self.library, self.script, self.path['yosys'])
         print('Original design area ', str(input_area))
+        print('Original design delay', str(input_delay))
         self.initial_area = input_area
         self.area_list.append(self.initial_area)
 
@@ -400,7 +401,8 @@ class GreedyWorker():
         part_idx = list(np.nonzero(np.subtract(next_stream, self.curr_stream)))
         print('Partition', part_idx, 'being approximated')
 
-        msg = 'Approximated error: {:.6f}%\tArea percentage: {:.6f}%\tTime used: {:.6f} sec\n'.format(100*err[rank[0]], 100 * area[rank[0]] / self.initial_area, time_used)
+        # msg = 'Approximated error: {:.6f}%\tArea percentage: {:.6f}%\tTime used: {:.6f} sec\n'.format(100*err[rank[0]], 100 * area[rank[0]] / self.initial_area, time_used)
+        msg = 'Approximated error: {:.6f}\tArea : {:.6f}\tDelay : {:.6f}\tTime used: {:.6f} sec\n'.format(err[rank[0]], area[rank[0]], delay[rank[0]], time_used)
         print(msg)
         with open(os.path.join(self.output, 'log', 'blasys.log'), 'a') as log_file:
             log_file.write(str(next_stream))

@@ -42,7 +42,7 @@ def evaluate_design(k_stream, worker, filename, display=True):
     # Synthesize and estimate chip area
     try:
         output_syn = os.path.join(worker.output, 'tmp', filename)
-        area  = synth_design(' '.join(verilog_list), output_syn, worker.library, worker.script, worker.path['yosys'])
+        area, delay  = synth_design(' '.join(verilog_list), output_syn, worker.library, worker.script, worker.path['yosys'])
     except CombinationalLoop:
         return None
 
@@ -68,12 +68,22 @@ def evaluate_design(k_stream, worker, filename, display=True):
         os.remove(sta_script)
         os.remove(sta_output)
     else:
-        delay = float('nan')
         power = float('nan')
-        print('Simulation error: {:.6f}\tCircuit area: {:.6f}'.format(err, area))
+        print('Simulation error: {:.6f}\tCircuit area: {:.6f}\tCircuit delay: {:.6f}'.format(err, area, delay))
 
 
     return err, area, delay, power
+
+
+def GetInfo(_str, key):
+    rgx_tmpl = r"{key}\s*=\s*(?P<gVal>\d+(?:\.\d+)?)"
+    rgx = re.compile(rgx_tmpl.format(key=key))
+    match = re.search(rgx, _str)
+    if match:
+        ret = float(match.group("gVal"))
+    else:
+        log.error("Error: no match for {} in {}".format(key, file_stats_orig))
+    return ret
 
 
 def synth_design(input_file, output_file, lib_file, script, yosys):
@@ -81,6 +91,7 @@ def synth_design(input_file, output_file, lib_file, script, yosys):
     if lib_file is not None:
         yosys_command = 'read_verilog ' + input_file + '; ' + 'synth -flatten; opt; opt_clean -purge;  opt; opt_clean -purge; write_verilog -noattr ' +output_file + '.v; abc -liberty '+lib_file + ' -script ' + script + '; stat -liberty '+lib_file + '; write_verilog -noattr ' +output_file + '_syn.v;\n '
         area = 0
+        delay = 0
         #line=subprocess.call(yosys+" -p \'"+ yosys_command+"\' > "+ output_file+".log", shell=True)
         with open(output_file+'.log', 'w') as f:
             line = subprocess.call([yosys, '-p', yosys_command], stdout=f, stderr=subprocess.STDOUT)
@@ -92,12 +103,13 @@ def synth_design(input_file, output_file, lib_file, script, yosys):
                     raise CombinationalLoop()
 
                 # Find chip area and return
-                if 'Chip area' in line:
-                    area = line.split()[-1]
-                    break
+                # if 'Chip area' in line:
+                #     area = line.split()[-1]
+                #     break
 
-                if 'Delay' in line:
-                    print(line[:-1])
+                if 'Area' in line and 'Delay' in line:
+                    area = GetInfo(line, 'Area')
+                    delay = GetInfo(line, 'Delay')
     else:
         yosys_command = 'read_verilog ' + input_file + '; ' + 'synth -flatten; opt; opt_clean -purge; opt; opt_clean -purge; write_verilog -noattr ' +output_file + '.v; abc -g NAND -script ' + script + '; write_verilog -noattr ' +output_file + '_syn.v;\n '
         area = 0
@@ -121,7 +133,7 @@ def synth_design(input_file, output_file, lib_file, script, yosys):
                 area = return_list[-1]
 
     os.remove(output_file+'.log')
-    return float(area)
+    return float(area), float(delay)
 
 def inpout(fname):
     with open(fname) as file:

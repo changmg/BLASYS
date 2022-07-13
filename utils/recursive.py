@@ -76,7 +76,7 @@ def evaluate_design(input_list, testbench, ground_truth, output, filename, path,
     os.remove(truth_dir[:-5] + 'iv')
     
     output_syn = os.path.join(output, 'approx_design', filename)
-    area  = synth_design(' '.join(input_list), output_syn, liberty, path['script'], path['yosys'])
+    area, _ = synth_design(' '.join(input_list), output_syn, liberty, path['script'], path['yosys'])
 
     f = assess_HD(ground_truth, truth_dir)
     print('Simulation error: ' + str(f) + '\tCircuit area: ' + str(area))
@@ -146,7 +146,7 @@ def main():
     # Get original chip area
     print('Synthesizing input design with original partitions...')
     output_synth = os.path.join(args.output, modulename)
-    input_area = synth_design(args.input, output_synth, args.liberty, config['script'], config['yosys'])
+    input_area, _ = synth_design(args.input, output_synth, args.liberty, config['script'], config['yosys'])
     print('Original design area ', str(input_area))
     initial_area = input_area
     with open(os.path.join(args.output, 'result', 'result.txt'), 'w') as f:

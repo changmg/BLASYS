@@ -53,7 +53,7 @@ for inp in args.input:
 
     # TODO: Chip area
     out_syn = os.path.join(args.output, 'modulename')
-    area = synth_design(inp, out_syn, args.liberty, abc_path, config['yosys'] )
+    area, _ = synth_design(inp, out_syn, args.liberty, abc_path, config['yosys'] )
     print('Circuit area for {}: {}'.format(modulename, area))
 
     # TODO: Error metric
