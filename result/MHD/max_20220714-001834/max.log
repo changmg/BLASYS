@@ -1,0 +1,1841 @@
+/----------------------------------------------------------------------------\
+|                                                                            |
+|  BLASYS -- Approximate Logic Synthesis Using Boolean Matrix Factorization  |
+|  Version: 0.5-beta                                                       |
+|                                                                            |
+|  Copyright (C) 2019  SCALE Lab, Brown University                           |
+|                                                                            |
+|  Permission to use, copy, modify, and/or distribute this software for any  |
+|  purpose with or without fee is hereby granted, provided that the above    |
+|  copyright notice and this permission notice appear in all copies.         |
+|                                                                            |
+|  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES  |
+|  WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF          |
+|  MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR   |
+|  ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES    |
+|  WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN     |
+|  ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF   |
+|  OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.            |
+|                                                                            |
+\----------------------------------------------------------------------------/
+Checking software dependency ...
+Create output directory...
+Simulating truth table on input design...
+Synthesizing input design with original partitions...
+Original design area  2296.38
+Original design delay 7749.7
+Parsing input verilog into aig format ...
+Partitioning input circuit...
+Number of partitions 113
+Create testbench for partition 0
+Generate truth table for partition 0
+Create testbench for partition 1
+Generate truth table for partition 1
+Create testbench for partition 2
+Generate truth table for partition 2
+Create testbench for partition 3
+Generate truth table for partition 3
+Create testbench for partition 4
+Generate truth table for partition 4
+Create testbench for partition 5
+Generate truth table for partition 5
+Create testbench for partition 6
+Generate truth table for partition 6
+Create testbench for partition 7
+Generate truth table for partition 7
+Create testbench for partition 8
+Generate truth table for partition 8
+Create testbench for partition 9
+Generate truth table for partition 9
+Create testbench for partition 10
+Generate truth table for partition 10
+Create testbench for partition 11
+Generate truth table for partition 11
+Create testbench for partition 12
+Generate truth table for partition 12
+Create testbench for partition 13
+Generate truth table for partition 13
+Create testbench for partition 14
+Generate truth table for partition 14
+Create testbench for partition 15
+Generate truth table for partition 15
+Create testbench for partition 16
+Generate truth table for partition 16
+Create testbench for partition 17
+Generate truth table for partition 17
+Create testbench for partition 18
+Generate truth table for partition 18
+Create testbench for partition 19
+Generate truth table for partition 19
+Create testbench for partition 20
+Generate truth table for partition 20
+Create testbench for partition 21
+Generate truth table for partition 21
+Create testbench for partition 22
+Generate truth table for partition 22
+Create testbench for partition 23
+Generate truth table for partition 23
+Create testbench for partition 24
+Generate truth table for partition 24
+Create testbench for partition 25
+Generate truth table for partition 25
+Create testbench for partition 26
+Generate truth table for partition 26
+Create testbench for partition 27
+Generate truth table for partition 27
+Create testbench for partition 28
+Generate truth table for partition 28
+Create testbench for partition 29
+Generate truth table for partition 29
+Create testbench for partition 30
+Generate truth table for partition 30
+Create testbench for partition 31
+Generate truth table for partition 31
+Create testbench for partition 32
+Generate truth table for partition 32
+Create testbench for partition 33
+Generate truth table for partition 33
+Create testbench for partition 34
+Generate truth table for partition 34
+Create testbench for partition 35
+Generate truth table for partition 35
+Create testbench for partition 36
+Generate truth table for partition 36
+Create testbench for partition 37
+Generate truth table for partition 37
+Create testbench for partition 38
+Generate truth table for partition 38
+Create testbench for partition 39
+Generate truth table for partition 39
+Create testbench for partition 40
+Generate truth table for partition 40
+Create testbench for partition 41
+Generate truth table for partition 41
+Create testbench for partition 42
+Generate truth table for partition 42
+Create testbench for partition 43
+Generate truth table for partition 43
+Create testbench for partition 44
+Generate truth table for partition 44
+Create testbench for partition 45
+Generate truth table for partition 45
+Create testbench for partition 46
+Generate truth table for partition 46
+Create testbench for partition 47
+Generate truth table for partition 47
+Create testbench for partition 48
+Generate truth table for partition 48
+Create testbench for partition 49
+Generate truth table for partition 49
+Create testbench for partition 50
+Generate truth table for partition 50
+Create testbench for partition 51
+Generate truth table for partition 51
+Create testbench for partition 52
+Generate truth table for partition 52
+Create testbench for partition 53
+Generate truth table for partition 53
+Create testbench for partition 54
+Generate truth table for partition 54
+Create testbench for partition 55
+Generate truth table for partition 55
+Create testbench for partition 56
+Generate truth table for partition 56
+Create testbench for partition 57
+Generate truth table for partition 57
+Create testbench for partition 58
+Generate truth table for partition 58
+Create testbench for partition 59
+Generate truth table for partition 59
+Create testbench for partition 60
+Generate truth table for partition 60
+Create testbench for partition 61
+Generate truth table for partition 61
+Create testbench for partition 62
+Generate truth table for partition 62
+Create testbench for partition 63
+Generate truth table for partition 63
+Create testbench for partition 64
+Generate truth table for partition 64
+Create testbench for partition 65
+Generate truth table for partition 65
+Create testbench for partition 66
+Generate truth table for partition 66
+Create testbench for partition 67
+Generate truth table for partition 67
+Create testbench for partition 68
+Generate truth table for partition 68
+Create testbench for partition 69
+Generate truth table for partition 69
+Create testbench for partition 70
+Generate truth table for partition 70
+Create testbench for partition 71
+Generate truth table for partition 71
+Create testbench for partition 72
+Generate truth table for partition 72
+Create testbench for partition 73
+Generate truth table for partition 73
+Create testbench for partition 74
+Generate truth table for partition 74
+Create testbench for partition 75
+Generate truth table for partition 75
+Create testbench for partition 76
+Generate truth table for partition 76
+Create testbench for partition 77
+Generate truth table for partition 77
+Create testbench for partition 78
+Generate truth table for partition 78
+Create testbench for partition 79
+Generate truth table for partition 79
+Create testbench for partition 80
+Generate truth table for partition 80
+Create testbench for partition 81
+Generate truth table for partition 81
+Create testbench for partition 82
+Generate truth table for partition 82
+Create testbench for partition 83
+Generate truth table for partition 83
+Create testbench for partition 84
+Generate truth table for partition 84
+Create testbench for partition 85
+Generate truth table for partition 85
+Create testbench for partition 86
+Generate truth table for partition 86
+Create testbench for partition 87
+Generate truth table for partition 87
+Create testbench for partition 88
+Generate truth table for partition 88
+Create testbench for partition 89
+Generate truth table for partition 89
+Create testbench for partition 90
+Generate truth table for partition 90
+Create testbench for partition 91
+Generate truth table for partition 91
+Create testbench for partition 92
+Generate truth table for partition 92
+Create testbench for partition 93
+Generate truth table for partition 93
+Create testbench for partition 94
+Generate truth table for partition 94
+Create testbench for partition 95
+Generate truth table for partition 95
+Create testbench for partition 96
+Generate truth table for partition 96
+Create testbench for partition 97
+Generate truth table for partition 97
+Create testbench for partition 98
+Generate truth table for partition 98
+Create testbench for partition 99
+Generate truth table for partition 99
+Create testbench for partition 100
+Generate truth table for partition 100
+Create testbench for partition 101
+Generate truth table for partition 101
+Create testbench for partition 102
+Generate truth table for partition 102
+Create testbench for partition 103
+Generate truth table for partition 103
+Create testbench for partition 104
+Generate truth table for partition 104
+Create testbench for partition 105
+Generate truth table for partition 105
+Create testbench for partition 106
+Generate truth table for partition 106
+Create testbench for partition 107
+Generate truth table for partition 107
+Create testbench for partition 108
+Generate truth table for partition 108
+Create testbench for partition 109
+Generate truth table for partition 109
+Create testbench for partition 110
+Generate truth table for partition 110
+Create testbench for partition 111
+Generate truth table for partition 111
+Create testbench for partition 112
+Generate truth table for partition 112
+==================== Starting Approximation by Greedy Search  ====================
+Current stream of factorization degree:
+ [5, 5, 5, 7, 6, 4, 4, 7, 7, 5, 6, 3, 5, 3, 4, 4, 1, 2, 5, 5, 5, 6, 5, 5, 4, 5, 6, 4, 5, 6, 5, 6, 4, 7, 4, 6, 8, 4, 4, 2, 5, 5, 5, 7, 5, 4, 6, 6, 5, 5, 4, 7, 5, 7, 5, 5, 4, 5, 6, 5, 6, 3, 5, 8, 5, 6, 4, 5, 4, 4, 7, 1, 3, 4, 4, 4, 6, 4, 6, 7, 6, 6, 6, 5, 5, 5, 9, 5, 4, 4, 7, 4, 5, 4, 4, 8, 7, 5, 5, 8, 6, 6, 4, 6, 5, 5, 5, 3, 1, 4, 8, 4, 6]
+--------------- Iteration 0 ---------------
+==========TRACK 0 ==========
+----- Approximating part 4 to degree 5
+Simulation error: 0.001931	Circuit area: 2126.940000	Circuit delay: 8115.730000
+----- Approximating part 15 to degree 3
+Simulation error: 0.001905	Circuit area: 2072.140000	Circuit delay: 8122.370000
+----- Approximating part 24 to degree 3
+Simulation error: 0.001927	Circuit area: 2126.670000	Circuit delay: 8114.790000
+----- Approximating part 32 to degree 3
+Simulation error: 0.003854	Circuit area: 2125.340000	Circuit delay: 8115.530000
+----- Approximating part 39 to degree 1
+Simulation error: 0.003849	Circuit area: 2125.340000	Circuit delay: 8123.330000
+----- Approximating part 46 to degree 5
+Simulation error: 0.001936	Circuit area: 2301.170000	Circuit delay: 6860.470000
+----- Approximating part 54 to degree 4
+Simulation error: 0.003863	Circuit area: 2125.870000	Circuit delay: 8138.220000
+----- Approximating part 59 to degree 4
+Simulation error: 0.003764	Circuit area: 2178.540000	Circuit delay: 6841.770000
+----- Approximating part 66 to degree 3
+Simulation error: 0.003666	Circuit area: 2125.340000	Circuit delay: 8127.590000
+----- Approximating part 74 to degree 3
+Simulation error: 0.001972	Circuit area: 2124.540000	Circuit delay: 8131.350000
+----- Approximating part 83 to degree 4
+Simulation error: 0.001695	Circuit area: 2255.150000	Circuit delay: 7046.920000
+----- Approximating part 89 to degree 3
+Simulation error: 0.001895	Circuit area: 2217.640000	Circuit delay: 7524.810000
+----- Approximating part 94 to degree 3
+Simulation error: 0.003819	Circuit area: 2125.610000	Circuit delay: 8116.250000
+----- Approximating part 100 to degree 5
+Simulation error: 0.001458	Circuit area: 2188.120000	Circuit delay: 8131.040000
+----- Approximating part 106 to degree 4
+Simulation error: 0.001811	Circuit area: 2131.460000	Circuit delay: 8127.930000
+----- Approximating part 5 to degree 3
+Simulation error: 0.003851	Circuit area: 2131.720000	Circuit delay: 8128.450000
+----- Approximating part 10 to degree 5
+Simulation error: 0.000944	Circuit area: 2319.790000	Circuit delay: 6996.320000
+----- Approximating part 22 to degree 4
+Simulation error: 0.001644	Circuit area: 2096.080000	Circuit delay: 8192.820000
+----- Approximating part 29 to degree 5
+Simulation error: 0.001922	Circuit area: 2161.780000	Circuit delay: 8203.310000
+----- Approximating part 40 to degree 4
+Simulation error: 0.003799	Circuit area: 2148.220000	Circuit delay: 8111.730000
+----- Approximating part 47 to degree 5
+Simulation error: 0.001735	Circuit area: 2185.460000	Circuit delay: 8113.100000
+----- Approximating part 53 to degree 6
+Simulation error: 0.001691	Circuit area: 2340.270000	Circuit delay: 6837.730000
+----- Approximating part 61 to degree 2
+Simulation error: 0.006649	Circuit area: 2284.940000	Circuit delay: 6732.740000
+----- Approximating part 68 to degree 3
+Simulation error: 0.002007	Circuit area: 2126.140000	Circuit delay: 8129.450000
+----- Approximating part 75 to degree 3
+Simulation error: 0.001923	Circuit area: 2189.710000	Circuit delay: 6802.620000
+----- Approximating part 82 to degree 5
+Simulation error: 0.003885	Circuit area: 2242.380000	Circuit delay: 6733.140000
+----- Approximating part 97 to degree 4
+Simulation error: 0.001923	Circuit area: 2313.670000	Circuit delay: 6973.210000
+----- Approximating part 101 to degree 5
+Simulation error: 0.003861	Circuit area: 2141.830000	Circuit delay: 6811.970000
+----- Approximating part 107 to degree 2
+Simulation error: 0.001952	Circuit area: 2111.240000	Circuit delay: 8102.320000
+----- Approximating part 7 to degree 6
+Simulation error: 0.001934	Circuit area: 2128.530000	Circuit delay: 8139.000000
+----- Approximating part 11 to degree 2
+----- Approximating part 17 to degree 1
+Simulation error: 0.003859	Circuit area: 2125.340000	Circuit delay: 8119.280000
+----- Approximating part 25 to degree 4
+Simulation error: 0.001688	Circuit area: 2133.590000	Circuit delay: 8124.160000
+----- Approximating part 33 to degree 6
+Simulation error: 0.003715	Circuit area: 2115.500000	Circuit delay: 8061.080000
+----- Approximating part 60 to degree 5
+Simulation error: 0.004071	Circuit area: 2125.870000	Circuit delay: 8268.610000
+----- Approximating part 67 to degree 4
+Simulation error: 0.001993	Circuit area: 2067.350000	Circuit delay: 8112.970000
+----- Approximating part 76 to degree 5
+Simulation error: 0.003428	Circuit area: 2015.220000	Circuit delay: 6580.550000
+----- Approximating part 85 to degree 4
+Simulation error: 0.001216	Circuit area: 2180.930000	Circuit delay: 8088.270000
+----- Approximating part 90 to degree 6
+Simulation error: 0.001908	Circuit area: 2128.800000	Circuit delay: 8148.580000
+----- Approximating part 96 to degree 6
+Simulation error: 0.002906	Circuit area: 2132.520000	Circuit delay: 8130.580000
+----- Approximating part 103 to degree 5
+Simulation error: 0.003606	Circuit area: 2107.520000	Circuit delay: 7627.170000
+----- Approximating part 111 to degree 3
+Simulation error: 0.002507	Circuit area: 2114.430000	Circuit delay: 7173.640000
+----- Approximating part 1 to degree 4
+Simulation error: 0.003848	Circuit area: 2125.870000	Circuit delay: 8114.660000
+----- Approximating part 13 to degree 2
+Simulation error: 0.003845	Circuit area: 2133.850000	Circuit delay: 8100.770000
+----- Approximating part 20 to degree 4
+Simulation error: 0.001408	Circuit area: 2074.530000	Circuit delay: 8095.350000
+----- Approximating part 26 to degree 5
+Simulation error: 0.001688	Circuit area: 2118.420000	Circuit delay: 8134.500000
+----- Approximating part 34 to degree 3
+Simulation error: 0.001893	Circuit area: 2142.100000	Circuit delay: 8123.680000
+----- Approximating part 41 to degree 4
+Simulation error: 0.000981	Circuit area: 2126.940000	Circuit delay: 8145.760000
+----- Approximating part 48 to degree 4
+Simulation error: 0.001429	Circuit area: 2117.630000	Circuit delay: 8219.210000
+----- Approximating part 55 to degree 4
+Simulation error: 0.003810	Circuit area: 2067.090000	Circuit delay: 8123.660000
+----- Approximating part 62 to degree 4
+Simulation error: 0.005008	Circuit area: 2200.620000	Circuit delay: 6892.420000
+----- Approximating part 70 to degree 6
+Simulation error: 0.001895	Circuit area: 2129.600000	Circuit delay: 8141.480000
+----- Approximating part 79 to degree 6
+Simulation error: 0.003322	Circuit area: 2420.870000	Circuit delay: 7747.190000
+----- Approximating part 102 to degree 3
+Simulation error: 0.003840	Circuit area: 2129.860000	Circuit delay: 8098.120000
+----- Approximating part 109 to degree 3
+Simulation error: 0.000988	Circuit area: 2171.360000	Circuit delay: 7135.400000
+----- Approximating part 3 to degree 6
+Simulation error: 0.001946	Circuit area: 2128.530000	Circuit delay: 8139.000000
+----- Approximating part 14 to degree 3
+Simulation error: 0.001940	Circuit area: 2155.930000	Circuit delay: 8211.020000
+----- Approximating part 19 to degree 4
+Simulation error: 0.001434	Circuit area: 2380.170000	Circuit delay: 7090.700000
+----- Approximating part 28 to degree 4
+Simulation error: 0.003415	Circuit area: 2048.730000	Circuit delay: 6766.520000
+----- Approximating part 36 to degree 7
+Simulation error: 0.001870	Circuit area: 2129.860000	Circuit delay: 8144.680000
+----- Approximating part 42 to degree 4
+Simulation error: 0.001682	Circuit area: 2172.690000	Circuit delay: 8145.520000
+----- Approximating part 49 to degree 4
+Simulation error: 0.003875	Circuit area: 2196.360000	Circuit delay: 8102.290000
+----- Approximating part 56 to degree 3
+Simulation error: 0.001891	Circuit area: 2067.090000	Circuit delay: 8161.940000
+----- Approximating part 64 to degree 4
+Simulation error: 0.000481	Circuit area: 2351.440000	Circuit delay: 8158.200000
+----- Approximating part 72 to degree 2
+Simulation error: 0.003825	Circuit area: 2127.730000	Circuit delay: 8117.910000
+----- Approximating part 80 to degree 5
+Simulation error: 0.001803	Circuit area: 2133.050000	Circuit delay: 8125.350000
+----- Approximating part 87 to degree 4
+Simulation error: 0.001970	Circuit area: 2057.240000	Circuit delay: 8113.740000
+----- Approximating part 93 to degree 3
+Simulation error: 0.001000	Circuit area: 2138.640000	Circuit delay: 8154.300000
+----- Approximating part 99 to degree 7
+Simulation error: 0.001649	Circuit area: 2132.260000	Circuit delay: 8133.070000
+----- Approximating part 105 to degree 4
+Simulation error: 0.001662	Circuit area: 2131.990000	Circuit delay: 8129.750000
+----- Approximating part 112 to degree 5
+Simulation error: 0.003575	Circuit area: 2125.610000	Circuit delay: 7455.900000
+----- Approximating part 0 to degree 4
+Simulation error: 0.003706	Circuit area: 2288.130000	Circuit delay: 7086.910000
+----- Approximating part 8 to degree 6
+Simulation error: 0.001686	Circuit area: 2137.840000	Circuit delay: 8146.570000
+----- Approximating part 23 to degree 4
+Simulation error: 0.003802	Circuit area: 2128.270000	Circuit delay: 8129.900000
+----- Approximating part 31 to degree 5
+Simulation error: 0.001482	Circuit area: 2133.050000	Circuit delay: 8151.280000
+----- Approximating part 38 to degree 3
+Simulation error: 0.001911	Circuit area: 2071.870000	Circuit delay: 8117.720000
+----- Approximating part 45 to degree 3
+Simulation error: 0.001432	Circuit area: 2254.620000	Circuit delay: 8148.790000
+----- Approximating part 50 to degree 3
+Simulation error: 0.001962	Circuit area: 2142.630000	Circuit delay: 8118.780000
+----- Approximating part 57 to degree 4
+Simulation error: 0.001876	Circuit area: 2117.360000	Circuit delay: 8116.260000
+----- Approximating part 65 to degree 5
+Simulation error: 0.003784	Circuit area: 2128.800000	Circuit delay: 8129.220000
+----- Approximating part 73 to degree 3
+Simulation error: 0.001965	Circuit area: 2230.940000	Circuit delay: 8160.500000
+----- Approximating part 81 to degree 5
+Simulation error: 0.001683	Circuit area: 2132.790000	Circuit delay: 8127.790000
+----- Approximating part 88 to degree 3
+Simulation error: 0.003865	Circuit area: 2127.470000	Circuit delay: 8124.220000
+----- Approximating part 92 to degree 4
+Simulation error: 0.003615	Circuit area: 2189.450000	Circuit delay: 7521.660000
+----- Approximating part 98 to degree 4
+Simulation error: 0.003811	Circuit area: 2171.620000	Circuit delay: 6888.950000
+----- Approximating part 104 to degree 4
+Simulation error: 0.001960	Circuit area: 2374.050000	Circuit delay: 7083.980000
+----- Approximating part 110 to degree 7
+Simulation error: 0.002807	Circuit area: 2143.430000	Circuit delay: 6812.030000
+----- Approximating part 6 to degree 3
+Simulation error: 0.001916	Circuit area: 2041.820000	Circuit delay: 8207.270000
+----- Approximating part 9 to degree 4
+Simulation error: 0.003792	Circuit area: 2125.870000	Circuit delay: 8118.220000
+----- Approximating part 18 to degree 4
+Simulation error: 0.003031	Circuit area: 2168.430000	Circuit delay: 6954.830000
+----- Approximating part 27 to degree 3
+Simulation error: 0.001934	Circuit area: 2246.900000	Circuit delay: 6899.970000
+----- Approximating part 35 to degree 5
+Simulation error: 0.001931	Circuit area: 2232.800000	Circuit delay: 6928.850000
+----- Approximating part 43 to degree 6
+Simulation error: 0.003753	Circuit area: 2133.590000	Circuit delay: 8147.630000
+----- Approximating part 52 to degree 4
+Simulation error: 0.001914	Circuit area: 2191.570000	Circuit delay: 6968.900000
+----- Approximating part 58 to degree 5
+Simulation error: 0.002940	Circuit area: 2141.030000	Circuit delay: 6741.450000
+----- Approximating part 69 to degree 3
+Simulation error: 0.003835	Circuit area: 2124.540000	Circuit delay: 8124.330000
+----- Approximating part 77 to degree 3
+Simulation error: 0.001957	Circuit area: 2185.720000	Circuit delay: 6865.690000
+----- Approximating part 84 to degree 4
+Simulation error: 0.003951	Circuit area: 2344.520000	Circuit delay: 6874.470000
+----- Approximating part 91 to degree 3
+Simulation error: 0.001911	Circuit area: 2164.710000	Circuit delay: 8263.040000
+----- Approximating part 95 to degree 7
+Simulation error: 0.003382	Circuit area: 2073.470000	Circuit delay: 7587.880000
+----- Approximating part 2 to degree 4
+Simulation error: 0.000955	Circuit area: 2158.590000	Circuit delay: 8205.350000
+----- Approximating part 12 to degree 4
+Simulation error: 0.001898	Circuit area: 2070.540000	Circuit delay: 8165.420000
+----- Approximating part 21 to degree 5
+Simulation error: 0.001874	Circuit area: 2312.870000	Circuit delay: 6981.780000
+----- Approximating part 30 to degree 4
+Simulation error: 0.003409	Circuit area: 2050.860000	Circuit delay: 6751.430000
+----- Approximating part 37 to degree 3
+Simulation error: 0.003830	Circuit area: 2339.740000	Circuit delay: 6728.230000
+----- Approximating part 44 to degree 4
+Simulation error: 0.002354	Circuit area: 2285.470000	Circuit delay: 6707.950000
+----- Approximating part 51 to degree 6
+Simulation error: 0.003550	Circuit area: 2182.530000	Circuit delay: 6959.990000
+----- Approximating part 63 to degree 7
+Simulation error: 0.001937	Circuit area: 2402.780000	Circuit delay: 6998.310000
+----- Approximating part 78 to degree 5
+Simulation error: 0.001732	Circuit area: 2131.460000	Circuit delay: 8123.380000
+----- Approximating part 86 to degree 8
+Simulation error: 0.003775	Circuit area: 2064.690000	Circuit delay: 8149.570000
+--------------- Finishing Iteration0---------------
+Partition [array([41])] being approximated
+Approximated error: 0.000981	Area : 2126.940000	Delay : 8145.760000	Time used: 299.860928 sec
+
+Current stream of factorization degree:
+ [5, 5, 5, 7, 6, 4, 4, 7, 7, 5, 6, 3, 5, 3, 4, 4, 1, 2, 5, 5, 5, 6, 5, 5, 4, 5, 6, 4, 5, 6, 5, 6, 4, 7, 4, 6, 8, 4, 4, 2, 5, 4, 5, 7, 5, 4, 6, 6, 5, 5, 4, 7, 5, 7, 5, 5, 4, 5, 6, 5, 6, 3, 5, 8, 5, 6, 4, 5, 4, 4, 7, 1, 3, 4, 4, 4, 6, 4, 6, 7, 6, 6, 6, 5, 5, 5, 9, 5, 4, 4, 7, 4, 5, 4, 4, 8, 7, 5, 5, 8, 6, 6, 4, 6, 5, 5, 5, 3, 1, 4, 8, 4, 6]
+[5, 5, 5, 7, 6, 4, 4, 7, 7, 5, 6, 3, 5, 3, 4, 4, 1, 2, 5, 5, 5, 6, 5, 5, 4, 5, 6, 4, 5, 6, 5, 6, 4, 7, 4, 6, 8, 4, 4, 2, 5, 5, 5, 7, 5, 4, 6, 6, 5, 5, 4, 7, 5, 7, 5, 5, 4, 5, 6, 5, 6, 3, 5, 8, 5, 6, 4, 5, 4, 4, 7, 1, 3, 4, 4, 4, 6, 4, 6, 7, 6, 6, 6, 5, 5, 5, 9, 5, 4, 4, 7, 4, 5, 3, 4, 8, 7, 5, 5, 8, 6, 6, 4, 6, 5, 5, 5, 3, 1, 4, 8, 4, 6]
+[5, 5, 5, 7, 6, 4, 4, 7, 7, 5, 6, 3, 5, 3, 4, 4, 1, 2, 5, 5, 4, 6, 5, 5, 4, 5, 6, 4, 5, 6, 5, 6, 4, 7, 4, 6, 8, 4, 4, 2, 5, 5, 5, 7, 5, 4, 6, 6, 5, 5, 4, 7, 5, 7, 5, 5, 4, 5, 6, 5, 6, 3, 5, 8, 5, 6, 4, 5, 4, 4, 7, 1, 3, 4, 4, 4, 6, 4, 6, 7, 6, 6, 6, 5, 5, 5, 9, 5, 4, 4, 7, 4, 5, 4, 4, 8, 7, 5, 5, 8, 6, 6, 4, 6, 5, 5, 5, 3, 1, 4, 8, 4, 6]
+--------------- Iteration 1 ---------------
+==========TRACK 0 ==========
+Simulation error: 0.002897	Circuit area: 2039.690000	Circuit delay: 8089.820000
+Simulation error: 0.002921	Circuit area: 2148.220000	Circuit delay: 8211.450000
+Simulation error: 0.002625	Circuit area: 2196.100000	Circuit delay: 8165.580000
+Simulation error: 0.004396	Circuit area: 2039.690000	Circuit delay: 6654.390000
+Simulation error: 0.004811	Circuit area: 2339.470000	Circuit delay: 6713.150000
+Simulation error: 0.002413	Circuit area: 2248.500000	Circuit delay: 8229.070000
+Simulation error: 0.004844	Circuit area: 2124.280000	Circuit delay: 8132.530000
+Simulation error: 0.002918	Circuit area: 2133.590000	Circuit delay: 5718.390000
+Simulation error: 0.004805	Circuit area: 2126.140000	Circuit delay: 8117.750000
+Simulation error: 0.002784	Circuit area: 2075.330000	Circuit delay: 8103.750000
+Simulation error: 0.002951	Circuit area: 2055.380000	Circuit delay: 8123.950000
+Simulation error: 0.003887	Circuit area: 2126.670000	Circuit delay: 8130.590000
+Simulation error: 0.002941	Circuit area: 2373.520000	Circuit delay: 7083.960000
+Simulation error: 0.002912	Circuit area: 2125.340000	Circuit delay: 8115.540000
+Simulation error: 0.002886	Circuit area: 2067.350000	Circuit delay: 8160.780000
+Simulation error: 0.002908	Circuit area: 2124.540000	Circuit delay: 8113.630000
+Simulation error: 0.002462	Circuit area: 2130.930000	Circuit delay: 8146.670000
+Simulation error: 0.004830	Circuit area: 2123.740000	Circuit delay: 8123.160000
+Simulation error: 0.002917	Circuit area: 2298.770000	Circuit delay: 6686.090000
+Simulation error: 0.002672	Circuit area: 2319.790000	Circuit delay: 7072.960000
+Simulation error: 0.001462	Circuit area: 2353.040000	Circuit delay: 8178.740000
+Simulation error: 0.002945	Circuit area: 2229.880000	Circuit delay: 8170.670000
+Simulation error: 0.002664	Circuit area: 2073.200000	Circuit delay: 8209.200000
+Simulation error: 0.002889	Circuit area: 2127.200000	Circuit delay: 8148.420000
+Simulation error: 0.004792	Circuit area: 2103.260000	Circuit delay: 6902.490000
+Simulation error: 0.002792	Circuit area: 2129.860000	Circuit delay: 8127.760000
+Simulation error: 0.004832	Circuit area: 2130.130000	Circuit delay: 8128.240000
+Simulation error: 0.002667	Circuit area: 2186.250000	Circuit delay: 8084.050000
+Simulation error: 0.002415	Circuit area: 2374.320000	Circuit delay: 7090.010000
+Simulation error: 0.002668	Circuit area: 2116.830000	Circuit delay: 8134.250000
+Simulation error: 0.002874	Circuit area: 2139.700000	Circuit delay: 8113.980000
+Simulation error: 0.004734	Circuit area: 2131.190000	Circuit delay: 8155.690000
+Simulation error: 0.004531	Circuit area: 2184.660000	Circuit delay: 6981.480000
+Simulation error: 0.003921	Circuit area: 2131.460000	Circuit delay: 6801.650000
+Simulation error: 0.004647	Circuit area: 2123.740000	Circuit delay: 8127.420000
+Simulation error: 0.002904	Circuit area: 2188.120000	Circuit delay: 6802.450000
+Simulation error: 0.002676	Circuit area: 2225.090000	Circuit delay: 7066.270000
+Simulation error: 0.002892	Circuit area: 2156.990000	Circuit delay: 8263.520000
+Simulation error: 0.002630	Circuit area: 2249.030000	Circuit delay: 8097.990000
+Simulation error: 0.002932	Circuit area: 2108.850000	Circuit delay: 8113.580000
+Simulation error: 0.002927	Circuit area: 2126.940000	Circuit delay: 8138.820000
+Simulation error: 0.004840	Circuit area: 2123.740000	Circuit delay: 8119.110000
+Simulation error: 0.002669	Circuit area: 2180.670000	Circuit delay: 8092.350000
+Simulation error: 0.004702	Circuit area: 2134.650000	Circuit delay: 8062.690000
+----- Approximating part 41 to degree 3
+Simulation error: 0.001988	Circuit area: 2122.950000	Circuit delay: 8141.370000
+Simulation error: 0.004856	Circuit area: 2194.230000	Circuit delay: 8102.680000
+Simulation error: 0.002857	Circuit area: 2078.260000	Circuit delay: 8150.330000
+Simulation error: 0.004765	Circuit area: 2127.200000	Circuit delay: 8129.050000
+Simulation error: 0.002953	Circuit area: 2142.100000	Circuit delay: 8121.830000
+Simulation error: 0.004865	Circuit area: 2238.920000	Circuit delay: 6743.600000
+Simulation error: 0.002875	Circuit area: 2184.390000	Circuit delay: 7772.230000
+Simulation error: 0.002904	Circuit area: 2312.340000	Circuit delay: 6981.380000
+Simulation error: 0.002642	Circuit area: 2130.390000	Circuit delay: 8124.250000
+Simulation error: 0.004829	Circuit area: 2124.280000	Circuit delay: 8114.490000
+Simulation error: 0.002879	Circuit area: 2068.950000	Circuit delay: 8226.340000
+Simulation error: 0.002388	Circuit area: 2072.670000	Circuit delay: 8101.560000
+Simulation error: 0.004390	Circuit area: 2041.820000	Circuit delay: 6640.360000
+Simulation error: 0.003799	Circuit area: 2148.220000	Circuit delay: 8111.590000
+Simulation error: 0.002716	Circuit area: 2185.720000	Circuit delay: 8123.790000
+Simulation error: 0.002872	Circuit area: 2065.220000	Circuit delay: 8150.310000
+Simulation error: 0.005991	Circuit area: 2198.760000	Circuit delay: 6895.040000
+Simulation error: 0.004815	Circuit area: 2122.950000	Circuit delay: 8124.140000
+Simulation error: 0.002712	Circuit area: 2138.910000	Circuit delay: 8249.730000
+Simulation error: 0.004755	Circuit area: 2062.300000	Circuit delay: 8165.590000
+Simulation error: 0.001981	Circuit area: 2136.510000	Circuit delay: 8158.600000
+Simulation error: 0.004842	Circuit area: 2131.460000	Circuit delay: 6727.580000
+Simulation error: 0.001968	Circuit area: 2170.030000	Circuit delay: 7122.680000
+Simulation error: 0.002915	Circuit area: 2126.940000	Circuit delay: 8138.820000
+Simulation error: 0.004772	Circuit area: 2124.280000	Circuit delay: 8118.030000
+Simulation error: 0.002855	Circuit area: 2311.540000	Circuit delay: 6969.960000
+Simulation error: 0.002903	Circuit area: 2159.650000	Circuit delay: 8206.200000
+Simulation error: 0.002912	Circuit area: 2345.590000	Circuit delay: 6670.890000
+Simulation error: 0.002663	Circuit area: 2135.710000	Circuit delay: 8249.090000
+Simulation error: 0.002943	Circuit area: 2140.240000	Circuit delay: 8151.320000
+Simulation error: 0.004745	Circuit area: 2177.740000	Circuit delay: 6780.240000
+Simulation error: 0.002987	Circuit area: 2143.690000	Circuit delay: 8119.940000
+Simulation error: 0.002938	Circuit area: 2185.720000	Circuit delay: 6868.750000
+Simulation error: 0.004932	Circuit area: 2342.930000	Circuit delay: 6874.620000
+Simulation error: 0.004800	Circuit area: 2124.010000	Circuit delay: 8116.080000
+Simulation error: 0.004587	Circuit area: 2106.190000	Circuit delay: 7609.320000
+Simulation error: 0.003788	Circuit area: 2133.050000	Circuit delay: 6726.320000
+Simulation error: 0.004687	Circuit area: 2258.610000	Circuit delay: 7101.020000
+Simulation error: 0.001925	Circuit area: 2318.460000	Circuit delay: 6983.740000
+Simulation error: 0.004012	Circuit area: 2159.390000	Circuit delay: 6840.840000
+Simulation error: 0.002915	Circuit area: 2246.640000	Circuit delay: 6899.950000
+Simulation error: 0.002851	Circuit area: 2127.730000	Circuit delay: 8144.760000
+Simulation error: 0.003335	Circuit area: 2285.210000	Circuit delay: 6698.520000
+Simulation error: 0.002895	Circuit area: 2179.600000	Circuit delay: 6782.970000
+Simulation error: 0.005049	Circuit area: 2129.860000	Circuit delay: 8248.740000
+Simulation error: 0.002974	Circuit area: 2064.960000	Circuit delay: 8147.670000
+Simulation error: 0.004409	Circuit area: 2013.620000	Circuit delay: 6581.620000
+Simulation error: 0.002197	Circuit area: 2199.020000	Circuit delay: 8078.670000
+Simulation error: 0.004596	Circuit area: 2187.850000	Circuit delay: 7436.380000
+Simulation error: 0.002438	Circuit area: 2186.250000	Circuit delay: 8108.430000
+Simulation error: 0.003488	Circuit area: 2113.100000	Circuit delay: 7173.550000
+Simulation error: 0.001936	Circuit area: 2155.660000	Circuit delay: 8091.820000
+Simulation error: 0.004826	Circuit area: 2132.260000	Circuit delay: 8100.560000
+Simulation error: 0.004783	Circuit area: 2129.600000	Circuit delay: 8139.220000
+Simulation error: 0.004835	Circuit area: 2123.740000	Circuit delay: 8115.360000
+Simulation error: 0.002892	Circuit area: 2067.090000	Circuit delay: 8162.010000
+Simulation error: 0.002410	Circuit area: 2116.030000	Circuit delay: 8219.030000
+Simulation error: 0.004791	Circuit area: 2141.830000	Circuit delay: 7065.890000
+Simulation error: 0.007615	Circuit area: 2283.610000	Circuit delay: 6725.110000
+Simulation error: 0.002875	Circuit area: 2128.000000	Circuit delay: 8141.310000
+Simulation error: 0.004303	Circuit area: 2147.150000	Circuit delay: 8140.470000
+Simulation error: 0.004845	Circuit area: 2125.870000	Circuit delay: 8118.570000
+Simulation error: 0.004362	Circuit area: 2070.540000	Circuit delay: 7638.180000
+Simulation error: 0.004821	Circuit area: 2126.140000	Circuit delay: 8099.590000
+Simulation error: 0.004555	Circuit area: 2125.610000	Circuit delay: 7422.650000
+==========TRACK 1 ==========
+Simulation error: 0.002916	Circuit area: 2051.390000	Circuit delay: 8091.370000
+Simulation error: 0.001944	Circuit area: 2238.120000	Circuit delay: 6966.410000
+Simulation error: 0.002644	Circuit area: 2176.410000	Circuit delay: 8131.060000
+Simulation error: 0.002482	Circuit area: 2143.160000	Circuit delay: 8162.730000
+Simulation error: 0.004849	Circuit area: 2135.450000	Circuit delay: 8131.910000
+Simulation error: 0.002429	Circuit area: 2120.820000	Circuit delay: 8231.150000
+Simulation error: 0.002891	Circuit area: 2112.840000	Circuit delay: 8095.550000
+Simulation error: 0.002937	Circuit area: 2401.710000	Circuit delay: 7001.420000
+Simulation error: 0.004825	Circuit area: 2137.840000	Circuit delay: 8126.250000
+Simulation error: 0.002803	Circuit area: 2142.100000	Circuit delay: 8124.380000
+Simulation error: 0.004865	Circuit area: 2138.110000	Circuit delay: 8114.770000
+Simulation error: 0.002923	Circuit area: 2234.400000	Circuit delay: 6948.530000
+Simulation error: 0.002662	Circuit area: 2140.770000	Circuit delay: 8144.780000
+Simulation error: 0.004706	Circuit area: 2287.870000	Circuit delay: 7098.690000
+Simulation error: 0.002905	Circuit area: 2073.740000	Circuit delay: 8115.660000
+Simulation error: 0.002927	Circuit area: 2133.850000	Circuit delay: 8113.920000
+Simulation error: 0.004715	Circuit area: 2141.300000	Circuit delay: 8054.610000
+Simulation error: 0.002682	Circuit area: 2139.970000	Circuit delay: 8144.430000
+Simulation error: 0.004875	Circuit area: 2205.940000	Circuit delay: 8114.960000
+Simulation error: 0.002876	Circuit area: 2127.730000	Circuit delay: 8110.810000
+Simulation error: 0.001481	Circuit area: 2330.160000	Circuit delay: 8163.830000
+Simulation error: 0.002965	Circuit area: 2181.470000	Circuit delay: 8147.740000
+Simulation error: 0.002683	Circuit area: 2141.570000	Circuit delay: 8139.650000
+Simulation error: 0.002895	Circuit area: 2249.830000	Circuit delay: 7637.390000
+Simulation error: 0.003906	Circuit area: 2142.100000	Circuit delay: 8144.110000
+Simulation error: 0.002960	Circuit area: 2382.560000	Circuit delay: 7015.220000
+Simulation error: 0.002931	Circuit area: 2137.310000	Circuit delay: 8122.330000
+Simulation error: 0.002686	Circuit area: 2144.760000	Circuit delay: 8160.680000
+Simulation error: 0.004031	Circuit area: 2177.210000	Circuit delay: 6965.350000
+Simulation error: 0.002688	Circuit area: 2141.570000	Circuit delay: 8141.050000
+Simulation error: 0.002893	Circuit area: 2145.290000	Circuit delay: 8110.210000
+Simulation error: 0.004753	Circuit area: 2142.360000	Circuit delay: 8172.090000
+Simulation error: 0.004550	Circuit area: 2183.860000	Circuit delay: 6936.640000
+Simulation error: 0.004764	Circuit area: 2180.930000	Circuit delay: 6843.410000
+Simulation error: 0.002993	Circuit area: 2091.290000	Circuit delay: 8109.310000
+Simulation error: 0.004428	Circuit area: 2016.280000	Circuit delay: 6574.290000
+Simulation error: 0.004951	Circuit area: 2347.720000	Circuit delay: 6907.060000
+Simulation error: 0.004615	Circuit area: 2048.200000	Circuit delay: 7573.670000
+Simulation error: 0.002458	Circuit area: 2262.330000	Circuit delay: 7859.930000
+Simulation error: 0.001988	Circuit area: 2275.100000	Circuit delay: 7077.250000
+Simulation error: 0.002934	Circuit area: 2138.640000	Circuit delay: 8147.230000
+Simulation error: 0.004859	Circuit area: 2135.450000	Circuit delay: 8127.710000
+Simulation error: 0.002688	Circuit area: 2142.630000	Circuit delay: 8144.170000
+Simulation error: 0.004854	Circuit area: 2135.450000	Circuit delay: 8124.120000
+Simulation error: 0.004799	Circuit area: 2148.220000	Circuit delay: 8149.950000
+Simulation error: 0.002962	Circuit area: 2132.260000	Circuit delay: 8120.870000
+Simulation error: 0.003940	Circuit area: 2193.170000	Circuit delay: 6705.090000
+Simulation error: 0.004666	Circuit area: 2135.450000	Circuit delay: 8136.320000
+Simulation error: 0.002923	Circuit area: 2180.670000	Circuit delay: 6834.410000
+Simulation error: 0.002695	Circuit area: 2254.350000	Circuit delay: 7051.230000
+Simulation error: 0.002908	Circuit area: 2139.170000	Circuit delay: 8149.670000
+Simulation error: 0.004811	Circuit area: 2238.660000	Circuit delay: 6860.440000
+Simulation error: 0.002811	Circuit area: 2141.300000	Circuit delay: 8132.810000
+Simulation error: 0.004848	Circuit area: 2135.980000	Circuit delay: 8122.930000
+Simulation error: 0.002940	Circuit area: 2195.830000	Circuit delay: 8051.910000
+Simulation error: 0.004802	Circuit area: 2138.370000	Circuit delay: 8138.130000
+Simulation error: 0.002922	Circuit area: 2200.620000	Circuit delay: 8052.480000
+Simulation error: 0.004830	Circuit area: 2343.990000	Circuit delay: 6720.990000
+Simulation error: 0.002936	Circuit area: 2303.560000	Circuit delay: 6862.810000
+Simulation error: 0.004863	Circuit area: 2135.980000	Circuit delay: 8137.450000
+Simulation error: 0.004784	Circuit area: 2138.370000	Circuit delay: 8141.430000
+Simulation error: 0.002971	Circuit area: 2134.120000	Circuit delay: 8148.290000
+Simulation error: 0.004885	Circuit area: 2550.670000	Circuit delay: 6807.950000
+Simulation error: 0.002911	Circuit area: 2316.590000	Circuit delay: 7941.920000
+Simulation error: 0.002649	Circuit area: 2175.080000	Circuit delay: 8150.500000
+Simulation error: 0.002952	Circuit area: 2166.570000	Circuit delay: 8089.340000
+Simulation error: 0.002946	Circuit area: 2138.640000	Circuit delay: 8147.230000
+Simulation error: 0.004792	Circuit area: 2135.980000	Circuit delay: 8126.680000
+Simulation error: 0.002434	Circuit area: 2482.580000	Circuit delay: 7080.320000
+Simulation error: 0.002934	Circuit area: 2296.910000	Circuit delay: 6737.540000
+Simulation error: 0.002931	Circuit area: 2233.870000	Circuit delay: 6961.330000
+Simulation error: 0.003354	Circuit area: 2286.000000	Circuit delay: 6705.670000
+Simulation error: 0.002914	Circuit area: 2192.370000	Circuit delay: 7005.530000
+Simulation error: 0.005065	Circuit area: 2139.700000	Circuit delay: 8146.870000
+Simulation error: 0.004835	Circuit area: 2134.650000	Circuit delay: 8133.360000
+Simulation error: 0.002732	Circuit area: 2140.770000	Circuit delay: 8147.350000
+Simulation error: 0.002216	Circuit area: 2191.040000	Circuit delay: 8083.530000
+----- Approximating part 93 to degree 2
+Simulation error: 0.002450	Circuit area: 2334.680000	Circuit delay: 6756.820000
+Simulation error: 0.004861	Circuit area: 2150.080000	Circuit delay: 6820.710000
+Simulation error: 0.003807	Circuit area: 2151.670000	Circuit delay: 6820.770000
+Simulation error: 0.004851	Circuit area: 2138.910000	Circuit delay: 8130.400000
+Simulation error: 0.002898	Circuit area: 2112.840000	Circuit delay: 8077.140000
+Simulation error: 0.002874	Circuit area: 2232.270000	Circuit delay: 6949.680000
+Simulation error: 0.004409	Circuit area: 2149.810000	Circuit delay: 6810.670000
+Simulation error: 0.002911	Circuit area: 2070.540000	Circuit delay: 8120.930000
+Simulation error: 0.002735	Circuit area: 2184.920000	Circuit delay: 8164.550000
+Simulation error: 0.004810	Circuit area: 2108.850000	Circuit delay: 8119.340000
+Simulation error: 0.005995	Circuit area: 2240.780000	Circuit delay: 6747.240000
+Simulation error: 0.002895	Circuit area: 2139.700000	Circuit delay: 8149.700000
+Simulation error: 0.004322	Circuit area: 2407.300000	Circuit delay: 7713.870000
+Simulation error: 0.002970	Circuit area: 2071.870000	Circuit delay: 8129.570000
+Simulation error: 0.004382	Circuit area: 2092.360000	Circuit delay: 7587.350000
+Simulation error: 0.004606	Circuit area: 2092.620000	Circuit delay: 7626.080000
+Simulation error: 0.003507	Circuit area: 2144.490000	Circuit delay: 8113.670000
+Simulation error: 0.001955	Circuit area: 2167.100000	Circuit delay: 8092.970000
+Simulation error: 0.004845	Circuit area: 2141.030000	Circuit delay: 8102.500000
+Simulation error: 0.002408	Circuit area: 2154.070000	Circuit delay: 8090.540000
+Simulation error: 0.004415	Circuit area: 2150.880000	Circuit delay: 6830.440000
+Simulation error: 0.002870	Circuit area: 2138.910000	Circuit delay: 8157.820000
+Simulation error: 0.002432	Circuit area: 2257.280000	Circuit delay: 8110.590000
+Simulation error: 0.002691	Circuit area: 2345.060000	Circuit delay: 6736.510000
+Simulation error: 0.007650	Circuit area: 2285.740000	Circuit delay: 6728.460000
+Simulation error: 0.003007	Circuit area: 2135.710000	Circuit delay: 8146.470000
+Simulation error: 0.002957	Circuit area: 2189.980000	Circuit delay: 6844.460000
+Simulation error: 0.004775	Circuit area: 2079.850000	Circuit delay: 8085.690000
+Simulation error: 0.003819	Circuit area: 2135.710000	Circuit delay: 8129.020000
+Simulation error: 0.004840	Circuit area: 2137.840000	Circuit delay: 8107.230000
+Simulation error: 0.004575	Circuit area: 2111.240000	Circuit delay: 7446.740000
+==========TRACK 2 ==========
+Simulation error: 0.003354	Circuit area: 2076.660000	Circuit delay: 8089.760000
+Simulation error: 0.005199	Circuit area: 2071.870000	Circuit delay: 8067.730000
+Simulation error: 0.003282	Circuit area: 2301.170000	Circuit delay: 6908.940000
+Simulation error: 0.004823	Circuit area: 1992.870000	Circuit delay: 6756.230000
+Simulation error: 0.005238	Circuit area: 2198.760000	Circuit delay: 6758.360000
+Simulation error: 0.003143	Circuit area: 2111.770000	Circuit delay: 6932.020000
+Simulation error: 0.003322	Circuit area: 2112.840000	Circuit delay: 6235.150000
+Simulation error: 0.005473	Circuit area: 2129.060000	Circuit delay: 8108.350000
+Simulation error: 0.003415	Circuit area: 2071.870000	Circuit delay: 8068.010000
+Simulation error: 0.003365	Circuit area: 2072.940000	Circuit delay: 6811.190000
+Simulation error: 0.003378	Circuit area: 2067.350000	Circuit delay: 8266.960000
+Simulation error: 0.005227	Circuit area: 2070.540000	Circuit delay: 8080.210000
+Simulation error: 0.005248	Circuit area: 2074.270000	Circuit delay: 8048.340000
+Simulation error: 0.002363	Circuit area: 2238.660000	Circuit delay: 8193.880000
+Simulation error: 0.003094	Circuit area: 2076.660000	Circuit delay: 8096.490000
+Simulation error: 0.003378	Circuit area: 2106.450000	Circuit delay: 6765.900000
+Simulation error: 0.003095	Circuit area: 2136.780000	Circuit delay: 8129.910000
+Simulation error: 0.003338	Circuit area: 2291.320000	Circuit delay: 6894.960000
+Simulation error: 0.002840	Circuit area: 2385.220000	Circuit delay: 7000.180000
+Simulation error: 0.005271	Circuit area: 2072.410000	Circuit delay: 8094.990000
+Simulation error: 0.001888	Circuit area: 2371.920000	Circuit delay: 8188.200000
+Simulation error: 0.003373	Circuit area: 2079.590000	Circuit delay: 8174.610000
+Simulation error: 0.003091	Circuit area: 2153.000000	Circuit delay: 8103.970000
+Simulation error: 0.003302	Circuit area: 2144.760000	Circuit delay: 7465.880000
+Simulation error: 0.004314	Circuit area: 2076.930000	Circuit delay: 7879.640000
+Simulation error: 0.003069	Circuit area: 2144.230000	Circuit delay: 8122.180000
+Simulation error: 0.005256	Circuit area: 2071.610000	Circuit delay: 8063.880000
+Simulation error: 0.005253	Circuit area: 2078.520000	Circuit delay: 8056.180000
+Simulation error: 0.002842	Circuit area: 2051.660000	Circuit delay: 8030.260000
+Simulation error: 0.003342	Circuit area: 2291.860000	Circuit delay: 6669.150000
+Simulation error: 0.003278	Circuit area: 2075.070000	Circuit delay: 8106.080000
+Simulation error: 0.003762	Circuit area: 2208.860000	Circuit delay: 6672.800000
+Simulation error: 0.003098	Circuit area: 2213.390000	Circuit delay: 6931.190000
+Simulation error: 0.006403	Circuit area: 2088.370000	Circuit delay: 6598.390000
+Simulation error: 0.003302	Circuit area: 2075.600000	Circuit delay: 8090.760000
+Simulation error: 0.004730	Circuit area: 2338.410000	Circuit delay: 8075.700000
+Simulation error: 0.005182	Circuit area: 2082.780000	Circuit delay: 8101.490000
+Simulation error: 0.005218	Circuit area: 2252.220000	Circuit delay: 6848.100000
+Simulation error: 0.003218	Circuit area: 2088.900000	Circuit delay: 8150.400000
+Simulation error: 0.003338	Circuit area: 2071.870000	Circuit delay: 8089.630000
+Simulation error: 0.003306	Circuit area: 2133.590000	Circuit delay: 8121.300000
+Simulation error: 0.005210	Circuit area: 2073.200000	Circuit delay: 8048.460000
+Simulation error: 0.002889	Circuit area: 2078.520000	Circuit delay: 8083.800000
+Simulation error: 0.005257	Circuit area: 2071.340000	Circuit delay: 8072.960000
+Simulation error: 0.002837	Circuit area: 2077.460000	Circuit delay: 8090.580000
+Simulation error: 0.003284	Circuit area: 2167.630000	Circuit delay: 8121.040000
+Simulation error: 0.005192	Circuit area: 2074.000000	Circuit delay: 8082.350000
+Simulation error: 0.003379	Circuit area: 2070.280000	Circuit delay: 8080.570000
+Simulation error: 0.005292	Circuit area: 2486.300000	Circuit delay: 6745.540000
+Simulation error: 0.003316	Circuit area: 2075.070000	Circuit delay: 8089.550000
+Simulation error: 0.003057	Circuit area: 2093.420000	Circuit delay: 8090.600000
+Simulation error: 0.003359	Circuit area: 2069.480000	Circuit delay: 8092.960000
+Simulation error: 0.005114	Circuit area: 2390.280000	Circuit delay: 6156.560000
+Simulation error: 0.002352	Circuit area: 2306.490000	Circuit delay: 6941.040000
+Simulation error: 0.003052	Circuit area: 2195.300000	Circuit delay: 8111.280000
+Simulation error: 0.003330	Circuit area: 2049.000000	Circuit delay: 8030.750000
+Simulation error: 0.003301	Circuit area: 2070.810000	Circuit delay: 8093.140000
+Simulation error: 0.005161	Circuit area: 2080.390000	Circuit delay: 8085.100000
+Simulation error: 0.004958	Circuit area: 2130.130000	Circuit delay: 7857.690000
+Simulation error: 0.005172	Circuit area: 2055.380000	Circuit delay: 6847.350000
+Simulation error: 0.003401	Circuit area: 2168.700000	Circuit delay: 8111.280000
+Simulation error: 0.004836	Circuit area: 1942.330000	Circuit delay: 6559.390000
+Simulation error: 0.005358	Circuit area: 2199.820000	Circuit delay: 6948.190000
+Simulation error: 0.005023	Circuit area: 2167.900000	Circuit delay: 7475.740000
+Simulation error: 0.002865	Circuit area: 2026.120000	Circuit delay: 5282.840000
+Simulation error: 0.002395	Circuit area: 2256.740000	Circuit delay: 7082.380000
+Simulation error: 0.003324	Circuit area: 2122.950000	Circuit delay: 8190.730000
+Simulation error: 0.003313	Circuit area: 2130.390000	Circuit delay: 8124.730000
+----- Approximating part 20 to degree 3
+Simulation error: 0.003071	Circuit area: 2070.810000	Circuit delay: 8095.940000
+Simulation error: 0.004820	Circuit area: 1994.730000	Circuit delay: 6741.030000
+Simulation error: 0.003318	Circuit area: 2126.670000	Circuit delay: 8123.780000
+Simulation error: 0.003344	Circuit area: 2414.480000	Circuit delay: 5427.960000
+Simulation error: 0.005218	Circuit area: 2105.920000	Circuit delay: 8140.010000
+Simulation error: 0.003345	Circuit area: 2377.240000	Circuit delay: 5687.000000
+Simulation error: 0.005232	Circuit area: 2073.740000	Circuit delay: 8077.140000
+Simulation error: 0.003211	Circuit area: 2083.310000	Circuit delay: 8107.000000
+Simulation error: 0.005272	Circuit area: 2070.280000	Circuit delay: 8094.350000
+Simulation error: 0.003331	Circuit area: 2304.620000	Circuit delay: 6912.150000
+Simulation error: 0.003368	Circuit area: 2207.270000	Circuit delay: 6577.230000
+Simulation error: 0.003915	Circuit area: 2080.120000	Circuit delay: 8064.190000
+Simulation error: 0.003342	Circuit area: 2074.800000	Circuit delay: 8089.660000
+Simulation error: 0.005267	Circuit area: 2071.340000	Circuit delay: 8068.690000
+Simulation error: 0.003096	Circuit area: 2077.460000	Circuit delay: 8102.760000
+Simulation error: 0.005123	Circuit area: 2237.330000	Circuit delay: 8048.230000
+Simulation error: 0.003090	Circuit area: 2076.130000	Circuit delay: 8111.160000
+Simulation error: 0.003370	Circuit area: 2075.860000	Circuit delay: 8088.650000
+Simulation error: 0.004348	Circuit area: 2087.300000	Circuit delay: 6677.110000
+Simulation error: 0.005074	Circuit area: 2071.340000	Circuit delay: 8075.760000
+Simulation error: 0.003331	Circuit area: 2116.300000	Circuit delay: 6742.300000
+Simulation error: 0.003103	Circuit area: 2359.150000	Circuit delay: 6123.280000
+Simulation error: 0.003318	Circuit area: 2052.460000	Circuit delay: 8061.290000
+Simulation error: 0.005268	Circuit area: 2088.900000	Circuit delay: 6813.230000
+Simulation error: 0.004215	Circuit area: 2090.230000	Circuit delay: 6813.260000
+Simulation error: 0.005258	Circuit area: 2076.660000	Circuit delay: 8059.390000
+Simulation error: 0.003348	Circuit area: 2043.680000	Circuit delay: 8043.920000
+Simulation error: 0.003335	Circuit area: 2068.680000	Circuit delay: 8092.930000
+Simulation error: 0.005262	Circuit area: 2070.280000	Circuit delay: 8076.120000
+Simulation error: 0.005207	Circuit area: 2075.600000	Circuit delay: 8047.500000
+Simulation error: 0.005283	Circuit area: 2141.030000	Circuit delay: 6769.940000
+Simulation error: 0.003298	Circuit area: 2145.290000	Circuit delay: 8120.150000
+Simulation error: 0.008060	Circuit area: 2207.000000	Circuit delay: 6681.920000
+Simulation error: 0.005242	Circuit area: 2071.080000	Circuit delay: 8064.480000
+Simulation error: 0.003140	Circuit area: 2144.490000	Circuit delay: 8129.700000
+Simulation error: 0.002624	Circuit area: 2123.740000	Circuit delay: 6977.610000
+Simulation error: 0.004789	Circuit area: 2011.490000	Circuit delay: 7537.580000
+Simulation error: 0.005014	Circuit area: 2102.460000	Circuit delay: 7670.780000
+Simulation error: 0.004982	Circuit area: 2048.200000	Circuit delay: 7353.220000
+--------------- Finishing Iteration1---------------
+Partition [array([ 20, 100])] being approximated
+Approximated error: 0.002865	Area : 2026.120000	Delay : 5282.840000	Time used: 844.675165 sec
+
+Current stream of factorization degree:
+ [5, 5, 5, 7, 6, 4, 4, 7, 7, 5, 6, 3, 5, 3, 4, 4, 1, 2, 5, 5, 4, 6, 5, 5, 4, 5, 6, 4, 5, 6, 5, 6, 4, 7, 4, 6, 8, 4, 4, 2, 5, 5, 5, 7, 5, 4, 6, 6, 5, 5, 4, 7, 5, 7, 5, 5, 4, 5, 6, 5, 6, 3, 5, 8, 5, 6, 4, 5, 4, 4, 7, 1, 3, 4, 4, 4, 6, 4, 6, 7, 6, 6, 6, 5, 5, 5, 9, 5, 4, 4, 7, 4, 5, 4, 4, 8, 7, 5, 5, 8, 5, 6, 4, 6, 5, 5, 5, 3, 1, 4, 8, 4, 6]
+[5, 5, 5, 7, 6, 4, 4, 7, 7, 5, 6, 3, 5, 3, 4, 4, 1, 2, 5, 5, 4, 6, 5, 5, 4, 5, 6, 4, 5, 6, 5, 6, 4, 7, 4, 6, 8, 4, 4, 2, 5, 4, 5, 7, 5, 4, 6, 6, 5, 5, 4, 7, 5, 7, 5, 5, 4, 5, 6, 5, 6, 3, 5, 8, 5, 6, 4, 5, 4, 4, 7, 1, 3, 4, 4, 4, 6, 4, 6, 7, 6, 6, 6, 5, 5, 5, 9, 5, 4, 4, 7, 4, 5, 4, 4, 8, 7, 5, 5, 8, 6, 6, 4, 6, 5, 5, 5, 3, 1, 4, 8, 4, 6]
+[5, 5, 5, 7, 6, 4, 3, 7, 7, 5, 6, 3, 5, 3, 4, 4, 1, 2, 5, 5, 5, 6, 5, 5, 4, 5, 6, 4, 5, 6, 5, 6, 4, 7, 4, 6, 8, 4, 4, 2, 5, 4, 5, 7, 5, 4, 6, 6, 5, 5, 4, 7, 5, 7, 5, 5, 4, 5, 6, 5, 6, 3, 5, 8, 5, 6, 4, 5, 4, 4, 7, 1, 3, 4, 4, 4, 6, 4, 6, 7, 6, 6, 6, 5, 5, 5, 9, 5, 4, 4, 7, 4, 5, 4, 4, 8, 7, 5, 5, 8, 6, 6, 4, 6, 5, 5, 5, 3, 1, 4, 8, 4, 6]
+--------------- Iteration 2 ---------------
+==========TRACK 0 ==========
+Simulation error: 0.004812	Circuit area: 2027.720000	Circuit delay: 5291.050000
+Simulation error: 0.004771	Circuit area: 2188.910000	Circuit delay: 8106.810000
+Simulation error: 0.004792	Circuit area: 2077.990000	Circuit delay: 5882.800000
+Simulation error: 0.006719	Circuit area: 2025.320000	Circuit delay: 5276.870000
+Simulation error: 0.006665	Circuit area: 2024.260000	Circuit delay: 5264.670000
+Simulation error: 0.004295	Circuit area: 2030.380000	Circuit delay: 5295.730000
+Simulation error: 0.006675	Circuit area: 2285.740000	Circuit delay: 6820.370000
+Simulation error: 0.004802	Circuit area: 2021.600000	Circuit delay: 6988.750000
+Simulation error: 0.006700	Circuit area: 2022.130000	Circuit delay: 5261.260000
+Simulation error: 0.004668	Circuit area: 2045.270000	Circuit delay: 5306.790000
+Simulation error: 0.004760	Circuit area: 1889.400000	Circuit delay: 5879.070000
+Simulation error: 0.005772	Circuit area: 2028.250000	Circuit delay: 5297.250000
+Simulation error: 0.006705	Circuit area: 2030.380000	Circuit delay: 5312.830000
+Simulation error: 0.004799	Circuit area: 2028.250000	Circuit delay: 5291.090000
+Simulation error: 0.004764	Circuit area: 2188.380000	Circuit delay: 8121.530000
+Simulation error: 0.006668	Circuit area: 2024.790000	Circuit delay: 5259.150000
+Simulation error: 0.006281	Circuit area: 1946.850000	Circuit delay: 6642.540000
+Simulation error: 0.004735	Circuit area: 2027.450000	Circuit delay: 5282.720000
+Simulation error: 0.004548	Circuit area: 2031.440000	Circuit delay: 5293.420000
+Simulation error: 0.004828	Circuit area: 2021.600000	Circuit delay: 5266.050000
+Simulation error: 0.006629	Circuit area: 2021.330000	Circuit delay: 6820.120000
+Simulation error: 0.004873	Circuit area: 2023.200000	Circuit delay: 5279.780000
+Simulation error: 0.006188	Circuit area: 2137.840000	Circuit delay: 6900.410000
+Simulation error: 0.004835	Circuit area: 2273.500000	Circuit delay: 6822.280000
+Simulation error: 0.006252	Circuit area: 2077.460000	Circuit delay: 7059.160000
+Simulation error: 0.004825	Circuit area: 2065.760000	Circuit delay: 5903.710000
+Simulation error: 0.006716	Circuit area: 2024.260000	Circuit delay: 5269.250000
+Simulation error: 0.006657	Circuit area: 2023.460000	Circuit delay: 5273.780000
+Simulation error: 0.004739	Circuit area: 2222.700000	Circuit delay: 6772.130000
+Simulation error: 0.004788	Circuit area: 2162.310000	Circuit delay: 6263.230000
+Simulation error: 0.006715	Circuit area: 2022.400000	Circuit delay: 5265.380000
+Simulation error: 0.004298	Circuit area: 2230.680000	Circuit delay: 6909.140000
+Simulation error: 0.006728	Circuit area: 2022.660000	Circuit delay: 5250.780000
+Simulation error: 0.009497	Circuit area: 2169.500000	Circuit delay: 5389.680000
+Simulation error: 0.004858	Circuit area: 2186.250000	Circuit delay: 8098.020000
+Simulation error: 0.006294	Circuit area: 1933.020000	Circuit delay: 6690.860000
+Simulation error: 0.004561	Circuit area: 2084.640000	Circuit delay: 6474.060000
+Simulation error: 0.004776	Circuit area: 2109.380000	Circuit delay: 6167.820000
+Simulation error: 0.006676	Circuit area: 2351.970000	Circuit delay: 6992.020000
+Simulation error: 0.003853	Circuit area: 2284.410000	Circuit delay: 6866.160000
+Simulation error: 0.006714	Circuit area: 2025.320000	Circuit delay: 5284.300000
+Simulation error: 0.006725	Circuit area: 2023.990000	Circuit delay: 5273.780000
+Simulation error: 0.004554	Circuit area: 2032.510000	Circuit delay: 5326.000000
+Simulation error: 0.006581	Circuit area: 1993.140000	Circuit delay: 6960.060000
+Simulation error: 0.003846	Circuit area: 2027.450000	Circuit delay: 5282.310000
+Simulation error: 0.006741	Circuit area: 2030.380000	Circuit delay: 5295.680000
+Simulation error: 0.004742	Circuit area: 2201.680000	Circuit delay: 8081.590000
+Simulation error: 0.006649	Circuit area: 2024.790000	Circuit delay: 5266.920000
+Simulation error: 0.004838	Circuit area: 2023.460000	Circuit delay: 5279.730000
+Simulation error: 0.006750	Circuit area: 2114.430000	Circuit delay: 6867.350000
+Simulation error: 0.004774	Circuit area: 2028.520000	Circuit delay: 5293.500000
+Simulation error: 0.004515	Circuit area: 2074.530000	Circuit delay: 5272.930000
+Simulation error: 0.004676	Circuit area: 2044.740000	Circuit delay: 5291.120000
+Simulation error: 0.004782	Circuit area: 2355.700000	Circuit delay: 7998.480000
+Simulation error: 0.004552	Circuit area: 2029.580000	Circuit delay: 5302.840000
+Simulation error: 0.004836	Circuit area: 1947.120000	Circuit delay: 6145.420000
+Simulation error: 0.004553	Circuit area: 2044.210000	Circuit delay: 5304.170000
+Simulation error: 0.004758	Circuit area: 2023.200000	Circuit delay: 5268.940000
+Simulation error: 0.006618	Circuit area: 2030.910000	Circuit delay: 5285.410000
+Simulation error: 0.006415	Circuit area: 2303.030000	Circuit delay: 6672.070000
+Simulation error: 0.005805	Circuit area: 1971.860000	Circuit delay: 6711.390000
+Simulation error: 0.006532	Circuit area: 2021.070000	Circuit delay: 5255.340000
+Simulation error: 0.004788	Circuit area: 2026.650000	Circuit delay: 5287.810000
+Simulation error: 0.006816	Circuit area: 2020.540000	Circuit delay: 6537.580000
+Simulation error: 0.006481	Circuit area: 1889.400000	Circuit delay: 5429.420000
+----- Approximating part 100 to degree 4
+Simulation error: 0.004580	Circuit area: 2022.400000	Circuit delay: 5274.270000
+Simulation error: 0.004817	Circuit area: 2071.080000	Circuit delay: 5846.370000
+Simulation error: 0.004796	Circuit area: 2025.590000	Circuit delay: 6266.910000
+Simulation error: 0.003809	Circuit area: 2226.690000	Circuit delay: 6796.230000
+Simulation error: 0.004509	Circuit area: 2039.420000	Circuit delay: 7075.430000
+Simulation error: 0.004347	Circuit area: 2031.710000	Circuit delay: 5301.570000
+Simulation error: 0.006695	Circuit area: 2131.990000	Circuit delay: 6715.840000
+Simulation error: 0.004802	Circuit area: 2216.840000	Circuit delay: 6772.780000
+Simulation error: 0.004556	Circuit area: 2226.150000	Circuit delay: 6818.800000
+Simulation error: 0.006926	Circuit area: 1976.650000	Circuit delay: 7051.160000
+Simulation error: 0.004760	Circuit area: 2027.720000	Circuit delay: 5291.430000
+Simulation error: 0.004822	Circuit area: 2056.710000	Circuit delay: 5314.220000
+Simulation error: 0.004082	Circuit area: 2026.920000	Circuit delay: 5291.110000
+Simulation error: 0.003865	Circuit area: 2078.790000	Circuit delay: 5895.040000
+Simulation error: 0.006726	Circuit area: 1930.360000	Circuit delay: 5834.050000
+Simulation error: 0.005672	Circuit area: 1931.430000	Circuit delay: 6686.750000
+Simulation error: 0.003821	Circuit area: 2361.810000	Circuit delay: 8030.170000
+Simulation error: 0.006711	Circuit area: 2028.780000	Circuit delay: 5306.480000
+Simulation error: 0.004299	Circuit area: 2163.910000	Circuit delay: 6262.040000
+Simulation error: 0.006278	Circuit area: 1945.520000	Circuit delay: 6613.090000
+Simulation error: 0.004776	Circuit area: 2186.520000	Circuit delay: 8083.890000
+Simulation error: 0.004601	Circuit area: 2032.510000	Circuit delay: 5354.680000
+Simulation error: 0.004756	Circuit area: 2248.760000	Circuit delay: 6887.580000
+Simulation error: 0.003346	Circuit area: 2130.130000	Circuit delay: 8264.280000
+Simulation error: 0.004831	Circuit area: 2096.610000	Circuit delay: 7963.340000
+Simulation error: 0.004548	Circuit area: 2030.110000	Circuit delay: 5309.950000
+Simulation error: 0.006640	Circuit area: 2287.070000	Circuit delay: 6863.050000
+Simulation error: 0.006685	Circuit area: 2025.590000	Circuit delay: 5271.100000
+Simulation error: 0.006472	Circuit area: 2038.360000	Circuit delay: 7413.580000
+Simulation error: 0.005372	Circuit area: 2049.530000	Circuit delay: 5368.750000
+Simulation error: 0.006572	Circuit area: 2162.580000	Circuit delay: 7125.570000
+Simulation error: 0.004805	Circuit area: 2160.980000	Circuit delay: 6274.840000
+Simulation error: 0.004528	Circuit area: 2022.130000	Circuit delay: 5265.840000
+Simulation error: 0.004799	Circuit area: 2219.240000	Circuit delay: 5211.430000
+Simulation error: 0.004796	Circuit area: 2209.400000	Circuit delay: 6769.800000
+Simulation error: 0.005219	Circuit area: 2164.710000	Circuit delay: 5441.070000
+Simulation error: 0.004779	Circuit area: 2420.870000	Circuit delay: 5563.480000
+Simulation error: 0.007863	Circuit area: 2064.960000	Circuit delay: 5762.560000
+Simulation error: 0.006690	Circuit area: 2024.260000	Circuit delay: 5273.530000
+Simulation error: 0.004598	Circuit area: 2029.850000	Circuit delay: 5287.310000
+Simulation error: 0.006730	Circuit area: 2027.720000	Circuit delay: 5272.210000
+Simulation error: 0.004788	Circuit area: 2222.700000	Circuit delay: 6772.980000
+Simulation error: 0.004527	Circuit area: 2078.260000	Circuit delay: 5305.840000
+Simulation error: 0.006440	Circuit area: 2138.640000	Circuit delay: 7562.770000
+==========TRACK 1 ==========
+Simulation error: 0.004322	Circuit area: 2072.940000	Circuit delay: 8095.940000
+Simulation error: 0.004294	Circuit area: 2128.800000	Circuit delay: 8119.130000
+Simulation error: 0.006191	Circuit area: 2071.340000	Circuit delay: 8054.570000
+Simulation error: 0.006242	Circuit area: 2068.420000	Circuit delay: 8082.140000
+Simulation error: 0.005207	Circuit area: 2075.860000	Circuit delay: 8060.420000
+Simulation error: 0.004124	Circuit area: 2111.510000	Circuit delay: 6931.850000
+Simulation error: 0.004302	Circuit area: 2084.110000	Circuit delay: 6404.420000
+Simulation error: 0.006452	Circuit area: 2126.670000	Circuit delay: 8102.580000
+Simulation error: 0.006223	Circuit area: 2069.210000	Circuit delay: 8071.190000
+Simulation error: 0.004121	Circuit area: 2130.390000	Circuit delay: 8094.390000
+Simulation error: 0.004358	Circuit area: 2067.880000	Circuit delay: 8115.890000
+Simulation error: 0.005770	Circuit area: 2009.630000	Circuit delay: 7587.590000
+Simulation error: 0.004348	Circuit area: 2207.000000	Circuit delay: 6568.430000
+Simulation error: 0.004335	Circuit area: 2074.800000	Circuit delay: 8096.050000
+Simulation error: 0.004328	Circuit area: 2042.350000	Circuit delay: 8034.770000
+Simulation error: 0.004052	Circuit area: 2068.950000	Circuit delay: 8101.390000
+Simulation error: 0.005804	Circuit area: 1984.890000	Circuit delay: 6535.890000
+Simulation error: 0.006218	Circuit area: 2196.360000	Circuit delay: 6742.490000
+Simulation error: 0.004325	Circuit area: 2294.780000	Circuit delay: 5728.280000
+Simulation error: 0.006198	Circuit area: 2104.860000	Circuit delay: 8134.310000
+Simulation error: 0.007385	Circuit area: 2086.500000	Circuit delay: 6546.780000
+Simulation error: 0.004283	Circuit area: 2073.740000	Circuit delay: 8097.040000
+Simulation error: 0.005711	Circuit area: 2180.140000	Circuit delay: 7638.270000
+Simulation error: 0.006163	Circuit area: 2081.720000	Circuit delay: 8090.660000
+Simulation error: 0.006208	Circuit area: 2069.750000	Circuit delay: 8081.500000
+Simulation error: 0.005995	Circuit area: 2101.400000	Circuit delay: 7654.900000
+Simulation error: 0.005963	Circuit area: 2048.730000	Circuit delay: 7351.320000
+Simulation error: 0.006237	Circuit area: 2069.750000	Circuit delay: 8070.140000
+Simulation error: 0.006234	Circuit area: 2076.660000	Circuit delay: 8062.360000
+Simulation error: 0.004315	Circuit area: 2067.090000	Circuit delay: 8087.340000
+Simulation error: 0.003870	Circuit area: 2076.930000	Circuit delay: 8078.250000
+Simulation error: 0.006238	Circuit area: 2069.480000	Circuit delay: 8079.070000
+Simulation error: 0.003818	Circuit area: 2076.130000	Circuit delay: 8092.270000
+Simulation error: 0.004279	Circuit area: 2139.440000	Circuit delay: 8115.770000
+Simulation error: 0.002869	Circuit area: 2371.660000	Circuit delay: 8188.330000
+Simulation error: 0.004354	Circuit area: 2078.520000	Circuit delay: 8175.770000
+Simulation error: 0.004072	Circuit area: 2104.330000	Circuit delay: 8110.100000
+Simulation error: 0.004283	Circuit area: 2143.960000	Circuit delay: 7451.700000
+Simulation error: 0.004312	Circuit area: 2030.910000	Circuit delay: 6875.700000
+Simulation error: 0.004199	Circuit area: 2086.500000	Circuit delay: 8146.020000
+Simulation error: 0.006095	Circuit area: 2388.150000	Circuit delay: 6191.060000
+Simulation error: 0.006248	Circuit area: 2069.480000	Circuit delay: 8074.870000
+Simulation error: 0.004077	Circuit area: 2134.920000	Circuit delay: 8092.380000
+Simulation error: 0.006109	Circuit area: 2234.130000	Circuit delay: 8049.610000
+Simulation error: 0.003395	Circuit area: 2068.680000	Circuit delay: 8083.350000
+Simulation error: 0.006264	Circuit area: 2139.170000	Circuit delay: 6778.330000
+Simulation error: 0.004265	Circuit area: 2167.370000	Circuit delay: 8204.630000
+Simulation error: 0.006172	Circuit area: 2072.410000	Circuit delay: 8076.700000
+Simulation error: 0.004361	Circuit area: 2069.210000	Circuit delay: 8074.780000
+Simulation error: 0.006273	Circuit area: 2271.370000	Circuit delay: 7483.180000
+Simulation error: 0.004297	Circuit area: 2073.200000	Circuit delay: 8095.800000
+Simulation error: 0.004038	Circuit area: 2225.360000	Circuit delay: 8118.240000
+Simulation error: 0.004340	Circuit area: 2067.880000	Circuit delay: 8087.370000
+Simulation error: 0.006239	Circuit area: 2074.800000	Circuit delay: 8065.700000
+Simulation error: 0.003332	Circuit area: 2034.900000	Circuit delay: 6919.200000
+Simulation error: 0.003822	Circuit area: 2050.330000	Circuit delay: 8024.810000
+Simulation error: 0.004311	Circuit area: 2047.670000	Circuit delay: 8025.190000
+Simulation error: 0.004258	Circuit area: 2073.470000	Circuit delay: 8100.490000
+Simulation error: 0.004742	Circuit area: 2206.740000	Circuit delay: 6662.830000
+Simulation error: 0.006252	Circuit area: 2070.010000	Circuit delay: 8104.600000
+Simulation error: 0.009026	Circuit area: 2202.480000	Circuit delay: 6671.850000
+Simulation error: 0.004395	Circuit area: 2070.810000	Circuit delay: 8062.260000
+Simulation error: 0.004312	Circuit area: 2115.230000	Circuit delay: 6736.860000
+Simulation error: 0.003605	Circuit area: 2123.210000	Circuit delay: 6960.960000
+Simulation error: 0.003388	Circuit area: 2151.670000	Circuit delay: 8084.990000
+Simulation error: 0.006228	Circuit area: 2071.340000	Circuit delay: 8058.980000
+Simulation error: 0.004895	Circuit area: 2060.970000	Circuit delay: 7095.430000
+Simulation error: 0.004305	Circuit area: 2121.350000	Circuit delay: 8190.470000
+Simulation error: 0.006180	Circuit area: 2070.010000	Circuit delay: 8073.910000
+Simulation error: 0.004262	Circuit area: 2029.580000	Circuit delay: 6876.120000
+Simulation error: 0.004322	Circuit area: 2290.530000	Circuit delay: 6661.550000
+Simulation error: 0.004282	Circuit area: 2068.950000	Circuit delay: 8080.420000
+Simulation error: 0.006142	Circuit area: 2078.790000	Circuit delay: 8076.150000
+Simulation error: 0.005938	Circuit area: 2129.860000	Circuit delay: 7847.420000
+Simulation error: 0.006152	Circuit area: 2064.160000	Circuit delay: 6713.000000
+Simulation error: 0.004382	Circuit area: 2167.100000	Circuit delay: 8105.760000
+Simulation error: 0.004345	Circuit area: 2071.340000	Circuit delay: 6776.840000
+Simulation error: 0.006339	Circuit area: 2273.770000	Circuit delay: 6327.120000
+Simulation error: 0.006004	Circuit area: 2160.720000	Circuit delay: 7406.020000
+Simulation error: 0.006249	Circuit area: 2079.590000	Circuit delay: 6618.110000
+Simulation error: 0.005195	Circuit area: 2080.920000	Circuit delay: 6629.430000
+Simulation error: 0.003344	Circuit area: 2237.060000	Circuit delay: 8193.710000
+Simulation error: 0.004075	Circuit area: 2209.130000	Circuit delay: 8181.020000
+Simulation error: 0.004359	Circuit area: 2104.860000	Circuit delay: 6744.110000
+Simulation error: 0.004076	Circuit area: 2134.650000	Circuit delay: 8127.950000
+Simulation error: 0.004319	Circuit area: 2246.640000	Circuit delay: 7401.480000
+Simulation error: 0.004071	Circuit area: 2077.730000	Circuit delay: 8114.960000
+Simulation error: 0.004351	Circuit area: 2067.880000	Circuit delay: 8087.100000
+Simulation error: 0.005328	Circuit area: 2087.300000	Circuit delay: 6671.290000
+Simulation error: 0.006055	Circuit area: 2069.480000	Circuit delay: 8081.810000
+Simulation error: 0.005817	Circuit area: 1940.740000	Circuit delay: 6553.410000
+Simulation error: 0.004084	Circuit area: 2357.030000	Circuit delay: 6157.740000
+Simulation error: 0.004299	Circuit area: 2051.130000	Circuit delay: 8055.870000
+Simulation error: 0.006199	Circuit area: 2250.360000	Circuit delay: 6844.450000
+Simulation error: 0.003376	Circuit area: 2255.950000	Circuit delay: 7073.180000
+Simulation error: 0.004319	Circuit area: 2069.750000	Circuit delay: 8088.490000
+Simulation error: 0.004287	Circuit area: 2131.190000	Circuit delay: 8121.190000
+Simulation error: 0.004032	Circuit area: 2283.880000	Circuit delay: 5666.830000
+Simulation error: 0.005801	Circuit area: 1986.750000	Circuit delay: 6521.760000
+Simulation error: 0.004299	Circuit area: 2125.070000	Circuit delay: 8123.610000
+Simulation error: 0.003821	Circuit area: 2381.230000	Circuit delay: 7098.790000
+Simulation error: 0.004079	Circuit area: 2198.220000	Circuit delay: 6731.960000
+Simulation error: 0.004325	Circuit area: 2375.110000	Circuit delay: 5671.740000
+Simulation error: 0.006213	Circuit area: 2071.870000	Circuit delay: 8082.740000
+Simulation error: 0.004192	Circuit area: 2077.730000	Circuit delay: 8108.360000
+Simulation error: 0.006253	Circuit area: 2069.480000	Circuit delay: 8095.330000
+Simulation error: 0.005295	Circuit area: 2071.610000	Circuit delay: 8061.040000
+Simulation error: 0.004050	Circuit area: 2142.100000	Circuit delay: 8126.600000
+==========TRACK 2 ==========
+----- Approximating part 6 to degree 2
+Simulation error: 0.004824	Circuit area: 2035.960000	Circuit delay: 8063.250000
+Simulation error: 0.006742	Circuit area: 2041.020000	Circuit delay: 8044.870000
+Simulation error: 0.004824	Circuit area: 2032.510000	Circuit delay: 8156.500000
+Simulation error: 0.004378	Circuit area: 2043.680000	Circuit delay: 8068.660000
+Simulation error: 0.006746	Circuit area: 2036.500000	Circuit delay: 8067.320000
+Simulation error: 0.004632	Circuit area: 2222.960000	Circuit delay: 8219.050000
+Simulation error: 0.004788	Circuit area: 2020.270000	Circuit delay: 8143.490000
+Simulation error: 0.004834	Circuit area: 2071.340000	Circuit delay: 8060.100000
+Simulation error: 0.004860	Circuit area: 2040.750000	Circuit delay: 8153.970000
+Simulation error: 0.004700	Circuit area: 2030.910000	Circuit delay: 8067.740000
+Simulation error: 0.006762	Circuit area: 2038.090000	Circuit delay: 8065.540000
+Simulation error: 0.005803	Circuit area: 2042.350000	Circuit delay: 8176.130000
+Simulation error: 0.004857	Circuit area: 2282.810000	Circuit delay: 6692.040000
+Simulation error: 0.004843	Circuit area: 2040.220000	Circuit delay: 8086.210000
+Simulation error: 0.004802	Circuit area: 2022.400000	Circuit delay: 8068.640000
+Simulation error: 0.004585	Circuit area: 2117.090000	Circuit delay: 8060.060000
+Simulation error: 0.006751	Circuit area: 2038.090000	Circuit delay: 8068.050000
+Simulation error: 0.005715	Circuit area: 2040.220000	Circuit delay: 8079.470000
+Simulation error: 0.006772	Circuit area: 2108.050000	Circuit delay: 8034.520000
+Simulation error: 0.006707	Circuit area: 2225.360000	Circuit delay: 7076.270000
+Simulation error: 0.003378	Circuit area: 2154.330000	Circuit delay: 8272.570000
+Simulation error: 0.006722	Circuit area: 2039.160000	Circuit delay: 8084.010000
+Simulation error: 0.004580	Circuit area: 2033.570000	Circuit delay: 8227.990000
+Simulation error: 0.004792	Circuit area: 2165.510000	Circuit delay: 7472.630000
+Simulation error: 0.004820	Circuit area: 2145.820000	Circuit delay: 8199.160000
+Simulation error: 0.004558	Circuit area: 2075.070000	Circuit delay: 8085.680000
+Simulation error: 0.003852	Circuit area: 2063.100000	Circuit delay: 8122.820000
+Simulation error: 0.004583	Circuit area: 2144.490000	Circuit delay: 8059.260000
+Simulation error: 0.005927	Circuit area: 2110.180000	Circuit delay: 6861.000000
+Simulation error: 0.004831	Circuit area: 2200.090000	Circuit delay: 6950.850000
+Simulation error: 0.004828	Circuit area: 2271.910000	Circuit delay: 6889.710000
+Simulation error: 0.006650	Circuit area: 2109.380000	Circuit delay: 8191.770000
+Simulation error: 0.006447	Circuit area: 2387.350000	Circuit delay: 8012.100000
+Simulation error: 0.006661	Circuit area: 2047.670000	Circuit delay: 6943.190000
+Simulation error: 0.004889	Circuit area: 2016.550000	Circuit delay: 8008.280000
+Simulation error: 0.004820	Circuit area: 2075.600000	Circuit delay: 6742.800000
+Simulation error: 0.006848	Circuit area: 2152.740000	Circuit delay: 7045.100000
+Simulation error: 0.004808	Circuit area: 2122.950000	Circuit delay: 8100.030000
+Simulation error: 0.004355	Circuit area: 2195.300000	Circuit delay: 8206.490000
+Simulation error: 0.004848	Circuit area: 2035.430000	Circuit delay: 8161.610000
+Simulation error: 0.006605	Circuit area: 2161.780000	Circuit delay: 6589.310000
+Simulation error: 0.004837	Circuit area: 2123.210000	Circuit delay: 8195.390000
+Simulation error: 0.006699	Circuit area: 2042.880000	Circuit delay: 8065.630000
+Simulation error: 0.006618	Circuit area: 1930.100000	Circuit delay: 7942.010000
+Simulation error: 0.003904	Circuit area: 2035.700000	Circuit delay: 8070.510000
+Simulation error: 0.004326	Circuit area: 2044.740000	Circuit delay: 8247.500000
+Simulation error: 0.004773	Circuit area: 2122.680000	Circuit delay: 8148.780000
+Simulation error: 0.006681	Circuit area: 2151.140000	Circuit delay: 8052.750000
+Simulation error: 0.004870	Circuit area: 2034.630000	Circuit delay: 8053.620000
+Simulation error: 0.006782	Circuit area: 2282.280000	Circuit delay: 6785.190000
+Simulation error: 0.004805	Circuit area: 2040.220000	Circuit delay: 8084.030000
+Simulation error: 0.006708	Circuit area: 2037.560000	Circuit delay: 7048.080000
+Simulation error: 0.004708	Circuit area: 2100.070000	Circuit delay: 8157.620000
+Simulation error: 0.004832	Circuit area: 2041.280000	Circuit delay: 8066.870000
+Simulation error: 0.006756	Circuit area: 2036.500000	Circuit delay: 8063.240000
+Simulation error: 0.004585	Circuit area: 2058.840000	Circuit delay: 8187.100000
+Simulation error: 0.004790	Circuit area: 2054.580000	Circuit delay: 8156.000000
+Simulation error: 0.004579	Circuit area: 2097.940000	Circuit delay: 8093.520000
+Simulation error: 0.004859	Circuit area: 2035.170000	Circuit delay: 8209.860000
+Simulation error: 0.005837	Circuit area: 2009.100000	Circuit delay: 8137.370000
+Simulation error: 0.006563	Circuit area: 2036.500000	Circuit delay: 8071.590000
+Simulation error: 0.006325	Circuit area: 1903.760000	Circuit delay: 6718.340000
+Simulation error: 0.004592	Circuit area: 2152.740000	Circuit delay: 6599.350000
+Simulation error: 0.006512	Circuit area: 2096.350000	Circuit delay: 7539.860000
+Simulation error: 0.004546	Circuit area: 2188.120000	Circuit delay: 8063.800000
+Simulation error: 0.003885	Circuit area: 2168.170000	Circuit delay: 7132.200000
+Simulation error: 0.004828	Circuit area: 2043.150000	Circuit delay: 8143.740000
+Simulation error: 0.003841	Circuit area: 2147.950000	Circuit delay: 8204.540000
+Simulation error: 0.004541	Circuit area: 2087.040000	Circuit delay: 8223.820000
+Simulation error: 0.006306	Circuit area: 2067.880000	Circuit delay: 6669.590000
+Simulation error: 0.006727	Circuit area: 2208.330000	Circuit delay: 6934.230000
+Simulation error: 0.004329	Circuit area: 2063.100000	Circuit delay: 8279.430000
+Simulation error: 0.004588	Circuit area: 2264.990000	Circuit delay: 7162.110000
+Simulation error: 0.009488	Circuit area: 2204.870000	Circuit delay: 6854.280000
+Simulation error: 0.006732	Circuit area: 2034.370000	Circuit delay: 8059.110000
+Simulation error: 0.006219	Circuit area: 2044.480000	Circuit delay: 8202.740000
+Simulation error: 0.004867	Circuit area: 2016.280000	Circuit delay: 7979.790000
+Simulation error: 0.006278	Circuit area: 1963.350000	Circuit delay: 7649.630000
+Simulation error: 0.006503	Circuit area: 2032.770000	Circuit delay: 7740.870000
+Simulation error: 0.006472	Circuit area: 2032.510000	Circuit delay: 7448.330000
+Simulation error: 0.006745	Circuit area: 2036.230000	Circuit delay: 8058.560000
+Simulation error: 0.004795	Circuit area: 2020.800000	Circuit delay: 8069.460000
+Simulation error: 0.004331	Circuit area: 2232.540000	Circuit delay: 7028.010000
+Simulation error: 0.006312	Circuit area: 2065.490000	Circuit delay: 6693.680000
+Simulation error: 0.004767	Circuit area: 2041.020000	Circuit delay: 8204.020000
+Simulation error: 0.005251	Circuit area: 2217.640000	Circuit delay: 6691.230000
+Simulation error: 0.004811	Circuit area: 2090.760000	Circuit delay: 6931.790000
+Simulation error: 0.006956	Circuit area: 2066.290000	Circuit delay: 8067.630000
+Simulation error: 0.004903	Circuit area: 2035.430000	Circuit delay: 8052.240000
+Simulation error: 0.004854	Circuit area: 2064.430000	Circuit delay: 6806.470000
+Simulation error: 0.004113	Circuit area: 2036.760000	Circuit delay: 8085.570000
+Simulation error: 0.003897	Circuit area: 2049.000000	Circuit delay: 8087.560000
+Simulation error: 0.006758	Circuit area: 2159.920000	Circuit delay: 6746.100000
+Simulation error: 0.005704	Circuit area: 2161.780000	Circuit delay: 6734.700000
+Simulation error: 0.004831	Circuit area: 2039.690000	Circuit delay: 8084.370000
+Simulation error: 0.006688	Circuit area: 2036.760000	Circuit delay: 8062.020000
+Simulation error: 0.004771	Circuit area: 2147.680000	Circuit delay: 8239.710000
+Simulation error: 0.004819	Circuit area: 2124.010000	Circuit delay: 8067.210000
+Simulation error: 0.004808	Circuit area: 2018.940000	Circuit delay: 8094.770000
+Simulation error: 0.004833	Circuit area: 2309.150000	Circuit delay: 6954.370000
+Simulation error: 0.006760	Circuit area: 2036.760000	Circuit delay: 8061.480000
+Simulation error: 0.007910	Circuit area: 2158.860000	Circuit delay: 6731.120000
+Simulation error: 0.004792	Circuit area: 2039.690000	Circuit delay: 8085.340000
+Simulation error: 0.004628	Circuit area: 2081.720000	Circuit delay: 8045.910000
+Simulation error: 0.006672	Circuit area: 2021.870000	Circuit delay: 8076.100000
+Simulation error: 0.006716	Circuit area: 2037.290000	Circuit delay: 8058.970000
+Simulation error: 0.006737	Circuit area: 2039.950000	Circuit delay: 8042.280000
+Simulation error: 0.005404	Circuit area: 2041.280000	Circuit delay: 7077.010000
+--------------- Finishing Iteration2---------------
+Partition [array([ 20,  89, 100])] being approximated
+Approximated error: 0.004760	Area : 1889.400000	Delay : 5879.070000	Time used: 1014.705180 sec
+
+Current stream of factorization degree:
+ [5, 5, 5, 7, 6, 4, 4, 7, 7, 5, 6, 3, 5, 3, 4, 4, 1, 2, 5, 5, 4, 6, 5, 5, 4, 5, 6, 4, 5, 6, 5, 6, 4, 7, 4, 6, 8, 4, 4, 2, 5, 5, 5, 7, 5, 4, 6, 6, 5, 5, 4, 7, 5, 7, 5, 5, 4, 5, 6, 5, 6, 3, 5, 8, 5, 6, 4, 5, 4, 4, 7, 1, 3, 4, 4, 4, 6, 4, 6, 7, 6, 6, 6, 5, 5, 5, 9, 5, 4, 3, 7, 4, 5, 4, 4, 8, 7, 5, 5, 8, 5, 6, 4, 6, 5, 5, 5, 3, 1, 4, 8, 4, 6]
+[5, 5, 5, 7, 6, 4, 4, 7, 7, 5, 5, 3, 5, 3, 4, 4, 1, 2, 5, 5, 4, 6, 5, 5, 4, 5, 6, 4, 5, 6, 5, 6, 4, 7, 4, 6, 8, 4, 4, 2, 5, 4, 5, 7, 5, 4, 6, 6, 5, 5, 4, 7, 5, 7, 5, 5, 4, 5, 6, 5, 6, 3, 5, 8, 5, 6, 4, 5, 4, 4, 7, 1, 3, 4, 4, 4, 6, 4, 6, 7, 6, 6, 6, 5, 5, 5, 9, 5, 4, 4, 7, 4, 5, 4, 4, 8, 7, 5, 5, 8, 6, 6, 4, 6, 5, 5, 5, 3, 1, 4, 8, 4, 6]
+[5, 5, 5, 7, 6, 4, 4, 7, 7, 5, 6, 3, 5, 3, 4, 4, 1, 2, 4, 5, 4, 6, 5, 5, 4, 5, 6, 4, 5, 6, 5, 6, 4, 7, 4, 6, 8, 4, 4, 2, 5, 5, 5, 7, 5, 4, 6, 6, 5, 5, 4, 7, 5, 7, 5, 5, 4, 5, 6, 5, 6, 3, 5, 8, 5, 6, 4, 5, 4, 4, 7, 1, 3, 4, 4, 4, 6, 4, 6, 7, 6, 6, 6, 5, 5, 5, 9, 5, 4, 4, 7, 4, 5, 4, 4, 8, 7, 5, 5, 8, 5, 6, 4, 6, 5, 5, 5, 3, 1, 4, 8, 4, 6]
+--------------- Iteration 3 ---------------
+==========TRACK 0 ==========
+Simulation error: 0.006676	Circuit area: 2221.630000	Circuit delay: 6944.370000
+Simulation error: 0.006665	Circuit area: 2193.970000	Circuit delay: 6969.940000
+Simulation error: 0.006423	Circuit area: 1884.610000	Circuit delay: 5855.960000
+Simulation error: 0.006242	Circuit area: 1894.450000	Circuit delay: 5909.570000
+Simulation error: 0.008559	Circuit area: 1888.070000	Circuit delay: 5855.620000
+Simulation error: 0.006495	Circuit area: 1896.580000	Circuit delay: 6393.640000
+Simulation error: 0.006651	Circuit area: 2190.780000	Circuit delay: 6972.040000
+Simulation error: 0.006697	Circuit area: 1918.130000	Circuit delay: 6940.330000
+Simulation error: 0.008585	Circuit area: 1887.000000	Circuit delay: 5866.370000
+Simulation error: 0.006563	Circuit area: 1898.710000	Circuit delay: 6658.880000
+Simulation error: 0.008535	Circuit area: 2300.100000	Circuit delay: 6864.170000
+Simulation error: 0.007666	Circuit area: 1888.330000	Circuit delay: 5866.490000
+Simulation error: 0.008366	Circuit area: 1949.510000	Circuit delay: 6996.060000
+Simulation error: 0.006694	Circuit area: 1890.990000	Circuit delay: 5896.000000
+Simulation error: 0.008552	Circuit area: 1886.210000	Circuit delay: 5872.650000
+Simulation error: 0.006634	Circuit area: 1892.590000	Circuit delay: 6862.450000
+Simulation error: 0.008175	Circuit area: 1808.800000	Circuit delay: 7107.820000
+Simulation error: 0.006630	Circuit area: 1889.930000	Circuit delay: 5879.080000
+Simulation error: 0.006696	Circuit area: 1943.130000	Circuit delay: 6843.950000
+Simulation error: 0.008623	Circuit area: 1884.340000	Circuit delay: 5820.410000
+Simulation error: 0.009762	Circuit area: 1975.850000	Circuit delay: 6342.220000
+Simulation error: 0.006655	Circuit area: 1890.460000	Circuit delay: 5896.010000
+Simulation error: 0.008082	Circuit area: 2000.850000	Circuit delay: 8000.540000
+----- Approximating part 89 to degree 2
+Simulation error: 0.006684	Circuit area: 1883.280000	Circuit delay: 5862.440000
+Simulation error: 0.006683	Circuit area: 1936.480000	Circuit delay: 6857.560000
+Simulation error: 0.006422	Circuit area: 1893.650000	Circuit delay: 5895.910000
+Simulation error: 0.008611	Circuit area: 1888.330000	Circuit delay: 5872.990000
+Simulation error: 0.008619	Circuit area: 1887.270000	Circuit delay: 5872.670000
+Simulation error: 0.006448	Circuit area: 1914.140000	Circuit delay: 7058.720000
+Simulation error: 0.008475	Circuit area: 1875.300000	Circuit delay: 5948.530000
+Simulation error: 0.005741	Circuit area: 1890.730000	Circuit delay: 5872.020000
+Simulation error: 0.008635	Circuit area: 1896.580000	Circuit delay: 6418.480000
+Simulation error: 0.006636	Circuit area: 2017.080000	Circuit delay: 6780.700000
+Simulation error: 0.008544	Circuit area: 1889.660000	Circuit delay: 5878.820000
+Simulation error: 0.006732	Circuit area: 1888.330000	Circuit delay: 5856.030000
+Simulation error: 0.008645	Circuit area: 1954.040000	Circuit delay: 7601.920000
+Simulation error: 0.006668	Circuit area: 1892.320000	Circuit delay: 5896.500000
+Simulation error: 0.008571	Circuit area: 2397.720000	Circuit delay: 7180.360000
+Simulation error: 0.006571	Circuit area: 1893.390000	Circuit delay: 5895.630000
+Simulation error: 0.008466	Circuit area: 2229.350000	Circuit delay: 7583.870000
+Simulation error: 0.005704	Circuit area: 1894.720000	Circuit delay: 6905.880000
+Simulation error: 0.006731	Circuit area: 1775.550000	Circuit delay: 5966.830000
+Simulation error: 0.006448	Circuit area: 1895.780000	Circuit delay: 5897.020000
+Simulation error: 0.006653	Circuit area: 1885.140000	Circuit delay: 5853.680000
+Simulation error: 0.006442	Circuit area: 1918.390000	Circuit delay: 7013.050000
+Simulation error: 0.006722	Circuit area: 1884.080000	Circuit delay: 5899.340000
+Simulation error: 0.007700	Circuit area: 2010.160000	Circuit delay: 6618.170000
+Simulation error: 0.008426	Circuit area: 1884.880000	Circuit delay: 5838.980000
+Simulation error: 0.006683	Circuit area: 1884.880000	Circuit delay: 5864.260000
+Simulation error: 0.006455	Circuit area: 2016.810000	Circuit delay: 6879.810000
+Simulation error: 0.006671	Circuit area: 1892.060000	Circuit delay: 6982.620000
+Simulation error: 0.006409	Circuit area: 1889.660000	Circuit delay: 5862.570000
+Simulation error: 0.006712	Circuit area: 1884.880000	Circuit delay: 5866.510000
+Simulation error: 0.006691	Circuit area: 1887.270000	Circuit delay: 5887.450000
+Simulation error: 0.008605	Circuit area: 1891.790000	Circuit delay: 5940.420000
+Simulation error: 0.008562	Circuit area: 1887.800000	Circuit delay: 5853.000000
+Simulation error: 0.008172	Circuit area: 1770.760000	Circuit delay: 7113.070000
+Simulation error: 0.008590	Circuit area: 2129.330000	Circuit delay: 7028.370000
+Simulation error: 0.008513	Circuit area: 1893.390000	Circuit delay: 5868.290000
+Simulation error: 0.008310	Circuit area: 2067.880000	Circuit delay: 6199.360000
+Simulation error: 0.008812	Circuit area: 1902.700000	Circuit delay: 5900.690000
+Simulation error: 0.006753	Circuit area: 2193.440000	Circuit delay: 7012.440000
+Simulation error: 0.006492	Circuit area: 1914.670000	Circuit delay: 7024.610000
+Simulation error: 0.006730	Circuit area: 2022.930000	Circuit delay: 6782.650000
+Simulation error: 0.008579	Circuit area: 1887.540000	Circuit delay: 5892.160000
+Simulation error: 0.008600	Circuit area: 1890.460000	Circuit delay: 5944.800000
+Simulation error: 0.008335	Circuit area: 2135.710000	Circuit delay: 7717.120000
+Simulation error: 0.005715	Circuit area: 2228.280000	Circuit delay: 6978.900000
+Simulation error: 0.006446	Circuit area: 2157.260000	Circuit delay: 7035.350000
+Simulation error: 0.006404	Circuit area: 1997.390000	Circuit delay: 7008.550000
+Simulation error: 0.006682	Circuit area: 2041.280000	Circuit delay: 6728.590000
+Simulation error: 0.006671	Circuit area: 2192.110000	Circuit delay: 6955.440000
+Simulation error: 0.006192	Circuit area: 2093.690000	Circuit delay: 6911.610000
+Simulation error: 0.006451	Circuit area: 1895.250000	Circuit delay: 6889.990000
+Simulation error: 0.011355	Circuit area: 2038.090000	Circuit delay: 6034.580000
+Simulation error: 0.008595	Circuit area: 1885.140000	Circuit delay: 5855.140000
+Simulation error: 0.006717	Circuit area: 1953.500000	Circuit delay: 5737.770000
+Simulation error: 0.005976	Circuit area: 1890.200000	Circuit delay: 5888.400000
+Simulation error: 0.005760	Circuit area: 2075.860000	Circuit delay: 5890.260000
+Simulation error: 0.008621	Circuit area: 1765.970000	Circuit delay: 5766.520000
+Simulation error: 0.007567	Circuit area: 1772.890000	Circuit delay: 7107.050000
+Simulation error: 0.006706	Circuit area: 1890.990000	Circuit delay: 5896.000000
+Simulation error: 0.006700	Circuit area: 2041.820000	Circuit delay: 6723.860000
+Simulation error: 0.006687	Circuit area: 2073.200000	Circuit delay: 5861.230000
+Simulation error: 0.008614	Circuit area: 1888.330000	Circuit delay: 5870.630000
+Simulation error: 0.008609	Circuit area: 1886.210000	Circuit delay: 5855.820000
+Simulation error: 0.006189	Circuit area: 1893.390000	Circuit delay: 5906.910000
+Simulation error: 0.008570	Circuit area: 2189.980000	Circuit delay: 6945.790000
+Simulation error: 0.005241	Circuit area: 2126.140000	Circuit delay: 6322.780000
+Simulation error: 0.006725	Circuit area: 1912.270000	Circuit delay: 6899.520000
+Simulation error: 0.006443	Circuit area: 2039.690000	Circuit delay: 6957.220000
+Simulation error: 0.006730	Circuit area: 2026.650000	Circuit delay: 5291.400000
+Simulation error: 0.008147	Circuit area: 2138.640000	Circuit delay: 6848.340000
+Simulation error: 0.006720	Circuit area: 1954.300000	Circuit delay: 5948.560000
+Simulation error: 0.007267	Circuit area: 1922.910000	Circuit delay: 6016.910000
+Simulation error: 0.008608	Circuit area: 1888.870000	Circuit delay: 5889.660000
+Simulation error: 0.006658	Circuit area: 2194.770000	Circuit delay: 6993.250000
+Simulation error: 0.006194	Circuit area: 2042.080000	Circuit delay: 6794.020000
+Simulation error: 0.006694	Circuit area: 2039.690000	Circuit delay: 7287.130000
+Simulation error: 0.006691	Circuit area: 2004.040000	Circuit delay: 7528.440000
+Simulation error: 0.007114	Circuit area: 2014.420000	Circuit delay: 6459.520000
+Simulation error: 0.006674	Circuit area: 2012.560000	Circuit delay: 6519.000000
+Simulation error: 0.008524	Circuit area: 2079.060000	Circuit delay: 5456.510000
+Simulation error: 0.006768	Circuit area: 1887.000000	Circuit delay: 5859.930000
+Simulation error: 0.008188	Circuit area: 1841.520000	Circuit delay: 7010.610000
+Simulation error: 0.008711	Circuit area: 2031.710000	Circuit delay: 6080.170000
+Simulation error: 0.008375	Circuit area: 1886.210000	Circuit delay: 5433.650000
+Simulation error: 0.006475	Circuit area: 1884.610000	Circuit delay: 5846.810000
+Simulation error: 0.005748	Circuit area: 2030.640000	Circuit delay: 6928.640000
+==========TRACK 1 ==========
+Simulation error: 0.004288	Circuit area: 2046.340000	Circuit delay: 8047.950000
+Simulation error: 0.007178	Circuit area: 2036.760000	Circuit delay: 6963.730000
+Simulation error: 0.004976	Circuit area: 2209.400000	Circuit delay: 6786.400000
+Simulation error: 0.006748	Circuit area: 2154.870000	Circuit delay: 5844.730000
+Simulation error: 0.005263	Circuit area: 2303.030000	Circuit delay: 5919.280000
+Simulation error: 0.005268	Circuit area: 2077.190000	Circuit delay: 6970.140000
+Simulation error: 0.005246	Circuit area: 2200.620000	Circuit delay: 5866.070000
+Simulation error: 0.009960	Circuit area: 2221.100000	Circuit delay: 5765.550000
+Simulation error: 0.007167	Circuit area: 2030.640000	Circuit delay: 6897.030000
+Simulation error: 0.006655	Circuit area: 2257.280000	Circuit delay: 7629.210000
+Simulation error: 0.007107	Circuit area: 2075.860000	Circuit delay: 8011.200000
+Simulation error: 0.006714	Circuit area: 2189.980000	Circuit delay: 7099.020000
+Simulation error: 0.005292	Circuit area: 2166.570000	Circuit delay: 6141.730000
+Simulation error: 0.007181	Circuit area: 2034.900000	Circuit delay: 6929.930000
+----- Approximating part 10 to degree 4
+Simulation error: 0.004344	Circuit area: 2029.050000	Circuit delay: 6880.980000
+Simulation error: 0.005259	Circuit area: 2303.030000	Circuit delay: 6895.380000
+Simulation error: 0.004814	Circuit area: 2042.350000	Circuit delay: 6943.440000
+Simulation error: 0.007182	Circuit area: 2031.710000	Circuit delay: 6895.930000
+Simulation error: 0.005068	Circuit area: 2040.750000	Circuit delay: 6967.510000
+Simulation error: 0.005223	Circuit area: 2186.520000	Circuit delay: 8054.280000
+Simulation error: 0.003813	Circuit area: 2322.450000	Circuit delay: 5842.180000
+Simulation error: 0.005298	Circuit area: 2413.950000	Circuit delay: 5326.610000
+Simulation error: 0.005015	Circuit area: 2306.220000	Circuit delay: 6932.700000
+Simulation error: 0.007197	Circuit area: 2036.500000	Circuit delay: 6938.050000
+Simulation error: 0.006238	Circuit area: 2302.230000	Circuit delay: 6911.790000
+Simulation error: 0.004994	Circuit area: 2040.220000	Circuit delay: 6936.360000
+Simulation error: 0.005248	Circuit area: 2043.680000	Circuit delay: 8015.400000
+Simulation error: 0.007192	Circuit area: 2032.770000	Circuit delay: 6912.940000
+Simulation error: 0.005021	Circuit area: 2307.020000	Circuit delay: 6950.170000
+Simulation error: 0.005225	Circuit area: 2300.630000	Circuit delay: 6909.260000
+Simulation error: 0.007085	Circuit area: 2305.950000	Circuit delay: 6920.800000
+Simulation error: 0.005295	Circuit area: 2030.110000	Circuit delay: 6914.160000
+Simulation error: 0.007096	Circuit area: 2349.050000	Circuit delay: 6628.570000
+Simulation error: 0.005325	Circuit area: 2089.430000	Circuit delay: 8037.690000
+Simulation error: 0.006761	Circuit area: 2153.270000	Circuit delay: 7159.220000
+Simulation error: 0.005028	Circuit area: 2167.900000	Circuit delay: 5638.430000
+Simulation error: 0.006948	Circuit area: 2155.130000	Circuit delay: 6527.010000
+Simulation error: 0.004790	Circuit area: 1925.040000	Circuit delay: 8141.960000
+Simulation error: 0.004320	Circuit area: 2180.140000	Circuit delay: 7040.180000
+Simulation error: 0.005278	Circuit area: 2036.230000	Circuit delay: 6934.830000
+Simulation error: 0.006180	Circuit area: 2031.180000	Circuit delay: 6895.910000
+Simulation error: 0.004766	Circuit area: 2224.290000	Circuit delay: 5650.630000
+Simulation error: 0.005020	Circuit area: 2040.750000	Circuit delay: 6935.470000
+Simulation error: 0.007053	Circuit area: 2083.050000	Circuit delay: 8031.210000
+Simulation error: 0.004339	Circuit area: 2030.110000	Circuit delay: 6880.440000
+Simulation error: 0.007208	Circuit area: 2090.760000	Circuit delay: 5786.820000
+Simulation error: 0.005208	Circuit area: 2077.730000	Circuit delay: 8086.970000
+Simulation error: 0.007116	Circuit area: 2035.430000	Circuit delay: 6905.180000
+Simulation error: 0.005305	Circuit area: 2032.510000	Circuit delay: 6896.710000
+Simulation error: 0.007217	Circuit area: 2256.740000	Circuit delay: 5656.000000
+Simulation error: 0.005241	Circuit area: 2038.090000	Circuit delay: 6933.190000
+Simulation error: 0.007143	Circuit area: 2126.400000	Circuit delay: 6752.260000
+Simulation error: 0.005143	Circuit area: 2313.400000	Circuit delay: 6949.950000
+Simulation error: 0.005266	Circuit area: 2036.230000	Circuit delay: 6934.830000
+Simulation error: 0.005231	Circuit area: 2185.460000	Circuit delay: 8062.940000
+Simulation error: 0.005303	Circuit area: 1954.300000	Circuit delay: 7236.390000
+Simulation error: 0.005266	Circuit area: 2272.170000	Circuit delay: 5623.860000
+Simulation error: 0.007162	Circuit area: 2432.840000	Circuit delay: 6630.060000
+Simulation error: 0.005015	Circuit area: 2305.690000	Circuit delay: 6915.090000
+Simulation error: 0.006882	Circuit area: 2108.050000	Circuit delay: 6707.600000
+Simulation error: 0.006272	Circuit area: 2276.690000	Circuit delay: 7139.610000
+Simulation error: 0.006998	Circuit area: 2030.380000	Circuit delay: 6875.940000
+Simulation error: 0.005255	Circuit area: 2251.160000	Circuit delay: 7413.180000
+Simulation error: 0.007283	Circuit area: 2075.070000	Circuit delay: 5909.630000
+Simulation error: 0.005243	Circuit area: 2316.330000	Circuit delay: 5780.220000
+Simulation error: 0.004982	Circuit area: 2315.800000	Circuit delay: 6915.500000
+Simulation error: 0.005284	Circuit area: 2300.100000	Circuit delay: 6903.530000
+Simulation error: 0.007038	Circuit area: 2168.170000	Circuit delay: 5649.020000
+Simulation error: 0.005272	Circuit area: 2031.440000	Circuit delay: 6890.350000
+Simulation error: 0.005206	Circuit area: 2129.330000	Circuit delay: 7021.840000
+Simulation error: 0.007186	Circuit area: 2033.040000	Circuit delay: 6909.970000
+Simulation error: 0.006151	Circuit area: 2034.630000	Circuit delay: 6896.390000
+Simulation error: 0.004762	Circuit area: 2038.890000	Circuit delay: 6952.710000
+Simulation error: 0.007142	Circuit area: 2185.720000	Circuit delay: 8073.970000
+Simulation error: 0.005269	Circuit area: 2162.050000	Circuit delay: 5785.750000
+Simulation error: 0.007157	Circuit area: 2032.240000	Circuit delay: 6924.130000
+Simulation error: 0.005135	Circuit area: 2308.080000	Circuit delay: 6934.160000
+Simulation error: 0.005227	Circuit area: 2081.720000	Circuit delay: 5729.400000
+Simulation error: 0.007152	Circuit area: 2033.040000	Circuit delay: 6931.470000
+Simulation error: 0.007172	Circuit area: 2039.160000	Circuit delay: 7006.990000
+Simulation error: 0.005839	Circuit area: 2064.690000	Circuit delay: 7064.840000
+Simulation error: 0.005263	Circuit area: 2301.960000	Circuit delay: 6909.470000
+Simulation error: 0.005018	Circuit area: 2301.700000	Circuit delay: 6970.140000
+Simulation error: 0.004995	Circuit area: 2030.110000	Circuit delay: 6895.070000
+Simulation error: 0.005255	Circuit area: 2316.330000	Circuit delay: 5763.500000
+Simulation error: 0.005202	Circuit area: 2035.700000	Circuit delay: 6916.600000
+Simulation error: 0.004765	Circuit area: 2151.940000	Circuit delay: 7010.230000
+Simulation error: 0.007195	Circuit area: 2031.440000	Circuit delay: 6880.150000
+Simulation error: 0.007395	Circuit area: 2047.930000	Circuit delay: 6969.380000
+Simulation error: 0.005339	Circuit area: 2033.570000	Circuit delay: 6903.130000
+Simulation error: 0.005065	Circuit area: 2303.290000	Circuit delay: 6923.540000
+Simulation error: 0.004548	Circuit area: 2036.760000	Circuit delay: 5676.950000
+Simulation error: 0.004332	Circuit area: 2307.020000	Circuit delay: 6921.710000
+Simulation error: 0.007193	Circuit area: 2153.270000	Circuit delay: 7170.230000
+Simulation error: 0.006139	Circuit area: 2159.120000	Circuit delay: 7176.100000
+Simulation error: 0.007183	Circuit area: 2033.840000	Circuit delay: 6913.250000
+Simulation error: 0.005238	Circuit area: 2185.190000	Circuit delay: 8059.450000
+Simulation error: 0.007135	Circuit area: 2034.630000	Circuit delay: 6896.400000
+Simulation error: 0.006745	Circuit area: 2162.050000	Circuit delay: 7190.750000
+Simulation error: 0.005243	Circuit area: 2184.660000	Circuit delay: 8070.550000
+Simulation error: 0.005686	Circuit area: 2064.430000	Circuit delay: 5800.310000
+Simulation error: 0.005023	Circuit area: 2275.900000	Circuit delay: 6712.870000
+Simulation error: 0.008330	Circuit area: 2206.200000	Circuit delay: 5861.360000
+Simulation error: 0.005227	Circuit area: 2036.230000	Circuit delay: 6934.830000
+Simulation error: 0.005289	Circuit area: 2215.250000	Circuit delay: 6866.560000
+Simulation error: 0.005302	Circuit area: 2151.410000	Circuit delay: 8100.180000
+Simulation error: 0.005255	Circuit area: 2127.470000	Circuit delay: 6970.980000
+Simulation error: 0.006938	Circuit area: 2298.510000	Circuit delay: 7909.950000
+Simulation error: 0.006907	Circuit area: 2054.050000	Circuit delay: 7501.280000
+==========TRACK 2 ==========
+Simulation error: 0.006786	Circuit area: 1943.930000	Circuit delay: 7165.630000
+Simulation error: 0.006735	Circuit area: 2227.750000	Circuit delay: 6866.220000
+Simulation error: 0.006480	Circuit area: 1900.040000	Circuit delay: 7367.930000
+Simulation error: 0.008690	Circuit area: 1944.730000	Circuit delay: 6084.660000
+Simulation error: 0.008685	Circuit area: 1945.260000	Circuit delay: 6127.510000
+Simulation error: 0.006572	Circuit area: 1951.910000	Circuit delay: 6173.360000
+Simulation error: 0.006727	Circuit area: 2175.610000	Circuit delay: 7637.110000
+Simulation error: 0.009821	Circuit area: 1949.510000	Circuit delay: 6538.600000
+Simulation error: 0.008661	Circuit area: 1944.460000	Circuit delay: 6105.150000
+Simulation error: 0.006519	Circuit area: 1949.780000	Circuit delay: 6439.940000
+Simulation error: 0.006745	Circuit area: 1946.850000	Circuit delay: 6382.710000
+Simulation error: 0.008647	Circuit area: 2239.720000	Circuit delay: 7353.550000
+Simulation error: 0.006647	Circuit area: 1960.690000	Circuit delay: 6110.840000
+Simulation error: 0.006752	Circuit area: 2388.410000	Circuit delay: 6776.530000
+Simulation error: 0.006742	Circuit area: 2226.690000	Circuit delay: 6866.650000
+Simulation error: 0.006763	Circuit area: 1938.870000	Circuit delay: 6854.610000
+Simulation error: 0.006318	Circuit area: 1948.450000	Circuit delay: 6120.720000
+Simulation error: 0.008635	Circuit area: 1946.320000	Circuit delay: 6125.790000
+Simulation error: 0.006265	Circuit area: 1947.390000	Circuit delay: 6140.900000
+Simulation error: 0.008646	Circuit area: 2196.360000	Circuit delay: 7593.380000
+Simulation error: 0.006773	Circuit area: 1956.700000	Circuit delay: 8011.620000
+Simulation error: 0.006731	Circuit area: 1946.320000	Circuit delay: 6382.910000
+Simulation error: 0.008158	Circuit area: 2161.520000	Circuit delay: 7793.280000
+Simulation error: 0.006806	Circuit area: 2175.610000	Circuit delay: 7550.620000
+Simulation error: 0.007742	Circuit area: 1945.260000	Circuit delay: 6135.810000
+Simulation error: 0.006796	Circuit area: 2063.360000	Circuit delay: 6555.460000
+Simulation error: 0.006770	Circuit area: 1946.850000	Circuit delay: 6108.730000
+Simulation error: 0.006524	Circuit area: 1948.980000	Circuit delay: 6109.480000
+Simulation error: 0.006609	Circuit area: 1944.730000	Circuit delay: 6136.750000
+Simulation error: 0.008248	Circuit area: 1952.440000	Circuit delay: 6537.050000
+Simulation error: 0.006706	Circuit area: 1947.390000	Circuit delay: 6105.850000
+Simulation error: 0.006268	Circuit area: 2147.950000	Circuit delay: 8097.980000
+Simulation error: 0.008699	Circuit area: 1947.650000	Circuit delay: 6124.760000
+Simulation error: 0.005317	Circuit area: 1951.110000	Circuit delay: 7345.410000
+Simulation error: 0.006802	Circuit area: 2149.010000	Circuit delay: 6665.350000
+Simulation error: 0.006639	Circuit area: 1965.740000	Circuit delay: 6448.890000
+Simulation error: 0.008701	Circuit area: 1946.590000	Circuit delay: 6124.590000
+Simulation error: 0.006759	Circuit area: 2150.610000	Circuit delay: 7855.760000
+Simulation error: 0.006498	Circuit area: 1998.460000	Circuit delay: 6174.260000
+Simulation error: 0.005789	Circuit area: 2391.070000	Circuit delay: 6790.820000
+Simulation error: 0.008682	Circuit area: 1944.190000	Circuit delay: 6122.620000
+Simulation error: 0.008638	Circuit area: 1986.750000	Circuit delay: 5498.700000
+Simulation error: 0.006524	Circuit area: 1962.280000	Circuit delay: 6130.210000
+Simulation error: 0.006767	Circuit area: 2179.340000	Circuit delay: 7886.670000
+Simulation error: 0.006518	Circuit area: 1951.110000	Circuit delay: 6136.310000
+Simulation error: 0.008386	Circuit area: 2299.300000	Circuit delay: 5996.340000
+Simulation error: 0.007776	Circuit area: 1985.690000	Circuit delay: 5608.140000
+Simulation error: 0.006829	Circuit area: 2231.470000	Circuit delay: 6875.430000
+Simulation error: 0.008265	Circuit area: 1940.200000	Circuit delay: 6380.960000
+Simulation error: 0.008611	Circuit area: 2192.640000	Circuit delay: 7587.560000
+Simulation error: 0.008655	Circuit area: 1945.790000	Circuit delay: 6129.710000
+Simulation error: 0.006551	Circuit area: 1944.730000	Circuit delay: 6127.560000
+Simulation error: 0.005824	Circuit area: 2190.510000	Circuit delay: 7560.310000
+Simulation error: 0.006782	Circuit area: 1947.920000	Circuit delay: 6126.690000
+Simulation error: 0.008695	Circuit area: 1945.260000	Circuit delay: 6128.680000
+Simulation error: 0.006525	Circuit area: 1950.580000	Circuit delay: 6440.150000
+Simulation error: 0.008552	Circuit area: 1966.270000	Circuit delay: 6894.000000
+Simulation error: 0.005817	Circuit area: 1948.450000	Circuit delay: 6144.000000
+Simulation error: 0.008712	Circuit area: 1925.570000	Circuit delay: 5998.700000
+Simulation error: 0.006712	Circuit area: 2235.460000	Circuit delay: 6916.240000
+Simulation error: 0.008620	Circuit area: 1946.060000	Circuit delay: 6129.060000
+Simulation error: 0.006759	Circuit area: 1970.260000	Circuit delay: 6280.040000
+Simulation error: 0.008787	Circuit area: 1918.660000	Circuit delay: 6914.820000
+Simulation error: 0.005836	Circuit area: 1940.740000	Circuit delay: 6871.350000
+Simulation error: 0.008442	Circuit area: 2020.800000	Circuit delay: 7616.400000
+Simulation error: 0.008411	Circuit area: 2143.960000	Circuit delay: 7556.060000
+Simulation error: 0.008687	Circuit area: 1946.590000	Circuit delay: 6053.220000
+Simulation error: 0.005780	Circuit area: 2141.570000	Circuit delay: 8026.460000
+Simulation error: 0.005012	Circuit area: 2094.220000	Circuit delay: 7509.420000
+Simulation error: 0.008252	Circuit area: 1953.240000	Circuit delay: 6556.680000
+Simulation error: 0.008666	Circuit area: 2046.870000	Circuit delay: 7590.500000
+Simulation error: 0.008589	Circuit area: 1951.110000	Circuit delay: 6144.240000
+Simulation error: 0.006798	Circuit area: 1942.600000	Circuit delay: 6148.460000
+Simulation error: 0.008600	Circuit area: 1943.130000	Circuit delay: 7707.360000
+Simulation error: 0.006845	Circuit area: 1941.800000	Circuit delay: 6121.140000
+Simulation error: 0.006793	Circuit area: 2055.380000	Circuit delay: 7919.740000
+Simulation error: 0.006532	Circuit area: 2084.110000	Circuit delay: 5505.390000
+Simulation error: 0.008452	Circuit area: 1895.780000	Circuit delay: 5406.080000
+Simulation error: 0.008697	Circuit area: 1951.910000	Circuit delay: 6140.250000
+Simulation error: 0.007643	Circuit area: 1952.970000	Circuit delay: 6529.010000
+Simulation error: 0.008685	Circuit area: 1945.790000	Circuit delay: 6019.510000
+Simulation error: 0.008628	Circuit area: 1945.520000	Circuit delay: 6126.390000
+----- Approximating part 18 to degree 3
+Simulation error: 0.008262	Circuit area: 1945.520000	Circuit delay: 6130.160000
+Simulation error: 0.006758	Circuit area: 2093.950000	Circuit delay: 7464.890000
+Simulation error: 0.006747	Circuit area: 2228.280000	Circuit delay: 6866.710000
+Simulation error: 0.006772	Circuit area: 2134.380000	Circuit delay: 8062.630000
+Simulation error: 0.006527	Circuit area: 2141.030000	Circuit delay: 7989.040000
+Simulation error: 0.011432	Circuit area: 1980.900000	Circuit delay: 5512.600000
+Simulation error: 0.008671	Circuit area: 1943.130000	Circuit delay: 6078.000000
+Simulation error: 0.006568	Circuit area: 1950.580000	Circuit delay: 6446.850000
+Simulation error: 0.006052	Circuit area: 1946.850000	Circuit delay: 6163.530000
+Simulation error: 0.008223	Circuit area: 2059.900000	Circuit delay: 5728.300000
+Simulation error: 0.008676	Circuit area: 1925.040000	Circuit delay: 6017.050000
+Simulation error: 0.007343	Circuit area: 1944.730000	Circuit delay: 6359.860000
+Simulation error: 0.008542	Circuit area: 2054.050000	Circuit delay: 6593.650000
+Simulation error: 0.006776	Circuit area: 2091.030000	Circuit delay: 7506.150000
+Simulation error: 0.006710	Circuit area: 2151.670000	Circuit delay: 7855.310000
+Simulation error: 0.006770	Circuit area: 2037.560000	Circuit delay: 7052.370000
+Simulation error: 0.006729	Circuit area: 1944.190000	Circuit delay: 6124.180000
+Simulation error: 0.007190	Circuit area: 1984.360000	Circuit delay: 5820.130000
+Simulation error: 0.006750	Circuit area: 2224.030000	Circuit delay: 5432.420000
+Simulation error: 0.008885	Circuit area: 1847.640000	Circuit delay: 7198.540000
+Simulation error: 0.008502	Circuit area: 1945.260000	Circuit delay: 6126.350000
+Simulation error: 0.006808	Circuit area: 1943.930000	Circuit delay: 6115.840000
+Simulation error: 0.008721	Circuit area: 1923.450000	Circuit delay: 7610.750000
+Simulation error: 0.006747	Circuit area: 2026.650000	Circuit delay: 7372.120000
+Simulation error: 0.006485	Circuit area: 1997.660000	Circuit delay: 6165.780000
+Simulation error: 0.006788	Circuit area: 1938.610000	Circuit delay: 6901.420000
+--------------- Finishing Iteration3---------------
+Partition [array([ 10,  20,  41, 100])] being approximated
+Approximated error: 0.004790	Area : 1925.040000	Delay : 8141.960000	Time used: 1003.704659 sec
+
+Current stream of factorization degree:
+ [5, 5, 5, 7, 6, 4, 4, 7, 7, 5, 5, 3, 5, 3, 4, 4, 1, 2, 5, 5, 4, 6, 5, 5, 4, 5, 6, 4, 5, 6, 5, 6, 4, 7, 4, 6, 8, 4, 4, 2, 5, 4, 5, 7, 5, 4, 6, 6, 5, 5, 4, 7, 5, 7, 5, 5, 4, 5, 6, 5, 6, 3, 5, 8, 5, 6, 4, 5, 4, 4, 7, 1, 3, 4, 4, 4, 6, 4, 6, 7, 6, 6, 6, 5, 5, 5, 9, 5, 4, 4, 7, 4, 5, 4, 4, 8, 7, 5, 5, 8, 5, 6, 4, 6, 5, 5, 5, 3, 1, 4, 8, 4, 6]
+[5, 5, 5, 7, 6, 4, 4, 7, 7, 5, 6, 3, 5, 3, 4, 4, 1, 2, 4, 5, 4, 6, 5, 5, 4, 5, 6, 4, 5, 6, 5, 6, 4, 7, 4, 6, 8, 4, 4, 2, 5, 5, 5, 7, 5, 4, 6, 6, 5, 5, 4, 7, 5, 7, 5, 5, 4, 5, 6, 5, 6, 3, 5, 8, 5, 6, 4, 5, 4, 4, 7, 1, 3, 4, 4, 4, 6, 4, 6, 7, 6, 6, 6, 5, 5, 5, 9, 5, 4, 3, 7, 4, 5, 4, 4, 8, 7, 5, 5, 8, 5, 6, 4, 6, 5, 5, 5, 3, 1, 4, 8, 4, 6]
+[5, 5, 5, 7, 6, 4, 4, 7, 7, 5, 6, 3, 5, 3, 4, 4, 1, 2, 5, 5, 4, 6, 5, 5, 4, 5, 6, 4, 5, 6, 5, 6, 4, 7, 4, 6, 8, 4, 4, 2, 5, 4, 5, 7, 5, 4, 6, 6, 5, 5, 4, 7, 5, 7, 5, 5, 4, 5, 6, 5, 6, 3, 5, 8, 5, 6, 4, 5, 4, 4, 7, 1, 3, 4, 4, 4, 6, 4, 6, 7, 6, 6, 6, 5, 5, 5, 9, 5, 4, 3, 7, 4, 5, 4, 4, 8, 7, 5, 5, 8, 5, 6, 4, 6, 5, 5, 5, 3, 1, 4, 8, 4, 6]
+--------------- Iteration 4 ---------------
+==========TRACK 0 ==========
+Simulation error: 0.008638	Circuit area: 1921.850000	Circuit delay: 8110.430000
+Simulation error: 0.006730	Circuit area: 1921.320000	Circuit delay: 8105.430000
+Simulation error: 0.006717	Circuit area: 2222.160000	Circuit delay: 6783.150000
+Simulation error: 0.008644	Circuit area: 1921.320000	Circuit delay: 8123.310000
+Simulation error: 0.006701	Circuit area: 2261.530000	Circuit delay: 6914.690000
+Simulation error: 0.006525	Circuit area: 1950.840000	Circuit delay: 8064.120000
+Simulation error: 0.006681	Circuit area: 2260.470000	Circuit delay: 6914.450000
+Simulation error: 0.005271	Circuit area: 2290.260000	Circuit delay: 7081.060000
+Simulation error: 0.008615	Circuit area: 1925.040000	Circuit delay: 8112.840000
+Simulation error: 0.006593	Circuit area: 2224.560000	Circuit delay: 6787.280000
+Simulation error: 0.008565	Circuit area: 2054.050000	Circuit delay: 5251.060000
+Simulation error: 0.008609	Circuit area: 1922.120000	Circuit delay: 8112.480000
+Simulation error: 0.006750	Circuit area: 2051.130000	Circuit delay: 6805.970000
+Simulation error: 0.006736	Circuit area: 1925.570000	Circuit delay: 8136.290000
+Simulation error: 0.005802	Circuit area: 1919.990000	Circuit delay: 8125.520000
+Simulation error: 0.006224	Circuit area: 1930.630000	Circuit delay: 8108.960000
+Simulation error: 0.006724	Circuit area: 2171.360000	Circuit delay: 6215.730000
+Simulation error: 0.006660	Circuit area: 1926.370000	Circuit delay: 8141.440000
+Simulation error: 0.006222	Circuit area: 1932.220000	Circuit delay: 8183.810000
+Simulation error: 0.006481	Circuit area: 2216.840000	Circuit delay: 6888.550000
+Simulation error: 0.008848	Circuit area: 2103.530000	Circuit delay: 6888.700000
+Simulation error: 0.008625	Circuit area: 1921.850000	Circuit delay: 8119.800000
+Simulation error: 0.008112	Circuit area: 2126.400000	Circuit delay: 6902.250000
+Simulation error: 0.006685	Circuit area: 1893.920000	Circuit delay: 6897.540000
+Simulation error: 0.006713	Circuit area: 1912.270000	Circuit delay: 8123.300000
+Simulation error: 0.006601	Circuit area: 2229.080000	Circuit delay: 6787.580000
+Simulation error: 0.008641	Circuit area: 1923.710000	Circuit delay: 8114.530000
+Simulation error: 0.006688	Circuit area: 2261.000000	Circuit delay: 6930.280000
+Simulation error: 0.008592	Circuit area: 1923.710000	Circuit delay: 8126.210000
+Simulation error: 0.006272	Circuit area: 1928.770000	Circuit delay: 8116.150000
+Simulation error: 0.007608	Circuit area: 1922.650000	Circuit delay: 8117.430000
+Simulation error: 0.006219	Circuit area: 1929.030000	Circuit delay: 8136.970000
+Simulation error: 0.006666	Circuit area: 2030.110000	Circuit delay: 7878.720000
+Simulation error: 0.008574	Circuit area: 1925.570000	Circuit delay: 8121.340000
+Simulation error: 0.006763	Circuit area: 1921.320000	Circuit delay: 8100.380000
+Simulation error: 0.006473	Circuit area: 2226.150000	Circuit delay: 6787.280000
+Simulation error: 0.006698	Circuit area: 1925.840000	Circuit delay: 8141.870000
+Simulation error: 0.008601	Circuit area: 2013.090000	Circuit delay: 6915.300000
+Simulation error: 0.006452	Circuit area: 1927.700000	Circuit delay: 8135.630000
+Simulation error: 0.005745	Circuit area: 2167.100000	Circuit delay: 6309.360000
+Simulation error: 0.006695	Circuit area: 2261.270000	Circuit delay: 6915.280000
+Simulation error: 0.006453	Circuit area: 1921.580000	Circuit delay: 8129.270000
+Simulation error: 0.008205	Circuit area: 1925.840000	Circuit delay: 7942.380000
+Simulation error: 0.006721	Circuit area: 2099.270000	Circuit delay: 6840.930000
+Simulation error: 0.006472	Circuit area: 2222.960000	Circuit delay: 6788.270000
+Simulation error: 0.006752	Circuit area: 1920.250000	Circuit delay: 8126.910000
+Simulation error: 0.007730	Circuit area: 2083.580000	Circuit delay: 7492.270000
+Simulation error: 0.008456	Circuit area: 1921.850000	Circuit delay: 8123.610000
+Simulation error: 0.006713	Circuit area: 2079.850000	Circuit delay: 6798.060000
+Simulation error: 0.008741	Circuit area: 2121.620000	Circuit delay: 6700.310000
+Simulation error: 0.006701	Circuit area: 1912.010000	Circuit delay: 7651.550000
+Simulation error: 0.006439	Circuit area: 2224.560000	Circuit delay: 6789.680000
+Simulation error: 0.006742	Circuit area: 2221.630000	Circuit delay: 6781.920000
+Simulation error: 0.006721	Circuit area: 2221.900000	Circuit delay: 6779.960000
+Simulation error: 0.007638	Circuit area: 1921.580000	Circuit delay: 8114.980000
+Simulation error: 0.006434	Circuit area: 2118.160000	Circuit delay: 6886.910000
+Simulation error: 0.008202	Circuit area: 1937.010000	Circuit delay: 7944.000000
+Simulation error: 0.008639	Circuit area: 1921.850000	Circuit delay: 8120.010000
+Simulation error: 0.006726	Circuit area: 1908.280000	Circuit delay: 8110.350000
+Simulation error: 0.008600	Circuit area: 2258.870000	Circuit delay: 6915.550000
+Simulation error: 0.006727	Circuit area: 2015.480000	Circuit delay: 6865.200000
+Simulation error: 0.006755	Circuit area: 1930.360000	Circuit delay: 8153.020000
+Simulation error: 0.008675	Circuit area: 2038.360000	Circuit delay: 6856.780000
+Simulation error: 0.008655	Circuit area: 1924.780000	Circuit delay: 8116.870000
+Simulation error: 0.005790	Circuit area: 2228.550000	Circuit delay: 6792.050000
+Simulation error: 0.008396	Circuit area: 1876.630000	Circuit delay: 7758.650000
+Simulation error: 0.007297	Circuit area: 1929.830000	Circuit delay: 8104.870000
+Simulation error: 0.006706	Circuit area: 2161.250000	Circuit delay: 6273.150000
+Simulation error: 0.008649	Circuit area: 1921.850000	Circuit delay: 8115.330000
+Simulation error: 0.006478	Circuit area: 2229.080000	Circuit delay: 6782.500000
+Simulation error: 0.008511	Circuit area: 1963.610000	Circuit delay: 7895.200000
+Simulation error: 0.005797	Circuit area: 1921.050000	Circuit delay: 8125.910000
+Simulation error: 0.008665	Circuit area: 1927.440000	Circuit delay: 8102.120000
+Simulation error: 0.008653	Circuit area: 1922.380000	Circuit delay: 8131.330000
+Simulation error: 0.009790	Circuit area: 2067.090000	Circuit delay: 6355.030000
+Simulation error: 0.006798	Circuit area: 1921.580000	Circuit delay: 8107.210000
+Simulation error: 0.008218	Circuit area: 1927.440000	Circuit delay: 7923.410000
+Simulation error: 0.006485	Circuit area: 2109.650000	Circuit delay: 7072.850000
+Simulation error: 0.008405	Circuit area: 1884.880000	Circuit delay: 6566.450000
+Simulation error: 0.006505	Circuit area: 1922.120000	Circuit delay: 8122.730000
+Simulation error: 0.005778	Circuit area: 2039.950000	Circuit delay: 5286.130000
+Simulation error: 0.006724	Circuit area: 1925.040000	Circuit delay: 8140.840000
+Simulation error: 0.006476	Circuit area: 2227.220000	Circuit delay: 6793.600000
+Simulation error: 0.006761	Circuit area: 1927.440000	Circuit delay: 6677.670000
+Simulation error: 0.006478	Circuit area: 1929.300000	Circuit delay: 8135.880000
+Simulation error: 0.006683	Circuit area: 2219.240000	Circuit delay: 6779.760000
+Simulation error: 0.008543	Circuit area: 2226.690000	Circuit delay: 6780.050000
+Simulation error: 0.008340	Circuit area: 2116.560000	Circuit delay: 5920.030000
+Simulation error: 0.008554	Circuit area: 1925.310000	Circuit delay: 6750.150000
+Simulation error: 0.006783	Circuit area: 1910.150000	Circuit delay: 7040.420000
+Simulation error: 0.006747	Circuit area: 2052.460000	Circuit delay: 6909.120000
+Simulation error: 0.006006	Circuit area: 1924.780000	Circuit delay: 8144.920000
+Simulation error: 0.007696	Circuit area: 2225.090000	Circuit delay: 6764.790000
+Simulation error: 0.008630	Circuit area: 1922.120000	Circuit delay: 8103.510000
+Simulation error: 0.007597	Circuit area: 1925.310000	Circuit delay: 7921.750000
+Simulation error: 0.008496	Circuit area: 2054.850000	Circuit delay: 6506.910000
+Simulation error: 0.008635	Circuit area: 1922.650000	Circuit delay: 8096.690000
+Simulation error: 0.006664	Circuit area: 1915.470000	Circuit delay: 8165.790000
+Simulation error: 0.006712	Circuit area: 1921.050000	Circuit delay: 8069.630000
+Simulation error: 0.008620	Circuit area: 2055.380000	Circuit delay: 6586.570000
+Simulation error: 0.007144	Circuit area: 2058.570000	Circuit delay: 6825.440000
+Simulation error: 0.006704	Circuit area: 2231.470000	Circuit delay: 6960.210000
+Simulation error: 0.011397	Circuit area: 2156.460000	Circuit delay: 6164.540000
+Simulation error: 0.006685	Circuit area: 1925.040000	Circuit delay: 8136.300000
+Simulation error: 0.006522	Circuit area: 2224.290000	Circuit delay: 6793.040000
+Simulation error: 0.006760	Circuit area: 2022.660000	Circuit delay: 5242.050000
+Simulation error: 0.008177	Circuit area: 1966.800000	Circuit delay: 7343.180000
+Simulation error: 0.008651	Circuit area: 1930.100000	Circuit delay: 6694.970000
+Simulation error: 0.008365	Circuit area: 2067.350000	Circuit delay: 6609.290000
+==========TRACK 1 ==========
+Simulation error: 0.008665	Circuit area: 1776.080000	Circuit delay: 5966.840000
+Simulation error: 0.008636	Circuit area: 2064.430000	Circuit delay: 7498.220000
+Simulation error: 0.008375	Circuit area: 1878.760000	Circuit delay: 7468.440000
+Simulation error: 0.008212	Circuit area: 1779.010000	Circuit delay: 5947.250000
+Simulation error: 0.008642	Circuit area: 2064.160000	Circuit delay: 7462.190000
+Simulation error: 0.008667	Circuit area: 1992.610000	Circuit delay: 8007.110000
+Simulation error: 0.008622	Circuit area: 2063.100000	Circuit delay: 7469.030000
+Simulation error: 0.007212	Circuit area: 2024.790000	Circuit delay: 5726.810000
+Simulation error: 0.008703	Circuit area: 1774.490000	Circuit delay: 5946.140000
+Simulation error: 0.010615	Circuit area: 1915.470000	Circuit delay: 7246.050000
+Simulation error: 0.008639	Circuit area: 1776.880000	Circuit delay: 5950.350000
+Simulation error: 0.010542	Circuit area: 2217.380000	Circuit delay: 6826.490000
+Simulation error: 0.008542	Circuit area: 1777.680000	Circuit delay: 5948.970000
+Simulation error: 0.008677	Circuit area: 1776.080000	Circuit delay: 5966.840000
+Simulation error: 0.008629	Circuit area: 2067.350000	Circuit delay: 7460.620000
+Simulation error: 0.008658	Circuit area: 1930.360000	Circuit delay: 5981.330000
+Simulation error: 0.010585	Circuit area: 1774.490000	Circuit delay: 5951.180000
+Simulation error: 0.010580	Circuit area: 1773.690000	Circuit delay: 5966.830000
+Simulation error: 0.008160	Circuit area: 1777.410000	Circuit delay: 5993.980000
+Simulation error: 0.008607	Circuit area: 2191.310000	Circuit delay: 7209.120000
+Simulation error: 0.008668	Circuit area: 1806.140000	Circuit delay: 7163.100000
+Simulation error: 0.010565	Circuit area: 1773.690000	Circuit delay: 6001.500000
+Simulation error: 0.008463	Circuit area: 1787.250000	Circuit delay: 6896.490000
+Simulation error: 0.010505	Circuit area: 2161.250000	Circuit delay: 7072.860000
+Simulation error: 0.009637	Circuit area: 1776.080000	Circuit delay: 5961.400000
+Simulation error: 0.008691	Circuit area: 1847.640000	Circuit delay: 6150.390000
+Simulation error: 0.007684	Circuit area: 2123.210000	Circuit delay: 7562.020000
+Simulation error: 0.010576	Circuit area: 1772.890000	Circuit delay: 5984.710000
+Simulation error: 0.008605	Circuit area: 1991.540000	Circuit delay: 7127.190000
+Simulation error: 0.010143	Circuit area: 1776.610000	Circuit delay: 7131.390000
+Simulation error: 0.010561	Circuit area: 1973.720000	Circuit delay: 6668.630000
+Simulation error: 0.008163	Circuit area: 1950.840000	Circuit delay: 7169.000000
+Simulation error: 0.008422	Circuit area: 1977.980000	Circuit delay: 7330.180000
+Simulation error: 0.011720	Circuit area: 1843.380000	Circuit delay: 7132.910000
+Simulation error: 0.010555	Circuit area: 1773.160000	Circuit delay: 5930.580000
+Simulation error: 0.008534	Circuit area: 1783.260000	Circuit delay: 6724.870000
+Simulation error: 0.008701	Circuit area: 1923.450000	Circuit delay: 5986.090000
+Simulation error: 0.007731	Circuit area: 1932.220000	Circuit delay: 6001.720000
+Simulation error: 0.010571	Circuit area: 1771.830000	Circuit delay: 5923.710000
+Simulation error: 0.010305	Circuit area: 2151.140000	Circuit delay: 7629.430000
+Simulation error: 0.008681	Circuit area: 1772.620000	Circuit delay: 5952.260000
+Simulation error: 0.007675	Circuit area: 2000.320000	Circuit delay: 8015.690000
+Simulation error: 0.010157	Circuit area: 1773.690000	Circuit delay: 5948.070000
+Simulation error: 0.008418	Circuit area: 1780.340000	Circuit delay: 5950.430000
+Simulation error: 0.008624	Circuit area: 1773.160000	Circuit delay: 5966.360000
+Simulation error: 0.007712	Circuit area: 1777.410000	Circuit delay: 5976.720000
+Simulation error: 0.010606	Circuit area: 1778.480000	Circuit delay: 6649.140000
+Simulation error: 0.010594	Circuit area: 1773.160000	Circuit delay: 5999.830000
+Simulation error: 0.010515	Circuit area: 1776.610000	Circuit delay: 5989.510000
+Simulation error: 0.008696	Circuit area: 1820.770000	Circuit delay: 7516.340000
+Simulation error: 0.008414	Circuit area: 1919.990000	Circuit delay: 6926.040000
+Simulation error: 0.008655	Circuit area: 1771.830000	Circuit delay: 5958.170000
+Simulation error: 0.008654	Circuit area: 1989.410000	Circuit delay: 7147.480000
+Simulation error: 0.008392	Circuit area: 1778.480000	Circuit delay: 5950.350000
+Simulation error: 0.010582	Circuit area: 1769.700000	Circuit delay: 5842.850000
+Simulation error: 0.010590	Circuit area: 1773.690000	Circuit delay: 5950.080000
+Simulation error: 0.008419	Circuit area: 1781.670000	Circuit delay: 6857.650000
+Simulation error: 0.010446	Circuit area: 1882.220000	Circuit delay: 6075.990000
+Simulation error: 0.008413	Circuit area: 1797.630000	Circuit delay: 7590.790000
+Simulation error: 0.010281	Circuit area: 2127.470000	Circuit delay: 6382.700000
+Simulation error: 0.010495	Circuit area: 2031.970000	Circuit delay: 5170.560000
+Simulation error: 0.008724	Circuit area: 2066.290000	Circuit delay: 7544.800000
+Simulation error: 0.010159	Circuit area: 1844.980000	Circuit delay: 6989.990000
+Simulation error: 0.010682	Circuit area: 1987.020000	Circuit delay: 5981.890000
+Simulation error: 0.008642	Circuit area: 1990.740000	Circuit delay: 7133.150000
+Simulation error: 0.008445	Circuit area: 1772.090000	Circuit delay: 5916.540000
+Simulation error: 0.007718	Circuit area: 1915.200000	Circuit delay: 7393.370000
+Simulation error: 0.010579	Circuit area: 1769.170000	Circuit delay: 5856.460000
+Simulation error: 0.008671	Circuit area: 1923.450000	Circuit delay: 7332.050000
+Simulation error: 0.010533	Circuit area: 1917.860000	Circuit delay: 6841.820000
+Simulation error: 0.008653	Circuit area: 1925.310000	Circuit delay: 7309.440000
+Simulation error: 0.010530	Circuit area: 1775.820000	Circuit delay: 5984.390000
+Simulation error: 0.008466	Circuit area: 1779.540000	Circuit delay: 6652.600000
+Simulation error: 0.010541	Circuit area: 2067.350000	Circuit delay: 7488.940000
+Simulation error: 0.013291	Circuit area: 1987.290000	Circuit delay: 5987.310000
+Simulation error: 0.008625	Circuit area: 1776.080000	Circuit delay: 5966.760000
+Simulation error: 0.010053	Circuit area: 2007.770000	Circuit delay: 8038.220000
+Simulation error: 0.008701	Circuit area: 1896.310000	Circuit delay: 7436.830000
+Simulation error: 0.010118	Circuit area: 2100.600000	Circuit delay: 6989.210000
+Simulation error: 0.010337	Circuit area: 1939.940000	Circuit delay: 6944.850000
+Simulation error: 0.009538	Circuit area: 1778.740000	Circuit delay: 7125.340000
+Simulation error: 0.010437	Circuit area: 2175.880000	Circuit delay: 8119.370000
+Simulation error: 0.008418	Circuit area: 2016.810000	Circuit delay: 7319.670000
+Simulation error: 0.008504	Circuit area: 1772.620000	Circuit delay: 6151.510000
+Simulation error: 0.010146	Circuit area: 1812.790000	Circuit delay: 7120.510000
+Simulation error: 0.008601	Circuit area: 1773.950000	Circuit delay: 5932.140000
+Simulation error: 0.009085	Circuit area: 1912.010000	Circuit delay: 7189.910000
+Simulation error: 0.008645	Circuit area: 1907.490000	Circuit delay: 7040.810000
+Simulation error: 0.010770	Circuit area: 1781.930000	Circuit delay: 5783.300000
+Simulation error: 0.008740	Circuit area: 1773.950000	Circuit delay: 5969.100000
+Simulation error: 0.008688	Circuit area: 1977.710000	Circuit delay: 5891.470000
+Simulation error: 0.007947	Circuit area: 1775.550000	Circuit delay: 5978.390000
+Simulation error: 0.010550	Circuit area: 1773.950000	Circuit delay: 5968.820000
+Simulation error: 0.010592	Circuit area: 1779.540000	Circuit delay: 5963.030000
+Simulation error: 0.009238	Circuit area: 1776.350000	Circuit delay: 6087.640000
+Simulation error: 0.008647	Circuit area: 2124.810000	Circuit delay: 7559.190000
+Simulation error: 0.010522	Circuit area: 1772.890000	Circuit delay: 5930.930000
+Simulation error: 0.006906	Circuit area: 1926.110000	Circuit delay: 7331.550000
+Simulation error: 0.008665	Circuit area: 2013.620000	Circuit delay: 8087.030000
+Simulation error: 0.008662	Circuit area: 1996.860000	Circuit delay: 7220.310000
+Simulation error: 0.010484	Circuit area: 1779.540000	Circuit delay: 5968.970000
+Simulation error: 0.008693	Circuit area: 1771.830000	Circuit delay: 5958.510000
+Simulation error: 0.009671	Circuit area: 2014.150000	Circuit delay: 5630.080000
+Simulation error: 0.010397	Circuit area: 1773.420000	Circuit delay: 5967.730000
+Simulation error: 0.008654	Circuit area: 1772.090000	Circuit delay: 6000.760000
+Simulation error: 0.008426	Circuit area: 2112.570000	Circuit delay: 5860.760000
+Simulation error: 0.010346	Circuit area: 1892.590000	Circuit delay: 5410.330000
+Simulation error: 0.008380	Circuit area: 1776.350000	Circuit delay: 5929.870000
+Simulation error: 0.008682	Circuit area: 1772.360000	Circuit delay: 5960.500000
+==========TRACK 2 ==========
+Simulation error: 0.007687	Circuit area: 1892.320000	Circuit delay: 5888.950000
+Simulation error: 0.009532	Circuit area: 1887.540000	Circuit delay: 5865.590000
+Simulation error: 0.009543	Circuit area: 1889.130000	Circuit delay: 5845.950000
+Simulation error: 0.007634	Circuit area: 1885.940000	Circuit delay: 5846.710000
+Simulation error: 0.007423	Circuit area: 1896.850000	Circuit delay: 5823.510000
+Simulation error: 0.007703	Circuit area: 1884.610000	Circuit delay: 5892.430000
+Simulation error: 0.008681	Circuit area: 2011.490000	Circuit delay: 6616.330000
+Simulation error: 0.009525	Circuit area: 1890.990000	Circuit delay: 5871.670000
+Simulation error: 0.007714	Circuit area: 1889.130000	Circuit delay: 5849.020000
+Simulation error: 0.007544	Circuit area: 1929.030000	Circuit delay: 6969.660000
+Simulation error: 0.007711	Circuit area: 2028.520000	Circuit delay: 5291.980000
+Simulation error: 0.008647	Circuit area: 1889.130000	Circuit delay: 5859.460000
+Simulation error: 0.007701	Circuit area: 1955.100000	Circuit delay: 5964.790000
+Simulation error: 0.007672	Circuit area: 1886.470000	Circuit delay: 5866.160000
+Simulation error: 0.007427	Circuit area: 2146.620000	Circuit delay: 6796.550000
+Simulation error: 0.007404	Circuit area: 1885.940000	Circuit delay: 5848.900000
+Simulation error: 0.009156	Circuit area: 1810.130000	Circuit delay: 7099.360000
+Simulation error: 0.009571	Circuit area: 2129.060000	Circuit delay: 7027.800000
+Simulation error: 0.007173	Circuit area: 2098.470000	Circuit delay: 7030.710000
+Simulation error: 0.009604	Circuit area: 1885.670000	Circuit delay: 5813.370000
+Simulation error: 0.007678	Circuit area: 1919.190000	Circuit delay: 6914.920000
+Simulation error: 0.009565	Circuit area: 1888.330000	Circuit delay: 5859.360000
+Simulation error: 0.009625	Circuit area: 1951.380000	Circuit delay: 7591.860000
+Simulation error: 0.007649	Circuit area: 1893.650000	Circuit delay: 5889.460000
+Simulation error: 0.007390	Circuit area: 1890.460000	Circuit delay: 5855.500000
+Simulation error: 0.007692	Circuit area: 1885.670000	Circuit delay: 5859.470000
+Simulation error: 0.007675	Circuit area: 1892.320000	Circuit delay: 5888.950000
+Simulation error: 0.009600	Circuit area: 1888.600000	Circuit delay: 5865.620000
+Simulation error: 0.007428	Circuit area: 1896.580000	Circuit delay: 5890.000000
+Simulation error: 0.009462	Circuit area: 1876.100000	Circuit delay: 5927.040000
+Simulation error: 0.006748	Circuit area: 1886.740000	Circuit delay: 5841.140000
+Simulation error: 0.007170	Circuit area: 1894.720000	Circuit delay: 5899.870000
+Simulation error: 0.007617	Circuit area: 2018.410000	Circuit delay: 6756.620000
+Simulation error: 0.009407	Circuit area: 1886.210000	Circuit delay: 5831.930000
+Simulation error: 0.007664	Circuit area: 1885.940000	Circuit delay: 5857.170000
+Simulation error: 0.009692	Circuit area: 2032.240000	Circuit delay: 6060.790000
+Simulation error: 0.009356	Circuit area: 1886.740000	Circuit delay: 5431.130000
+Simulation error: 0.007455	Circuit area: 1885.940000	Circuit delay: 5839.820000
+Simulation error: 0.007552	Circuit area: 1894.190000	Circuit delay: 5888.570000
+Simulation error: 0.007657	Circuit area: 2216.580000	Circuit delay: 6914.090000
+Simulation error: 0.007646	Circuit area: 2193.970000	Circuit delay: 6978.140000
+Simulation error: 0.007668	Circuit area: 1886.740000	Circuit delay: 5861.620000
+Simulation error: 0.009595	Circuit area: 1889.660000	Circuit delay: 5863.580000
+Simulation error: 0.008559	Circuit area: 1888.070000	Circuit delay: 5853.370000
+Simulation error: 0.009616	Circuit area: 1898.440000	Circuit delay: 6447.790000
+Simulation error: 0.007632	Circuit area: 2191.040000	Circuit delay: 6971.860000
+Simulation error: 0.006222	Circuit area: 2125.340000	Circuit delay: 6315.200000
+Simulation error: 0.007706	Circuit area: 1911.480000	Circuit delay: 6890.360000
+Simulation error: 0.007424	Circuit area: 1916.800000	Circuit delay: 6920.840000
+Simulation error: 0.007665	Circuit area: 1884.610000	Circuit delay: 5855.400000
+Simulation error: 0.007664	Circuit area: 1935.680000	Circuit delay: 6849.550000
+Simulation error: 0.007402	Circuit area: 1894.980000	Circuit delay: 5888.870000
+Simulation error: 0.009447	Circuit area: 2228.550000	Circuit delay: 7571.380000
+Simulation error: 0.007639	Circuit area: 2195.030000	Circuit delay: 6993.030000
+Simulation error: 0.007615	Circuit area: 1891.790000	Circuit delay: 6854.110000
+Simulation error: 0.009153	Circuit area: 1772.620000	Circuit delay: 7108.020000
+Simulation error: 0.007611	Circuit area: 1890.730000	Circuit delay: 5872.020000
+Simulation error: 0.008095	Circuit area: 2014.150000	Circuit delay: 6493.600000
+Simulation error: 0.007655	Circuit area: 2012.290000	Circuit delay: 6553.370000
+Simulation error: 0.009790	Circuit area: 1904.290000	Circuit delay: 5891.600000
+Simulation error: 0.007734	Circuit area: 2194.230000	Circuit delay: 7013.040000
+Simulation error: 0.009169	Circuit area: 1842.850000	Circuit delay: 7002.360000
+Simulation error: 0.007436	Circuit area: 2016.010000	Circuit delay: 6871.410000
+Simulation error: 0.007652	Circuit area: 1891.260000	Circuit delay: 6974.240000
+Simulation error: 0.009552	Circuit area: 2396.930000	Circuit delay: 7178.840000
+Simulation error: 0.006728	Circuit area: 2034.900000	Circuit delay: 6787.940000
+Simulation error: 0.009589	Circuit area: 1890.200000	Circuit delay: 5882.610000
+Simulation error: 0.009586	Circuit area: 1893.120000	Circuit delay: 5933.370000
+Simulation error: 0.007385	Circuit area: 2006.170000	Circuit delay: 7021.580000
+Simulation error: 0.007222	Circuit area: 1895.780000	Circuit delay: 5902.490000
+Simulation error: 0.009590	Circuit area: 1887.540000	Circuit delay: 5848.770000
+Simulation error: 0.007476	Circuit area: 1897.910000	Circuit delay: 6421.910000
+Simulation error: 0.009551	Circuit area: 2190.240000	Circuit delay: 6945.570000
+Simulation error: 0.010745	Circuit area: 1975.320000	Circuit delay: 6335.270000
+Simulation error: 0.007635	Circuit area: 1891.790000	Circuit delay: 5888.960000
+Simulation error: 0.009063	Circuit area: 1999.520000	Circuit delay: 7988.460000
+Simulation error: 0.009515	Circuit area: 2267.380000	Circuit delay: 6866.690000
+Simulation error: 0.009560	Circuit area: 1888.870000	Circuit delay: 5885.080000
+Simulation error: 0.009581	Circuit area: 1891.790000	Circuit delay: 5937.690000
+Simulation error: 0.008548	Circuit area: 1774.750000	Circuit delay: 7102.000000
+Simulation error: 0.009592	Circuit area: 1889.660000	Circuit delay: 5865.930000
+Simulation error: 0.007175	Circuit area: 2041.820000	Circuit delay: 6758.840000
+Simulation error: 0.007675	Circuit area: 2115.760000	Circuit delay: 6591.110000
+Simulation error: 0.007672	Circuit area: 2002.980000	Circuit delay: 7515.290000
+Simulation error: 0.009494	Circuit area: 1894.190000	Circuit delay: 5861.280000
+Simulation error: 0.009291	Circuit area: 2073.470000	Circuit delay: 6124.170000
+Simulation error: 0.009505	Circuit area: 2079.060000	Circuit delay: 5508.420000
+Simulation error: 0.007748	Circuit area: 1887.800000	Circuit delay: 5852.880000
+Simulation error: 0.007698	Circuit area: 1955.370000	Circuit delay: 5733.350000
+Simulation error: 0.006957	Circuit area: 1890.990000	Circuit delay: 5881.440000
+Simulation error: 0.006741	Circuit area: 1890.460000	Circuit delay: 5886.590000
+Simulation error: 0.009602	Circuit area: 1767.840000	Circuit delay: 5776.460000
+Simulation error: 0.008248	Circuit area: 1924.240000	Circuit delay: 6010.040000
+Simulation error: 0.006696	Circuit area: 2226.950000	Circuit delay: 6962.170000
+Simulation error: 0.007681	Circuit area: 2042.080000	Circuit delay: 6687.750000
+Simulation error: 0.007429	Circuit area: 1960.690000	Circuit delay: 6436.420000
+Simulation error: 0.007663	Circuit area: 2041.550000	Circuit delay: 6692.910000
+Simulation error: 0.007652	Circuit area: 2192.110000	Circuit delay: 6963.740000
+Simulation error: 0.007677	Circuit area: 1944.460000	Circuit delay: 6826.830000
+Simulation error: 0.007432	Circuit area: 1896.050000	Circuit delay: 6878.180000
+Simulation error: 0.012322	Circuit area: 2038.090000	Circuit delay: 6015.180000
+Simulation error: 0.009575	Circuit area: 1886.470000	Circuit delay: 5848.080000
+Simulation error: 0.007473	Circuit area: 1959.890000	Circuit delay: 6349.010000
+Simulation error: 0.007711	Circuit area: 2023.200000	Circuit delay: 6781.260000
+Simulation error: 0.009128	Circuit area: 2138.110000	Circuit delay: 6875.130000
+Simulation error: 0.009347	Circuit area: 1947.120000	Circuit delay: 7015.220000
+Simulation error: 0.009315	Circuit area: 2133.050000	Circuit delay: 7706.740000
+--------------- Finishing Iteration4---------------
+Partition [array([ 18,  20,  41,  89, 100])] being approximated
+Approximated error: 0.007712	Area : 1777.410000	Delay : 5976.720000	Time used: 1001.090721 sec
+
+Reach threshold on 0.002
+Reach error threshold. Exit approximation.

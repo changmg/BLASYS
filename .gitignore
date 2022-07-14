@@ -21,3 +21,5 @@ test/*_script
 # misc
 .vscode/
 abc.rc
+node_modules/
+*.json

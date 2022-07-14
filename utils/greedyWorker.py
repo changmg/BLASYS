@@ -188,14 +188,15 @@ class GreedyWorker():
         shutil.rmtree(os.path.join(self.output, 'log'))
 
 
-
-
     def evaluate_initial(self):
         print('Simulating truth table on input design...')
-        subprocess.call([self.path['iverilog'], '-o', self.modulename+'.iv', self.input, self.testbench ])
+        abcComm = f'read {self.input}; strash; if -a -K 6; write {self.modulename}_tmp.v;'
+        subprocess.call([self.path['abc'], '-c', abcComm])
+        subprocess.call([self.path['iverilog'], '-o', self.modulename+'.iv', f'{self.modulename}_tmp.v', self.testbench ])
         output_truth = os.path.join(self.output, self.modulename+'.truth')
         with open(output_truth, 'w') as f:
             subprocess.call([self.path['vvp'], self.modulename+'.iv'], stdout=f)
+        os.remove(self.modulename + '_tmp.v')
         os.remove(self.modulename + '.iv')
 
         print('Synthesizing input design with original partitions...')
@@ -499,7 +500,7 @@ class GreedyWorker():
                 # Parallel mode
                 if parallel:
                     pool = mp.Pool(cpu_count)
-                    results = [pool.apply_async(evaluate_design,args=(k_lists_tmp[i], self, '{}_{}-{}-{}'.format(self.modulename, num_iter, num_track, i), False )) for i in range(len(k_lists_tmp))]
+                    results = [pool.apply_async(evaluate_design,args=(k_lists_tmp[i], self, '{}_{}-{}-{}'.format(self.modulename, num_iter, num_track, i), True )) for i in range(len(k_lists_tmp))]
                     pool.close()
                     pool.join()
                     for idx, result in enumerate(results):
@@ -540,8 +541,9 @@ class GreedyWorker():
                     k_lists_choice = k_lists_tmp[batch_num*20 : (batch_num+1)*20]
                     # Parallel mode
                     if parallel:
+                        print(cpu_count)
                         pool = mp.Pool(cpu_count)
-                        results = [pool.apply_async(evaluate_design,args=(k_lists_choice[i], self, '{}_{}-{}-{}'.format(self.modulename, num_iter, num_track, i), False )) for i in range(len(k_lists_choice))]
+                        results = [pool.apply_async(evaluate_design,args=(k_lists_choice[i], self, '{}_{}-{}-{}'.format(self.modulename, num_iter, num_track, i), True)) for i in range(len(k_lists_choice))]
                         pool.close()
                         pool.join()
                         for idx, result in enumerate(results):

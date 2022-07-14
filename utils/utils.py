@@ -92,7 +92,6 @@ def synth_design(input_file, output_file, lib_file, script, yosys):
         yosys_command = 'read_verilog ' + input_file + '; ' + 'synth -flatten; opt; opt_clean -purge;  opt; opt_clean -purge; write_verilog -noattr ' +output_file + '.v; abc -liberty '+lib_file + ' -script ' + script + '; stat -liberty '+lib_file + '; write_verilog -noattr ' +output_file + '_syn.v;\n '
         area = 0
         delay = 0
-        #line=subprocess.call(yosys+" -p \'"+ yosys_command+"\' > "+ output_file+".log", shell=True)
         with open(output_file+'.log', 'w') as f:
             line = subprocess.call([yosys, '-p', yosys_command], stdout=f, stderr=subprocess.STDOUT)
         with open(output_file+".log", 'r') as file_handle:
