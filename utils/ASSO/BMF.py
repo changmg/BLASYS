@@ -4,6 +4,7 @@ import shutil
 from .utils import *
 
 def BMF(truthtable, k, binary = False):
+    assert k <= 8
     # Read in input truthtable
     input_truth = get_matrix(truthtable)
     row, col = input_truth.shape

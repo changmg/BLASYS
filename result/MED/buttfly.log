@@ -1,0 +1,3025 @@
+ABC command line: "read bacs/buttfly.v; strash; if -a -K 6; write buttfly_tmp.v;".
+
+/----------------------------------------------------------------------------\
+|                                                                            |
+|  BLASYS -- Approximate Logic Synthesis Using Boolean Matrix Factorization  |
+|  Version: 0.5-beta                                                       |
+|                                                                            |
+|  Copyright (C) 2019  SCALE Lab, Brown University                           |
+|                                                                            |
+|  Permission to use, copy, modify, and/or distribute this software for any  |
+|  purpose with or without fee is hereby granted, provided that the above    |
+|  copyright notice and this permission notice appear in all copies.         |
+|                                                                            |
+|  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES  |
+|  WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF          |
+|  MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR   |
+|  ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES    |
+|  WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN     |
+|  ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF   |
+|  OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.            |
+|                                                                            |
+\----------------------------------------------------------------------------/
+Checking software dependency ...
+Create output directory...
+Simulating truth table on input design...
+Synthesizing input design with original partitions...
+Original design area  210.94
+Original design delay 503.48
+Parsing input verilog into aig format ...
+Partitioning input circuit...
+Number of partitions 12
+Create testbench for partition 0
+Generate truth table for partition 0
+Create testbench for partition 1
+Generate truth table for partition 1
+Create testbench for partition 2
+Generate truth table for partition 2
+Create testbench for partition 3
+Generate truth table for partition 3
+Create testbench for partition 4
+Generate truth table for partition 4
+Create testbench for partition 5
+Generate truth table for partition 5
+Create testbench for partition 6
+Generate truth table for partition 6
+Create testbench for partition 7
+Generate truth table for partition 7
+Create testbench for partition 8
+Generate truth table for partition 8
+Create testbench for partition 9
+Generate truth table for partition 9
+Create testbench for partition 10
+Generate truth table for partition 10
+Create testbench for partition 11
+Generate truth table for partition 11
+==================== Starting Approximation by Greedy Search  ====================
+Current stream of factorization degree:
+ [8, 6, 6, 6, 9, 6, 6, 6, 8, 6, 6, 4]
+--------------- Iteration 0 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [8, 6, 6, 6, 9, 6, 6, 6, 8, 6, 6, 3]
+----- Approximating part 11 to degree 3
+Simulation error: 0.124700	Circuit area: 201.360000	Circuit delay: 472.670000
+Evaluating Design: [8, 6, 6, 6, 9, 6, 6, 5, 8, 6, 6, 4]
+----- Approximating part 7 to degree 5
+Simulation error: 0.010619	Circuit area: 217.590000	Circuit delay: 489.610000
+Evaluating Design: [8, 6, 6, 6, 9, 6, 6, 6, 8, 6, 5, 4]
+----- Approximating part 10 to degree 5
+Simulation error: 0.187725	Circuit area: 192.850000	Circuit delay: 489.950000
+Evaluating Design: [8, 6, 6, 5, 9, 6, 6, 6, 8, 6, 6, 4]
+----- Approximating part 3 to degree 5
+Simulation error: 0.000584	Circuit area: 221.580000	Circuit delay: 490.840000
+Evaluating Design: [8, 6, 5, 6, 9, 6, 6, 6, 8, 6, 6, 4]
+----- Approximating part 2 to degree 5
+Simulation error: 0.000145	Circuit area: 223.170000	Circuit delay: 490.500000
+Evaluating Design: [8, 6, 6, 6, 9, 6, 6, 6, 8, 5, 6, 4]
+----- Approximating part 9 to degree 5
+Simulation error: 0.064725	Circuit area: 211.470000	Circuit delay: 492.210000
+Evaluating Design: [8, 5, 6, 6, 9, 6, 6, 6, 8, 6, 6, 4]
+----- Approximating part 1 to degree 5
+Simulation error: 0.000392	Circuit area: 228.230000	Circuit delay: 488.230000
+Evaluating Design: [8, 6, 6, 6, 9, 5, 6, 6, 8, 6, 6, 4]
+----- Approximating part 5 to degree 5
+Simulation error: 0.005695	Circuit area: 218.390000	Circuit delay: 491.530000
+Evaluating Design: [8, 6, 6, 6, 9, 6, 5, 6, 8, 6, 6, 4]
+----- Approximating part 6 to degree 5
+Simulation error: 0.003489	Circuit area: 221.580000	Circuit delay: 489.260000
+Evaluating Design: [8, 6, 6, 6, 9, 6, 6, 6, 7, 6, 6, 4]
+----- Approximating part 8 to degree 7
+Simulation error: 0.033713	Circuit area: 227.430000	Circuit delay: 489.780000
+Evaluating Design: [7, 6, 6, 6, 9, 6, 6, 6, 8, 6, 6, 4]
+----- Approximating part 0 to degree 7
+Simulation error: 0.001651	Circuit area: 221.050000	Circuit delay: 490.840000
+Evaluating Design: [8, 6, 6, 6, 8, 6, 6, 6, 8, 6, 6, 4]
+----- Approximating part 4 to degree 8
+Simulation error: 0.000000	Circuit area: 213.330000	Circuit delay: 497.990000
+--------------- Finishing Iteration0---------------
+Partition [array([4])] being approximated
+Approximated error: 0.000000	Area : 213.330000	Delay : 497.990000	Time used: 4.036770 sec
+
+Current stream of factorization degree:
+ [8, 6, 6, 6, 8, 6, 6, 6, 8, 6, 6, 4]
+[8, 6, 6, 6, 9, 6, 6, 6, 8, 5, 6, 4]
+[8, 6, 6, 6, 9, 6, 6, 6, 7, 6, 6, 4]
+--------------- Iteration 1 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [8, 6, 5, 6, 8, 6, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.000145	Circuit area: 222.910000	Circuit delay: 490.500000
+Evaluating Design: [8, 5, 6, 6, 8, 6, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.000392	Circuit area: 228.230000	Circuit delay: 488.230000
+Evaluating Design: [8, 6, 6, 6, 8, 6, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.010619	Circuit area: 217.590000	Circuit delay: 489.610000
+Evaluating Design: [8, 6, 6, 5, 8, 6, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.000584	Circuit area: 221.580000	Circuit delay: 490.840000
+Evaluating Design: [8, 6, 6, 6, 8, 6, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.064725	Circuit area: 211.200000	Circuit delay: 492.210000
+Evaluating Design: [8, 6, 6, 6, 8, 6, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.187725	Circuit area: 192.850000	Circuit delay: 489.950000
+Evaluating Design: [8, 6, 6, 6, 8, 6, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.124700	Circuit area: 197.370000	Circuit delay: 472.670000
+Evaluating Design: [7, 6, 6, 6, 8, 6, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.001651	Circuit area: 220.250000	Circuit delay: 490.840000
+Evaluating Design: [8, 6, 6, 6, 8, 6, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.033713	Circuit area: 227.430000	Circuit delay: 489.780000
+Evaluating Design: [8, 6, 6, 6, 8, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.005695	Circuit area: 217.590000	Circuit delay: 491.530000
+Evaluating Design: [8, 6, 6, 6, 8, 6, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.003489	Circuit area: 221.580000	Circuit delay: 489.260000
+Evaluating Design: [8, 6, 6, 6, 7, 6, 6, 6, 8, 6, 6, 4]
+----- Approximating part 4 to degree 7
+Simulation error: 0.000115	Circuit area: 168.110000	Circuit delay: 517.540000
+==========TRACK 1 ==========
+Evaluating Design: [8, 6, 6, 6, 9, 6, 6, 6, 8, 5, 5, 4]
+Simulation error: 0.199725	Circuit area: 198.700000	Circuit delay: 489.950000
+Evaluating Design: [8, 6, 6, 6, 9, 6, 6, 5, 8, 5, 6, 4]
+Simulation error: 0.074356	Circuit area: 206.950000	Circuit delay: 490.760000
+Evaluating Design: [8, 5, 6, 6, 9, 6, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.065075	Circuit area: 214.400000	Circuit delay: 489.390000
+Evaluating Design: [8, 6, 6, 6, 9, 6, 6, 6, 8, 5, 6, 3]
+Simulation error: 0.185200	Circuit area: 229.030000	Circuit delay: 489.950000
+Evaluating Design: [8, 6, 6, 6, 9, 6, 5, 6, 8, 5, 6, 4]
+Simulation error: 0.067745	Circuit area: 208.280000	Circuit delay: 490.420000
+Evaluating Design: [8, 6, 6, 5, 9, 6, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.065189	Circuit area: 214.660000	Circuit delay: 489.730000
+Evaluating Design: [8, 6, 6, 6, 9, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.069705	Circuit area: 209.080000	Circuit delay: 490.420000
+Evaluating Design: [7, 6, 6, 6, 9, 6, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.066094	Circuit area: 218.390000	Circuit delay: 491.010000
+Evaluating Design: [8, 6, 6, 6, 9, 6, 6, 6, 7, 5, 6, 4]
+Simulation error: 0.098438	Circuit area: 230.090000	Circuit delay: 492.190000
+Evaluating Design: [8, 6, 5, 6, 9, 6, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.064831	Circuit area: 214.400000	Circuit delay: 489.390000
+Evaluating Design: [8, 6, 6, 6, 9, 6, 6, 6, 8, 4, 6, 4]
+----- Approximating part 9 to degree 4
+Simulation error: 0.095663	Circuit area: 188.060000	Circuit delay: 481.570000
+==========TRACK 2 ==========
+Evaluating Design: [8, 6, 6, 6, 9, 6, 5, 6, 7, 6, 6, 4]
+Simulation error: 0.037005	Circuit area: 210.140000	Circuit delay: 489.440000
+Evaluating Design: [8, 6, 6, 6, 9, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.039155	Circuit area: 210.410000	Circuit delay: 489.440000
+Evaluating Design: [8, 6, 6, 6, 9, 6, 6, 6, 7, 6, 5, 4]
+Simulation error: 0.194625	Circuit area: 229.820000	Circuit delay: 410.910000
+Evaluating Design: [8, 6, 5, 6, 9, 6, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.033846	Circuit area: 219.450000	Circuit delay: 490.670000
+Evaluating Design: [8, 6, 6, 6, 9, 6, 6, 6, 7, 6, 6, 3]
+Simulation error: 0.157588	Circuit area: 221.580000	Circuit delay: 489.610000
+Evaluating Design: [8, 6, 6, 5, 9, 6, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.034250	Circuit area: 213.860000	Circuit delay: 488.750000
+Evaluating Design: [8, 5, 6, 6, 9, 6, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.034086	Circuit area: 224.240000	Circuit delay: 488.230000
+Evaluating Design: [7, 6, 6, 6, 9, 6, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.035250	Circuit area: 216.520000	Circuit delay: 491.020000
+Evaluating Design: [8, 6, 6, 6, 9, 6, 6, 5, 7, 6, 6, 4]
+Simulation error: 0.044144	Circuit area: 224.500000	Circuit delay: 489.260000
+Evaluating Design: [8, 6, 6, 6, 9, 6, 6, 6, 6, 6, 6, 4]
+----- Approximating part 8 to degree 6
+Simulation error: 0.045719	Circuit area: 194.710000	Circuit delay: 506.730000
+--------------- Finishing Iteration1---------------
+Partition [array([4])] being approximated
+Approximated error: 0.000115	Area : 168.110000	Delay : 517.540000	Time used: 9.716017 sec
+
+Current stream of factorization degree:
+ [8, 6, 6, 6, 7, 6, 6, 6, 8, 6, 6, 4]
+[8, 6, 6, 6, 9, 6, 6, 6, 6, 6, 6, 4]
+[8, 6, 6, 6, 9, 6, 5, 6, 8, 5, 6, 4]
+--------------- Iteration 2 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [8, 5, 6, 6, 7, 6, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.000491	Circuit area: 208.540000	Circuit delay: 506.510000
+Evaluating Design: [7, 6, 6, 6, 7, 6, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.001767	Circuit area: 215.730000	Circuit delay: 506.500000
+Evaluating Design: [8, 6, 6, 6, 7, 6, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.010723	Circuit area: 216.790000	Circuit delay: 487.470000
+Evaluating Design: [8, 6, 6, 6, 7, 6, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.033814	Circuit area: 215.460000	Circuit delay: 487.300000
+Evaluating Design: [8, 6, 6, 6, 7, 6, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.003600	Circuit area: 207.750000	Circuit delay: 506.510000
+Evaluating Design: [8, 6, 6, 6, 7, 6, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.124762	Circuit area: 182.480000	Circuit delay: 512.340000
+Evaluating Design: [8, 6, 6, 6, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.005829	Circuit area: 204.550000	Circuit delay: 506.490000
+Evaluating Design: [8, 6, 5, 6, 7, 6, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.000249	Circuit area: 217.850000	Circuit delay: 506.500000
+Evaluating Design: [8, 6, 6, 5, 7, 6, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.000717	Circuit area: 211.470000	Circuit delay: 506.490000
+Evaluating Design: [8, 6, 6, 6, 7, 6, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.187760	Circuit area: 207.750000	Circuit delay: 500.180000
+Evaluating Design: [8, 6, 6, 6, 7, 6, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.064837	Circuit area: 192.320000	Circuit delay: 506.500000
+Evaluating Design: [8, 6, 6, 6, 6, 6, 6, 6, 8, 6, 6, 4]
+----- Approximating part 4 to degree 6
+Simulation error: 0.000031	Circuit area: 206.680000	Circuit delay: 503.330000
+==========TRACK 1 ==========
+Evaluating Design: [8, 6, 5, 6, 9, 6, 6, 6, 6, 6, 6, 4]
+Simulation error: 0.045793	Circuit area: 197.110000	Circuit delay: 510.900000
+Evaluating Design: [7, 6, 6, 6, 9, 6, 6, 6, 6, 6, 6, 4]
+Simulation error: 0.046832	Circuit area: 214.930000	Circuit delay: 480.510000
+Evaluating Design: [8, 6, 6, 6, 9, 5, 6, 6, 6, 6, 6, 4]
+Simulation error: 0.049874	Circuit area: 220.250000	Circuit delay: 480.410000
+Evaluating Design: [8, 6, 6, 5, 9, 6, 6, 6, 6, 6, 6, 4]
+Simulation error: 0.046117	Circuit area: 200.830000	Circuit delay: 510.900000
+Evaluating Design: [8, 6, 6, 6, 9, 6, 6, 5, 6, 6, 6, 4]
+Simulation error: 0.054825	Circuit area: 225.040000	Circuit delay: 480.430000
+Evaluating Design: [8, 6, 6, 6, 9, 6, 6, 6, 6, 6, 5, 4]
+Simulation error: 0.204619	Circuit area: 207.480000	Circuit delay: 487.470000
+Evaluating Design: [8, 6, 6, 6, 9, 6, 5, 6, 6, 6, 6, 4]
+Simulation error: 0.048225	Circuit area: 204.550000	Circuit delay: 506.400000
+Evaluating Design: [8, 6, 6, 6, 8, 6, 6, 6, 6, 6, 6, 4]
+Simulation error: 0.045719	Circuit area: 202.960000	Circuit delay: 510.710000
+Evaluating Design: [8, 6, 6, 6, 9, 6, 6, 6, 6, 6, 6, 3]
+Simulation error: 0.167494	Circuit area: 204.820000	Circuit delay: 485.120000
+Evaluating Design: [8, 5, 6, 6, 9, 6, 6, 6, 6, 6, 6, 4]
+Simulation error: 0.046018	Circuit area: 199.230000	Circuit delay: 506.390000
+Evaluating Design: [8, 6, 6, 6, 9, 6, 6, 6, 5, 6, 6, 4]
+----- Approximating part 8 to degree 5
+Simulation error: 0.080675	Circuit area: 181.940000	Circuit delay: 484.830000
+Evaluating Design: [8, 6, 6, 6, 9, 6, 6, 6, 6, 5, 6, 4]
+Simulation error: 0.105756	Circuit area: 222.110000	Circuit delay: 489.610000
+==========TRACK 2 ==========
+Evaluating Design: [8, 6, 6, 6, 9, 6, 5, 6, 8, 5, 6, 3]
+Simulation error: 0.187962	Circuit area: 236.210000	Circuit delay: 488.910000
+Evaluating Design: [8, 6, 6, 6, 9, 6, 5, 6, 8, 4, 6, 4]
+Simulation error: 0.098042	Circuit area: 200.300000	Circuit delay: 480.530000
+Evaluating Design: [8, 6, 6, 5, 9, 6, 5, 6, 8, 5, 6, 4]
+Simulation error: 0.068207	Circuit area: 213.070000	Circuit delay: 490.260000
+Evaluating Design: [7, 6, 6, 6, 9, 6, 5, 6, 8, 5, 6, 4]
+Simulation error: 0.069114	Circuit area: 226.100000	Circuit delay: 488.740000
+Evaluating Design: [8, 6, 6, 6, 8, 6, 5, 6, 8, 5, 6, 4]
+Simulation error: 0.067745	Circuit area: 214.930000	Circuit delay: 491.540000
+Evaluating Design: [8, 6, 6, 6, 9, 5, 5, 6, 8, 5, 6, 4]
+Simulation error: 0.072726	Circuit area: 208.810000	Circuit delay: 490.420000
+Evaluating Design: [8, 6, 5, 6, 9, 6, 5, 6, 8, 5, 6, 4]
+Simulation error: 0.067848	Circuit area: 217.060000	Circuit delay: 489.600000
+Evaluating Design: [8, 5, 6, 6, 9, 6, 5, 6, 8, 5, 6, 4]
+Simulation error: 0.068091	Circuit area: 215.730000	Circuit delay: 489.420000
+Evaluating Design: [8, 6, 6, 6, 9, 6, 5, 5, 8, 5, 6, 4]
+Simulation error: 0.077366	Circuit area: 211.200000	Circuit delay: 490.770000
+Evaluating Design: [8, 6, 6, 6, 9, 6, 5, 6, 7, 5, 6, 4]
+Simulation error: 0.101262	Circuit area: 214.930000	Circuit delay: 491.530000
+Evaluating Design: [8, 6, 6, 6, 9, 6, 5, 6, 8, 5, 5, 4]
+Simulation error: 0.201130	Circuit area: 201.100000	Circuit delay: 489.270000
+Evaluating Design: [8, 6, 6, 6, 9, 6, 4, 6, 8, 5, 6, 4]
+----- Approximating part 6 to degree 4
+Simulation error: 0.071127	Circuit area: 192.850000	Circuit delay: 488.230000
+--------------- Finishing Iteration2---------------
+Partition [array([4])] being approximated
+Approximated error: 0.000031	Area : 206.680000	Delay : 503.330000	Time used: 9.624784 sec
+
+Current stream of factorization degree:
+ [8, 6, 6, 6, 6, 6, 6, 6, 8, 6, 6, 4]
+[8, 5, 6, 6, 7, 6, 6, 6, 8, 6, 6, 4]
+[8, 6, 6, 6, 7, 5, 6, 6, 8, 6, 6, 4]
+--------------- Iteration 3 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [8, 6, 6, 6, 6, 6, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.064712	Circuit area: 197.640000	Circuit delay: 505.080000
+Evaluating Design: [8, 5, 6, 6, 6, 6, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.000394	Circuit area: 214.400000	Circuit delay: 505.280000
+Evaluating Design: [8, 6, 6, 6, 6, 6, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.010571	Circuit area: 211.470000	Circuit delay: 506.660000
+Evaluating Design: [7, 6, 6, 6, 6, 6, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.001701	Circuit area: 217.590000	Circuit delay: 506.280000
+Evaluating Design: [8, 6, 6, 6, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.005728	Circuit area: 212.000000	Circuit delay: 506.130000
+Evaluating Design: [8, 6, 6, 6, 6, 6, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.187747	Circuit area: 193.120000	Circuit delay: 506.820000
+Evaluating Design: [8, 6, 6, 6, 6, 6, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.003525	Circuit area: 210.940000	Circuit delay: 506.130000
+Evaluating Design: [8, 6, 5, 6, 6, 6, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.000170	Circuit area: 228.760000	Circuit delay: 504.980000
+Evaluating Design: [8, 6, 6, 6, 6, 6, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.033733	Circuit area: 206.680000	Circuit delay: 507.180000
+Evaluating Design: [8, 6, 6, 6, 6, 6, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.124673	Circuit area: 197.640000	Circuit delay: 488.010000
+Evaluating Design: [8, 6, 6, 5, 6, 6, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.000632	Circuit area: 221.310000	Circuit delay: 506.280000
+Evaluating Design: [8, 6, 6, 6, 5, 6, 6, 6, 8, 6, 6, 4]
+----- Approximating part 4 to degree 5
+Simulation error: 0.000152	Circuit area: 228.490000	Circuit delay: 463.640000
+==========TRACK 1 ==========
+Evaluating Design: [8, 5, 5, 6, 7, 6, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.000625	Circuit area: 214.660000	Circuit delay: 506.690000
+Evaluating Design: [8, 5, 6, 5, 7, 6, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.001093	Circuit area: 214.660000	Circuit delay: 506.680000
+Evaluating Design: [8, 5, 6, 6, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.006194	Circuit area: 210.410000	Circuit delay: 506.840000
+Evaluating Design: [8, 5, 6, 6, 7, 6, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.034171	Circuit area: 217.320000	Circuit delay: 487.130000
+Evaluating Design: [8, 5, 6, 6, 7, 6, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.125109	Circuit area: 221.050000	Circuit delay: 486.440000
+Evaluating Design: [8, 5, 6, 6, 7, 6, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.187917	Circuit area: 230.620000	Circuit delay: 486.790000
+Evaluating Design: [7, 5, 6, 6, 7, 6, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.002141	Circuit area: 233.550000	Circuit delay: 492.290000
+Evaluating Design: [8, 5, 6, 6, 7, 6, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.011083	Circuit area: 217.320000	Circuit delay: 486.970000
+Evaluating Design: [8, 5, 6, 6, 7, 6, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.065171	Circuit area: 216.260000	Circuit delay: 486.610000
+Evaluating Design: [8, 4, 6, 6, 7, 6, 6, 6, 8, 6, 6, 4]
+----- Approximating part 1 to degree 4
+Simulation error: 0.000820	Circuit area: 211.470000	Circuit delay: 486.440000
+Evaluating Design: [8, 5, 6, 6, 7, 6, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.003971	Circuit area: 223.970000	Circuit delay: 506.830000
+==========TRACK 2 ==========
+Evaluating Design: [8, 6, 5, 6, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.005957	Circuit area: 212.270000	Circuit delay: 506.500000
+Evaluating Design: [8, 6, 6, 6, 7, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.039276	Circuit area: 213.330000	Circuit delay: 487.120000
+Evaluating Design: [8, 6, 6, 6, 7, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.016436	Circuit area: 206.950000	Circuit delay: 506.500000
+Evaluating Design: [8, 6, 6, 6, 7, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.129931	Circuit area: 208.810000	Circuit delay: 486.780000
+Evaluating Design: [7, 6, 6, 6, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.007478	Circuit area: 206.680000	Circuit delay: 506.500000
+Evaluating Design: [8, 6, 6, 6, 7, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.069837	Circuit area: 212.800000	Circuit delay: 486.600000
+Evaluating Design: [8, 6, 6, 6, 7, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.190262	Circuit area: 220.780000	Circuit delay: 487.290000
+Evaluating Design: [8, 6, 6, 6, 7, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.009313	Circuit area: 211.740000	Circuit delay: 506.690000
+Evaluating Design: [8, 6, 6, 5, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.006419	Circuit area: 204.550000	Circuit delay: 506.500000
+Evaluating Design: [8, 6, 6, 6, 7, 4, 6, 6, 8, 6, 6, 4]
+----- Approximating part 5 to degree 4
+Simulation error: 0.013102	Circuit area: 205.620000	Circuit delay: 500.180000
+--------------- Finishing Iteration3---------------
+Partition [array([3, 4, 5])] being approximated
+Approximated error: 0.006419	Area : 204.550000	Delay : 506.500000	Time used: 8.717189 sec
+
+Current stream of factorization degree:
+ [8, 6, 6, 5, 7, 5, 6, 6, 8, 6, 6, 4]
+[7, 6, 6, 6, 7, 5, 6, 6, 8, 6, 6, 4]
+[8, 6, 6, 6, 7, 4, 6, 6, 8, 6, 6, 4]
+--------------- Iteration 4 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [8, 6, 5, 5, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.006547	Circuit area: 209.340000	Circuit delay: 506.500000
+Evaluating Design: [8, 6, 6, 5, 7, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.017005	Circuit area: 218.390000	Circuit delay: 486.440000
+Evaluating Design: [7, 6, 6, 5, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.008068	Circuit area: 235.410000	Circuit delay: 489.150000
+Evaluating Design: [8, 6, 6, 5, 7, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.070295	Circuit area: 210.940000	Circuit delay: 486.430000
+Evaluating Design: [8, 6, 6, 5, 7, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.130383	Circuit area: 223.440000	Circuit delay: 486.790000
+Evaluating Design: [8, 6, 6, 5, 7, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.190622	Circuit area: 228.230000	Circuit delay: 486.780000
+Evaluating Design: [8, 6, 6, 5, 7, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013310	Circuit area: 218.650000	Circuit delay: 486.780000
+Evaluating Design: [8, 6, 6, 5, 7, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.039820	Circuit area: 211.470000	Circuit delay: 486.600000
+Evaluating Design: [8, 5, 6, 5, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.006784	Circuit area: 220.780000	Circuit delay: 506.500000
+Evaluating Design: [8, 6, 6, 5, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.006316	Circuit area: 215.190000	Circuit delay: 505.100000
+Evaluating Design: [8, 6, 6, 5, 7, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.009900	Circuit area: 214.400000	Circuit delay: 506.510000
+Evaluating Design: [8, 6, 6, 4, 7, 5, 6, 6, 8, 6, 6, 4]
+----- Approximating part 3 to degree 4
+Simulation error: 0.006744	Circuit area: 205.350000	Circuit delay: 487.130000
+==========TRACK 1 ==========
+Evaluating Design: [7, 6, 6, 6, 7, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.018056	Circuit area: 214.400000	Circuit delay: 486.440000
+Evaluating Design: [7, 6, 6, 6, 7, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.131292	Circuit area: 212.800000	Circuit delay: 486.440000
+Evaluating Design: [7, 6, 6, 6, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.007394	Circuit area: 200.830000	Circuit delay: 505.450000
+Evaluating Design: [7, 6, 6, 6, 7, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.191141	Circuit area: 221.580000	Circuit delay: 446.790000
+Evaluating Design: [7, 6, 6, 6, 7, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.010962	Circuit area: 207.480000	Circuit delay: 506.690000
+Evaluating Design: [7, 6, 6, 6, 7, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.071205	Circuit area: 204.820000	Circuit delay: 486.610000
+Evaluating Design: [7, 5, 6, 6, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.007841	Circuit area: 237.800000	Circuit delay: 475.740000
+Evaluating Design: [7, 6, 5, 6, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.007603	Circuit area: 225.570000	Circuit delay: 489.630000
+Evaluating Design: [7, 6, 6, 6, 7, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013730	Circuit area: 199.230000	Circuit delay: 486.610000
+Evaluating Design: [7, 6, 6, 6, 7, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.040812	Circuit area: 206.950000	Circuit delay: 486.430000
+Evaluating Design: [6, 6, 6, 6, 7, 5, 6, 6, 8, 6, 6, 4]
+----- Approximating part 0 to degree 6
+Simulation error: 0.007040	Circuit area: 196.310000	Circuit delay: 510.610000
+==========TRACK 2 ==========
+Evaluating Design: [8, 6, 6, 6, 7, 4, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135908	Circuit area: 223.970000	Circuit delay: 487.480000
+Evaluating Design: [8, 5, 6, 6, 7, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013295	Circuit area: 219.450000	Circuit delay: 486.790000
+Evaluating Design: [8, 6, 5, 6, 7, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013160	Circuit area: 225.570000	Circuit delay: 486.790000
+Evaluating Design: [8, 6, 6, 6, 6, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013016	Circuit area: 203.490000	Circuit delay: 506.310000
+Evaluating Design: [8, 6, 6, 6, 7, 4, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.198038	Circuit area: 208.540000	Circuit delay: 487.290000
+Evaluating Design: [8, 6, 6, 6, 7, 4, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023159	Circuit area: 201.890000	Circuit delay: 501.350000
+Evaluating Design: [8, 6, 6, 6, 7, 4, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075323	Circuit area: 203.760000	Circuit delay: 487.470000
+Evaluating Design: [8, 6, 6, 6, 7, 4, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046230	Circuit area: 206.950000	Circuit delay: 487.470000
+Evaluating Design: [8, 6, 6, 6, 7, 4, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.014845	Circuit area: 197.640000	Circuit delay: 506.680000
+Evaluating Design: [8, 6, 6, 6, 7, 3, 6, 6, 8, 6, 6, 4]
+----- Approximating part 5 to degree 3
+Simulation error: 0.022891	Circuit area: 183.810000	Circuit delay: 483.700000
+--------------- Finishing Iteration4---------------
+Partition [array([0, 4, 5])] being approximated
+Approximated error: 0.007040	Area : 196.310000	Delay : 510.610000	Time used: 9.200418 sec
+
+Current stream of factorization degree:
+ [6, 6, 6, 6, 7, 5, 6, 6, 8, 6, 6, 4]
+[7, 6, 6, 6, 6, 5, 6, 6, 8, 6, 6, 4]
+[8, 6, 6, 6, 7, 3, 6, 6, 8, 6, 6, 4]
+--------------- Iteration 5 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [6, 6, 6, 6, 7, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.131013	Circuit area: 226.100000	Circuit delay: 484.340000
+Evaluating Design: [6, 5, 6, 6, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.007187	Circuit area: 227.700000	Circuit delay: 483.950000
+Evaluating Design: [6, 6, 6, 6, 7, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.017197	Circuit area: 203.760000	Circuit delay: 510.780000
+Evaluating Design: [6, 6, 6, 6, 7, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.070862	Circuit area: 227.430000	Circuit delay: 484.340000
+Evaluating Design: [6, 6, 6, 6, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.006838	Circuit area: 190.190000	Circuit delay: 516.720000
+Evaluating Design: [6, 6, 6, 5, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.007268	Circuit area: 201.360000	Circuit delay: 502.950000
+Evaluating Design: [6, 6, 6, 6, 7, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013792	Circuit area: 198.440000	Circuit delay: 502.940000
+Evaluating Design: [6, 6, 6, 6, 7, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.190809	Circuit area: 200.830000	Circuit delay: 480.330000
+Evaluating Design: [6, 6, 6, 6, 7, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.041052	Circuit area: 226.100000	Circuit delay: 484.340000
+Evaluating Design: [6, 6, 5, 6, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.007057	Circuit area: 220.510000	Circuit delay: 485.780000
+Evaluating Design: [6, 6, 6, 6, 7, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.010336	Circuit area: 227.430000	Circuit delay: 496.360000
+Evaluating Design: [5, 6, 6, 6, 7, 5, 6, 6, 8, 6, 6, 4]
+----- Approximating part 0 to degree 5
+Simulation error: 0.010550	Circuit area: 191.790000	Circuit delay: 483.770000
+==========TRACK 1 ==========
+Evaluating Design: [7, 6, 6, 5, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.007983	Circuit area: 213.600000	Circuit delay: 494.100000
+Evaluating Design: [7, 6, 6, 6, 6, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.017904	Circuit area: 210.410000	Circuit delay: 505.450000
+Evaluating Design: [7, 5, 6, 6, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.007745	Circuit area: 208.280000	Circuit delay: 512.490000
+Evaluating Design: [7, 6, 5, 6, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.007524	Circuit area: 217.590000	Circuit delay: 511.950000
+Evaluating Design: [7, 6, 6, 6, 6, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.071080	Circuit area: 200.030000	Circuit delay: 505.100000
+Evaluating Design: [7, 6, 6, 6, 6, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013636	Circuit area: 195.780000	Circuit delay: 505.800000
+Evaluating Design: [7, 6, 6, 6, 6, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.010889	Circuit area: 223.170000	Circuit delay: 506.630000
+Evaluating Design: [7, 6, 6, 6, 6, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.191125	Circuit area: 231.420000	Circuit delay: 443.850000
+Evaluating Design: [7, 6, 6, 6, 6, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.131216	Circuit area: 205.620000	Circuit delay: 505.620000
+Evaluating Design: [7, 6, 6, 6, 6, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.040726	Circuit area: 202.160000	Circuit delay: 505.620000
+Evaluating Design: [7, 6, 6, 6, 5, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.007518	Circuit area: 216.260000	Circuit delay: 459.630000
+==========TRACK 2 ==========
+Evaluating Design: [8, 6, 6, 6, 6, 3, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.022895	Circuit area: 182.210000	Circuit delay: 504.290000
+Evaluating Design: [8, 6, 6, 6, 7, 3, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.205476	Circuit area: 168.910000	Circuit delay: 507.040000
+Evaluating Design: [8, 6, 6, 6, 7, 3, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.144103	Circuit area: 184.340000	Circuit delay: 484.650000
+Evaluating Design: [8, 6, 6, 6, 7, 3, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.083217	Circuit area: 176.360000	Circuit delay: 502.440000
+Evaluating Design: [8, 6, 6, 6, 7, 3, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.022891	Circuit area: 182.740000	Circuit delay: 483.330000
+Evaluating Design: [8, 6, 6, 5, 7, 3, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.022885	Circuit area: 185.670000	Circuit delay: 484.290000
+Evaluating Design: [7, 6, 6, 6, 7, 3, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.022902	Circuit area: 181.680000	Circuit delay: 484.120000
+Evaluating Design: [8, 6, 6, 6, 7, 3, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.032884	Circuit area: 177.950000	Circuit delay: 483.700000
+Evaluating Design: [8, 6, 6, 6, 7, 3, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.055343	Circuit area: 179.820000	Circuit delay: 483.700000
+Evaluating Design: [8, 5, 6, 6, 7, 3, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.022896	Circuit area: 190.190000	Circuit delay: 484.300000
+Evaluating Design: [8, 6, 6, 6, 7, 2, 6, 6, 8, 6, 6, 4]
+----- Approximating part 5 to degree 2
+Simulation error: 0.022891	Circuit area: 196.840000	Circuit delay: 454.820000
+Evaluating Design: [8, 6, 5, 6, 7, 3, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.022900	Circuit area: 191.250000	Circuit delay: 484.120000
+--------------- Finishing Iteration5---------------
+Partition [array([0, 4, 5])] being approximated
+Approximated error: 0.006838	Area : 190.190000	Delay : 516.720000	Time used: 8.745666 sec
+
+Current stream of factorization degree:
+ [6, 6, 6, 6, 6, 5, 6, 6, 8, 6, 6, 4]
+[5, 6, 6, 6, 7, 5, 6, 6, 8, 6, 6, 4]
+[6, 6, 6, 5, 7, 5, 6, 6, 8, 6, 6, 4]
+--------------- Iteration 6 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [6, 6, 6, 6, 6, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013620	Circuit area: 187.000000	Circuit delay: 510.330000
+Evaluating Design: [6, 6, 6, 6, 6, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.040768	Circuit area: 209.610000	Circuit delay: 502.940000
+Evaluating Design: [6, 6, 6, 6, 6, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.010144	Circuit area: 198.970000	Circuit delay: 514.040000
+Evaluating Design: [6, 6, 6, 6, 6, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.017103	Circuit area: 189.390000	Circuit delay: 516.720000
+Evaluating Design: [6, 6, 6, 6, 6, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.070607	Circuit area: 208.810000	Circuit delay: 502.940000
+Evaluating Design: [6, 6, 6, 6, 6, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.130804	Circuit area: 209.870000	Circuit delay: 503.780000
+Evaluating Design: [5, 6, 6, 6, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.010347	Circuit area: 182.210000	Circuit delay: 503.920000
+Evaluating Design: [6, 6, 6, 5, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.007058	Circuit area: 211.740000	Circuit delay: 503.880000
+Evaluating Design: [6, 6, 6, 6, 5, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.007042	Circuit area: 232.750000	Circuit delay: 531.280000
+Evaluating Design: [6, 5, 6, 6, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.006904	Circuit area: 208.810000	Circuit delay: 503.800000
+Evaluating Design: [6, 6, 6, 6, 6, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.190756	Circuit area: 209.870000	Circuit delay: 485.310000
+Evaluating Design: [6, 6, 5, 6, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.006865	Circuit area: 209.870000	Circuit delay: 502.830000
+==========TRACK 1 ==========
+Evaluating Design: [5, 6, 6, 6, 7, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.133664	Circuit area: 189.660000	Circuit delay: 483.770000
+Evaluating Design: [5, 6, 6, 5, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.010666	Circuit area: 193.650000	Circuit delay: 493.860000
+Evaluating Design: [5, 6, 6, 6, 7, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.016522	Circuit area: 186.470000	Circuit delay: 481.190000
+Evaluating Design: [5, 6, 6, 6, 7, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.020436	Circuit area: 190.190000	Circuit delay: 484.120000
+Evaluating Design: [5, 6, 5, 6, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.010581	Circuit area: 192.320000	Circuit delay: 493.490000
+Evaluating Design: [5, 6, 6, 6, 7, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.073431	Circuit area: 188.590000	Circuit delay: 483.770000
+Evaluating Design: [5, 6, 6, 6, 7, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.044280	Circuit area: 188.330000	Circuit delay: 483.950000
+Evaluating Design: [5, 5, 6, 6, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.010710	Circuit area: 194.710000	Circuit delay: 475.120000
+Evaluating Design: [5, 6, 6, 6, 7, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.194267	Circuit area: 198.700000	Circuit delay: 419.590000
+Evaluating Design: [5, 6, 6, 6, 7, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.013886	Circuit area: 194.710000	Circuit delay: 484.810000
+Evaluating Design: [4, 6, 6, 6, 7, 5, 6, 6, 8, 6, 6, 4]
+----- Approximating part 0 to degree 4
+Simulation error: 0.013211	Circuit area: 177.420000	Circuit delay: 483.040000
+==========TRACK 2 ==========
+Evaluating Design: [6, 6, 5, 5, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.007283	Circuit area: 198.440000	Circuit delay: 506.080000
+Evaluating Design: [6, 6, 6, 5, 7, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013986	Circuit area: 229.290000	Circuit delay: 484.340000
+Evaluating Design: [6, 6, 6, 5, 7, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.017377	Circuit area: 202.160000	Circuit delay: 502.960000
+Evaluating Design: [6, 6, 6, 5, 7, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.041284	Circuit area: 224.240000	Circuit delay: 483.820000
+Evaluating Design: [6, 6, 6, 5, 7, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.010201	Circuit area: 212.000000	Circuit delay: 500.200000
+Evaluating Design: [6, 5, 6, 5, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.007414	Circuit area: 216.260000	Circuit delay: 484.690000
+Evaluating Design: [6, 6, 6, 5, 7, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.190879	Circuit area: 222.640000	Circuit delay: 445.630000
+Evaluating Design: [6, 6, 6, 4, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.007790	Circuit area: 210.410000	Circuit delay: 484.160000
+Evaluating Design: [6, 6, 6, 5, 7, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.131345	Circuit area: 210.670000	Circuit delay: 483.820000
+Evaluating Design: [6, 6, 6, 5, 7, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.071114	Circuit area: 212.270000	Circuit delay: 485.550000
+--------------- Finishing Iteration6---------------
+Partition [array([0, 4, 5])] being approximated
+Approximated error: 0.010347	Area : 182.210000	Delay : 503.920000	Time used: 8.501458 sec
+
+Current stream of factorization degree:
+ [5, 6, 6, 6, 6, 5, 6, 6, 8, 6, 6, 4]
+[4, 6, 6, 6, 7, 5, 6, 6, 8, 6, 6, 4]
+[5, 6, 5, 6, 7, 5, 6, 6, 8, 6, 6, 4]
+--------------- Iteration 7 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [5, 6, 6, 6, 6, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.044064	Circuit area: 181.150000	Circuit delay: 504.100000
+Evaluating Design: [5, 6, 6, 6, 6, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.016315	Circuit area: 176.360000	Circuit delay: 500.180000
+Evaluating Design: [5, 6, 6, 6, 6, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.013683	Circuit area: 187.530000	Circuit delay: 504.280000
+Evaluating Design: [5, 6, 6, 5, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.010537	Circuit area: 188.590000	Circuit delay: 492.970000
+Evaluating Design: [5, 5, 6, 6, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.010494	Circuit area: 185.400000	Circuit delay: 511.330000
+Evaluating Design: [5, 6, 6, 6, 6, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.073228	Circuit area: 184.600000	Circuit delay: 503.920000
+Evaluating Design: [5, 6, 5, 6, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.010349	Circuit area: 188.590000	Circuit delay: 513.700000
+Evaluating Design: [5, 6, 6, 6, 6, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.020231	Circuit area: 180.610000	Circuit delay: 504.760000
+Evaluating Design: [4, 6, 6, 6, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013212	Circuit area: 176.360000	Circuit delay: 503.330000
+Evaluating Design: [5, 6, 6, 6, 6, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.194213	Circuit area: 189.390000	Circuit delay: 470.380000
+Evaluating Design: [5, 6, 6, 6, 6, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.133449	Circuit area: 180.080000	Circuit delay: 503.920000
+Evaluating Design: [5, 6, 6, 6, 5, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.010570	Circuit area: 202.160000	Circuit delay: 460.100000
+==========TRACK 1 ==========
+Evaluating Design: [4, 6, 6, 6, 7, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019282	Circuit area: 172.370000	Circuit delay: 479.310000
+Evaluating Design: [4, 6, 6, 6, 7, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075346	Circuit area: 176.090000	Circuit delay: 483.040000
+Evaluating Design: [4, 6, 6, 6, 7, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.022989	Circuit area: 176.620000	Circuit delay: 483.390000
+Evaluating Design: [4, 6, 5, 6, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013212	Circuit area: 182.480000	Circuit delay: 472.940000
+Evaluating Design: [4, 6, 6, 6, 7, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.196982	Circuit area: 186.470000	Circuit delay: 428.650000
+Evaluating Design: [4, 6, 6, 5, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013211	Circuit area: 176.890000	Circuit delay: 470.880000
+Evaluating Design: [4, 6, 6, 6, 7, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135679	Circuit area: 177.160000	Circuit delay: 483.040000
+Evaluating Design: [4, 6, 6, 6, 7, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016570	Circuit area: 173.170000	Circuit delay: 482.700000
+Evaluating Design: [4, 6, 6, 6, 7, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046649	Circuit area: 176.360000	Circuit delay: 483.040000
+Evaluating Design: [4, 5, 6, 6, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013211	Circuit area: 178.750000	Circuit delay: 473.310000
+Evaluating Design: [3, 6, 6, 6, 7, 5, 6, 6, 8, 6, 6, 4]
+----- Approximating part 0 to degree 3
+Simulation error: 0.013211	Circuit area: 197.370000	Circuit delay: 438.390000
+==========TRACK 2 ==========
+Evaluating Design: [5, 6, 5, 6, 7, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.016548	Circuit area: 187.000000	Circuit delay: 493.490000
+Evaluating Design: [5, 6, 5, 6, 7, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.133690	Circuit area: 198.700000	Circuit delay: 483.770000
+Evaluating Design: [5, 6, 5, 6, 7, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.013917	Circuit area: 197.370000	Circuit delay: 484.160000
+Evaluating Design: [5, 6, 5, 6, 7, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.020467	Circuit area: 195.780000	Circuit delay: 496.380000
+Evaluating Design: [5, 6, 5, 6, 7, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.073453	Circuit area: 190.720000	Circuit delay: 493.490000
+Evaluating Design: [5, 5, 5, 6, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.010741	Circuit area: 196.840000	Circuit delay: 474.750000
+Evaluating Design: [5, 6, 5, 6, 7, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.194294	Circuit area: 188.590000	Circuit delay: 493.970000
+Evaluating Design: [5, 6, 5, 6, 7, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.044315	Circuit area: 191.790000	Circuit delay: 493.670000
+Evaluating Design: [5, 6, 4, 6, 7, 5, 6, 6, 8, 6, 6, 4]
+----- Approximating part 2 to degree 4
+Simulation error: 0.010772	Circuit area: 186.200000	Circuit delay: 485.920000
+Evaluating Design: [5, 6, 5, 5, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.010698	Circuit area: 198.700000	Circuit delay: 493.490000
+--------------- Finishing Iteration7---------------
+Partition [array([0, 4, 5])] being approximated
+Approximated error: 0.013212	Area : 176.360000	Delay : 503.330000	Time used: 8.068869 sec
+
+Current stream of factorization degree:
+ [4, 6, 6, 6, 6, 5, 6, 6, 8, 6, 6, 4]
+[4, 6, 6, 5, 7, 5, 6, 6, 8, 6, 6, 4]
+[4, 5, 6, 6, 7, 5, 6, 6, 8, 6, 6, 4]
+--------------- Iteration 8 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [4, 5, 6, 6, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013212	Circuit area: 176.620000	Circuit delay: 493.150000
+Evaluating Design: [4, 6, 6, 6, 6, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.196983	Circuit area: 185.140000	Circuit delay: 428.020000
+Evaluating Design: [4, 6, 5, 6, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013214	Circuit area: 180.080000	Circuit delay: 493.150000
+Evaluating Design: [4, 6, 6, 6, 5, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013253	Circuit area: 194.450000	Circuit delay: 459.240000
+Evaluating Design: [4, 6, 6, 6, 6, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135680	Circuit area: 176.090000	Circuit delay: 503.330000
+Evaluating Design: [4, 6, 6, 6, 6, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075347	Circuit area: 175.030000	Circuit delay: 503.330000
+Evaluating Design: [4, 6, 6, 5, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013212	Circuit area: 176.890000	Circuit delay: 456.390000
+Evaluating Design: [4, 6, 6, 6, 6, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019283	Circuit area: 171.300000	Circuit delay: 499.600000
+Evaluating Design: [4, 6, 6, 6, 6, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.022990	Circuit area: 175.560000	Circuit delay: 503.680000
+Evaluating Design: [4, 6, 6, 6, 6, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046651	Circuit area: 175.290000	Circuit delay: 503.330000
+Evaluating Design: [3, 6, 6, 6, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013212	Circuit area: 191.520000	Circuit delay: 443.180000
+Evaluating Design: [4, 6, 6, 6, 6, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016571	Circuit area: 172.100000	Circuit delay: 502.990000
+==========TRACK 1 ==========
+Evaluating Design: [3, 6, 6, 5, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013211	Circuit area: 193.910000	Circuit delay: 438.730000
+Evaluating Design: [4, 5, 6, 5, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013211	Circuit area: 176.360000	Circuit delay: 483.040000
+Evaluating Design: [4, 6, 6, 4, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013211	Circuit area: 176.890000	Circuit delay: 470.880000
+Evaluating Design: [4, 6, 6, 5, 7, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.196982	Circuit area: 182.480000	Circuit delay: 439.560000
+Evaluating Design: [4, 6, 6, 5, 7, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.022989	Circuit area: 169.440000	Circuit delay: 491.710000
+Evaluating Design: [4, 6, 5, 5, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013212	Circuit area: 181.410000	Circuit delay: 472.940000
+Evaluating Design: [4, 6, 6, 5, 7, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075346	Circuit area: 175.030000	Circuit delay: 470.880000
+Evaluating Design: [4, 6, 6, 5, 7, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019282	Circuit area: 171.300000	Circuit delay: 467.150000
+Evaluating Design: [4, 6, 6, 5, 7, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046649	Circuit area: 175.290000	Circuit delay: 470.890000
+Evaluating Design: [4, 6, 6, 5, 7, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135679	Circuit area: 176.090000	Circuit delay: 451.600000
+Evaluating Design: [4, 6, 6, 5, 7, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016570	Circuit area: 172.100000	Circuit delay: 470.540000
+==========TRACK 2 ==========
+Evaluating Design: [3, 5, 6, 6, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013211	Circuit area: 195.510000	Circuit delay: 438.570000
+Evaluating Design: [4, 5, 6, 6, 7, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135678	Circuit area: 176.090000	Circuit delay: 483.040000
+Evaluating Design: [4, 5, 5, 6, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013212	Circuit area: 179.550000	Circuit delay: 472.930000
+Evaluating Design: [4, 5, 6, 6, 7, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019282	Circuit area: 172.900000	Circuit delay: 473.310000
+Evaluating Design: [4, 5, 6, 6, 7, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046649	Circuit area: 175.290000	Circuit delay: 492.060000
+Evaluating Design: [4, 5, 6, 6, 7, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.022988	Circuit area: 174.500000	Circuit delay: 493.500000
+Evaluating Design: [4, 5, 6, 6, 7, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016569	Circuit area: 172.100000	Circuit delay: 482.700000
+Evaluating Design: [4, 5, 6, 6, 7, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.196981	Circuit area: 171.840000	Circuit delay: 492.590000
+Evaluating Design: [4, 5, 6, 6, 7, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075345	Circuit area: 174.500000	Circuit delay: 492.050000
+Evaluating Design: [4, 4, 6, 6, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013268	Circuit area: 172.630000	Circuit delay: 483.040000
+--------------- Finishing Iteration8---------------
+Partition [array([0, 1, 4, 5])] being approximated
+Approximated error: 0.013268	Area : 172.630000	Delay : 483.040000	Time used: 7.517009 sec
+
+Current stream of factorization degree:
+ [4, 4, 6, 6, 7, 5, 6, 6, 8, 6, 6, 4]
+[4, 5, 6, 5, 7, 5, 6, 6, 8, 6, 6, 4]
+[4, 5, 6, 6, 6, 5, 6, 6, 8, 6, 6, 4]
+--------------- Iteration 9 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [4, 4, 6, 6, 7, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019342	Circuit area: 167.580000	Circuit delay: 479.310000
+Evaluating Design: [4, 4, 6, 6, 7, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197039	Circuit area: 181.940000	Circuit delay: 432.860000
+Evaluating Design: [4, 4, 6, 6, 7, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023040	Circuit area: 170.240000	Circuit delay: 493.500000
+Evaluating Design: [4, 4, 6, 6, 7, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046699	Circuit area: 171.570000	Circuit delay: 483.040000
+Evaluating Design: [4, 4, 6, 6, 7, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016627	Circuit area: 168.380000	Circuit delay: 482.700000
+Evaluating Design: [4, 4, 6, 5, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013268	Circuit area: 172.630000	Circuit delay: 483.040000
+Evaluating Design: [4, 4, 6, 6, 7, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135722	Circuit area: 172.370000	Circuit delay: 483.040000
+Evaluating Design: [3, 4, 6, 6, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013268	Circuit area: 192.050000	Circuit delay: 438.570000
+Evaluating Design: [4, 4, 5, 6, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013269	Circuit area: 175.030000	Circuit delay: 472.940000
+Evaluating Design: [4, 4, 6, 6, 7, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075390	Circuit area: 171.300000	Circuit delay: 483.040000
+Evaluating Design: [4, 4, 6, 6, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013268	Circuit area: 174.760000	Circuit delay: 493.360000
+Evaluating Design: [4, 3, 6, 6, 7, 5, 6, 6, 8, 6, 6, 4]
+----- Approximating part 1 to degree 3
+Simulation error: 0.013380	Circuit area: 167.310000	Circuit delay: 481.690000
+==========TRACK 1 ==========
+Evaluating Design: [3, 5, 6, 5, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013211	Circuit area: 195.510000	Circuit delay: 438.570000
+Evaluating Design: [4, 5, 5, 5, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013212	Circuit area: 176.360000	Circuit delay: 483.040000
+Evaluating Design: [4, 5, 6, 5, 7, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016569	Circuit area: 176.890000	Circuit delay: 473.410000
+Evaluating Design: [4, 5, 6, 4, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013211	Circuit area: 176.360000	Circuit delay: 483.040000
+Evaluating Design: [4, 5, 6, 5, 7, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046649	Circuit area: 175.290000	Circuit delay: 483.040000
+Evaluating Design: [4, 5, 6, 5, 7, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075345	Circuit area: 175.030000	Circuit delay: 483.040000
+Evaluating Design: [4, 5, 6, 5, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013212	Circuit area: 174.760000	Circuit delay: 503.230000
+Evaluating Design: [4, 5, 6, 5, 7, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.022988	Circuit area: 175.560000	Circuit delay: 483.390000
+Evaluating Design: [4, 5, 6, 5, 7, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.196981	Circuit area: 172.630000	Circuit delay: 483.040000
+Evaluating Design: [4, 5, 6, 5, 7, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019282	Circuit area: 171.300000	Circuit delay: 479.300000
+Evaluating Design: [4, 5, 6, 5, 7, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135678	Circuit area: 176.090000	Circuit delay: 483.040000
+==========TRACK 2 ==========
+Evaluating Design: [4, 5, 6, 6, 5, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013267	Circuit area: 198.170000	Circuit delay: 467.450000
+Evaluating Design: [4, 5, 6, 6, 6, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135679	Circuit area: 174.500000	Circuit delay: 503.230000
+Evaluating Design: [4, 5, 6, 6, 6, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075346	Circuit area: 172.370000	Circuit delay: 511.890000
+Evaluating Design: [4, 5, 6, 6, 6, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.022989	Circuit area: 172.630000	Circuit delay: 499.500000
+Evaluating Design: [4, 5, 5, 6, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013214	Circuit area: 191.790000	Circuit delay: 466.970000
+Evaluating Design: [4, 5, 6, 6, 6, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.196982	Circuit area: 169.970000	Circuit delay: 498.590000
+Evaluating Design: [3, 5, 6, 6, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013212	Circuit area: 189.920000	Circuit delay: 443.070000
+Evaluating Design: [4, 5, 6, 6, 6, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046651	Circuit area: 173.170000	Circuit delay: 511.890000
+Evaluating Design: [4, 5, 6, 6, 6, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019282	Circuit area: 170.770000	Circuit delay: 493.150000
+Evaluating Design: [4, 5, 6, 6, 6, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016570	Circuit area: 170.510000	Circuit delay: 502.880000
+--------------- Finishing Iteration9---------------
+Partition [array([0, 1, 4, 5])] being approximated
+Approximated error: 0.013380	Area : 167.310000	Delay : 481.690000	Time used: 7.491780 sec
+
+Current stream of factorization degree:
+ [4, 3, 6, 6, 7, 5, 6, 6, 8, 6, 6, 4]
+[4, 4, 6, 5, 7, 5, 6, 6, 8, 6, 6, 4]
+[4, 5, 6, 5, 6, 5, 6, 6, 8, 6, 6, 4]
+--------------- Iteration 10 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [3, 3, 6, 6, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 173.170000	Circuit delay: 455.240000
+Evaluating Design: [4, 3, 6, 6, 7, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135808	Circuit area: 166.520000	Circuit delay: 462.410000
+Evaluating Design: [4, 3, 5, 6, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 167.310000	Circuit delay: 481.690000
+Evaluating Design: [4, 3, 6, 6, 7, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016738	Circuit area: 162.530000	Circuit delay: 481.350000
+Evaluating Design: [4, 3, 6, 6, 7, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023139	Circuit area: 159.870000	Circuit delay: 487.790000
+Evaluating Design: [4, 3, 6, 6, 7, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197154	Circuit area: 171.040000	Circuit delay: 458.940000
+Evaluating Design: [4, 3, 6, 6, 7, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019460	Circuit area: 161.730000	Circuit delay: 477.960000
+Evaluating Design: [4, 3, 6, 6, 7, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075479	Circuit area: 165.450000	Circuit delay: 481.690000
+Evaluating Design: [4, 3, 6, 6, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 165.720000	Circuit delay: 484.300000
+Evaluating Design: [4, 3, 6, 6, 7, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046797	Circuit area: 165.720000	Circuit delay: 481.700000
+Evaluating Design: [4, 3, 6, 5, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 166.520000	Circuit delay: 497.840000
+Evaluating Design: [4, 2, 6, 6, 7, 5, 6, 6, 8, 6, 6, 4]
+----- Approximating part 1 to degree 2
+Simulation error: 0.013380	Circuit area: 180.080000	Circuit delay: 455.300000
+==========TRACK 1 ==========
+Evaluating Design: [3, 4, 6, 5, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013268	Circuit area: 192.050000	Circuit delay: 438.570000
+Evaluating Design: [4, 4, 6, 5, 7, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016627	Circuit area: 171.040000	Circuit delay: 472.940000
+Evaluating Design: [4, 4, 6, 5, 7, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046699	Circuit area: 171.570000	Circuit delay: 483.040000
+Evaluating Design: [4, 4, 6, 5, 7, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019342	Circuit area: 167.580000	Circuit delay: 479.310000
+Evaluating Design: [4, 4, 6, 5, 7, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023040	Circuit area: 171.840000	Circuit delay: 483.390000
+Evaluating Design: [4, 4, 6, 4, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013268	Circuit area: 172.630000	Circuit delay: 483.040000
+Evaluating Design: [4, 4, 6, 5, 7, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075390	Circuit area: 171.300000	Circuit delay: 483.040000
+Evaluating Design: [4, 4, 5, 5, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013269	Circuit area: 176.090000	Circuit delay: 434.820000
+Evaluating Design: [4, 4, 6, 5, 7, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135722	Circuit area: 172.370000	Circuit delay: 483.040000
+Evaluating Design: [4, 4, 6, 5, 7, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197039	Circuit area: 168.910000	Circuit delay: 483.040000
+Evaluating Design: [4, 4, 6, 5, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013268	Circuit area: 172.370000	Circuit delay: 503.430000
+==========TRACK 2 ==========
+Evaluating Design: [4, 5, 6, 5, 6, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075346	Circuit area: 173.430000	Circuit delay: 503.220000
+Evaluating Design: [4, 5, 6, 4, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013212	Circuit area: 174.760000	Circuit delay: 503.230000
+Evaluating Design: [4, 5, 6, 5, 5, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013267	Circuit area: 196.570000	Circuit delay: 466.080000
+Evaluating Design: [4, 5, 6, 5, 6, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019282	Circuit area: 169.710000	Circuit delay: 499.490000
+Evaluating Design: [4, 5, 5, 5, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013214	Circuit area: 176.360000	Circuit delay: 503.190000
+Evaluating Design: [4, 5, 6, 5, 6, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.022989	Circuit area: 173.960000	Circuit delay: 503.570000
+Evaluating Design: [3, 5, 6, 5, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013212	Circuit area: 189.920000	Circuit delay: 443.070000
+Evaluating Design: [4, 5, 6, 5, 6, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135679	Circuit area: 174.500000	Circuit delay: 503.230000
+Evaluating Design: [4, 5, 6, 5, 6, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.196982	Circuit area: 171.040000	Circuit delay: 503.230000
+Evaluating Design: [4, 5, 6, 5, 6, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016570	Circuit area: 173.170000	Circuit delay: 482.850000
+Evaluating Design: [4, 5, 6, 5, 6, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046651	Circuit area: 173.700000	Circuit delay: 503.230000
+--------------- Finishing Iteration10---------------
+Partition [array([0, 1, 4, 5])] being approximated
+Approximated error: 0.013380	Area : 165.720000	Delay : 484.300000	Time used: 7.713008 sec
+
+Current stream of factorization degree:
+ [4, 3, 6, 6, 6, 5, 6, 6, 8, 6, 6, 4]
+[4, 3, 6, 5, 7, 5, 6, 6, 8, 6, 6, 4]
+[4, 3, 5, 6, 7, 5, 6, 6, 8, 6, 6, 4]
+--------------- Iteration 11 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [4, 3, 6, 6, 6, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016738	Circuit area: 160.930000	Circuit delay: 483.960000
+Evaluating Design: [4, 3, 6, 6, 6, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019461	Circuit area: 160.130000	Circuit delay: 480.560000
+Evaluating Design: [4, 3, 6, 6, 6, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075479	Circuit area: 163.860000	Circuit delay: 484.300000
+Evaluating Design: [4, 3, 6, 6, 6, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023139	Circuit area: 163.320000	Circuit delay: 510.190000
+Evaluating Design: [4, 3, 6, 5, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 168.380000	Circuit delay: 511.190000
+Evaluating Design: [4, 3, 6, 6, 6, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135808	Circuit area: 164.920000	Circuit delay: 465.020000
+Evaluating Design: [4, 3, 5, 6, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 165.720000	Circuit delay: 484.300000
+Evaluating Design: [4, 2, 6, 6, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 178.490000	Circuit delay: 463.990000
+Evaluating Design: [4, 3, 6, 6, 6, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197154	Circuit area: 169.970000	Circuit delay: 471.940000
+Evaluating Design: [4, 3, 6, 6, 6, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046797	Circuit area: 164.120000	Circuit delay: 484.300000
+Evaluating Design: [4, 3, 6, 6, 5, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 183.540000	Circuit delay: 454.730000
+Evaluating Design: [3, 3, 6, 6, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 172.370000	Circuit delay: 455.240000
+==========TRACK 1 ==========
+Evaluating Design: [4, 3, 6, 5, 7, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075479	Circuit area: 167.310000	Circuit delay: 481.730000
+Evaluating Design: [3, 3, 6, 5, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 173.170000	Circuit delay: 455.240000
+Evaluating Design: [4, 3, 6, 5, 7, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135808	Circuit area: 154.010000	Circuit delay: 500.120000
+Evaluating Design: [4, 2, 6, 5, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 178.750000	Circuit delay: 485.020000
+Evaluating Design: [4, 3, 6, 4, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 166.520000	Circuit delay: 497.840000
+Evaluating Design: [4, 3, 6, 5, 7, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046797	Circuit area: 162.530000	Circuit delay: 497.840000
+Evaluating Design: [4, 3, 6, 5, 7, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019460	Circuit area: 161.990000	Circuit delay: 482.040000
+Evaluating Design: [4, 3, 6, 5, 7, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197154	Circuit area: 171.300000	Circuit delay: 461.530000
+Evaluating Design: [4, 3, 5, 5, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 166.520000	Circuit delay: 497.840000
+Evaluating Design: [4, 3, 6, 5, 7, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023139	Circuit area: 165.980000	Circuit delay: 482.040000
+Evaluating Design: [4, 3, 6, 5, 7, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016738	Circuit area: 168.110000	Circuit delay: 481.550000
+==========TRACK 2 ==========
+Evaluating Design: [4, 3, 5, 6, 7, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046797	Circuit area: 165.720000	Circuit delay: 481.700000
+Evaluating Design: [4, 3, 5, 6, 7, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075479	Circuit area: 165.450000	Circuit delay: 481.690000
+Evaluating Design: [4, 3, 5, 6, 7, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135808	Circuit area: 166.520000	Circuit delay: 462.410000
+Evaluating Design: [4, 3, 5, 6, 7, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197154	Circuit area: 171.040000	Circuit delay: 458.940000
+Evaluating Design: [4, 2, 5, 6, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 180.080000	Circuit delay: 455.300000
+Evaluating Design: [4, 3, 5, 6, 7, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016738	Circuit area: 162.530000	Circuit delay: 481.350000
+Evaluating Design: [4, 3, 5, 6, 7, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019460	Circuit area: 161.730000	Circuit delay: 477.960000
+Evaluating Design: [3, 3, 5, 6, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 173.170000	Circuit delay: 455.240000
+Evaluating Design: [4, 3, 4, 6, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 167.310000	Circuit delay: 481.690000
+Evaluating Design: [4, 3, 5, 6, 7, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023139	Circuit area: 159.870000	Circuit delay: 487.790000
+--------------- Finishing Iteration11---------------
+Partition [array([0, 1, 2, 4, 5])] being approximated
+Approximated error: 0.013380	Area : 165.720000	Delay : 484.300000	Time used: 7.299554 sec
+
+Current stream of factorization degree:
+ [4, 3, 5, 6, 6, 5, 6, 6, 8, 6, 6, 4]
+[4, 3, 5, 5, 7, 5, 6, 6, 8, 6, 6, 4]
+[4, 3, 6, 4, 7, 5, 6, 6, 8, 6, 6, 4]
+--------------- Iteration 12 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [4, 2, 5, 6, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 178.490000	Circuit delay: 463.990000
+Evaluating Design: [4, 3, 5, 6, 6, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075479	Circuit area: 163.860000	Circuit delay: 484.300000
+Evaluating Design: [4, 3, 5, 5, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 168.380000	Circuit delay: 511.190000
+Evaluating Design: [4, 3, 5, 6, 6, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197154	Circuit area: 169.970000	Circuit delay: 471.940000
+Evaluating Design: [4, 3, 5, 6, 6, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016738	Circuit area: 160.930000	Circuit delay: 483.960000
+Evaluating Design: [4, 3, 4, 6, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 165.720000	Circuit delay: 484.300000
+Evaluating Design: [4, 3, 5, 6, 6, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023139	Circuit area: 163.320000	Circuit delay: 510.190000
+Evaluating Design: [4, 3, 5, 6, 6, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046797	Circuit area: 164.120000	Circuit delay: 484.300000
+Evaluating Design: [4, 3, 5, 6, 6, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135808	Circuit area: 164.920000	Circuit delay: 465.020000
+Evaluating Design: [3, 3, 5, 6, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 172.370000	Circuit delay: 455.240000
+Evaluating Design: [4, 3, 5, 6, 6, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019461	Circuit area: 160.130000	Circuit delay: 480.560000
+Evaluating Design: [4, 3, 5, 6, 5, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 182.740000	Circuit delay: 470.300000
+==========TRACK 1 ==========
+Evaluating Design: [4, 3, 5, 5, 7, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016738	Circuit area: 168.110000	Circuit delay: 481.550000
+Evaluating Design: [4, 3, 5, 5, 7, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197154	Circuit area: 160.400000	Circuit delay: 497.660000
+Evaluating Design: [4, 3, 4, 5, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 166.520000	Circuit delay: 497.840000
+Evaluating Design: [4, 3, 5, 5, 7, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046797	Circuit area: 162.530000	Circuit delay: 497.840000
+Evaluating Design: [4, 3, 5, 4, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 166.520000	Circuit delay: 497.840000
+Evaluating Design: [4, 3, 5, 5, 7, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023139	Circuit area: 165.980000	Circuit delay: 482.040000
+Evaluating Design: [4, 3, 5, 5, 7, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135808	Circuit area: 154.010000	Circuit delay: 500.120000
+Evaluating Design: [4, 2, 5, 5, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 178.750000	Circuit delay: 485.020000
+Evaluating Design: [3, 3, 5, 5, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 173.170000	Circuit delay: 455.240000
+Evaluating Design: [4, 3, 5, 5, 7, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019460	Circuit area: 161.990000	Circuit delay: 482.040000
+Evaluating Design: [4, 3, 5, 5, 7, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075479	Circuit area: 167.310000	Circuit delay: 481.730000
+==========TRACK 2 ==========
+Evaluating Design: [4, 3, 6, 4, 7, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016738	Circuit area: 168.110000	Circuit delay: 481.550000
+Evaluating Design: [4, 3, 6, 4, 7, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135808	Circuit area: 154.010000	Circuit delay: 500.120000
+Evaluating Design: [4, 3, 6, 4, 7, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023139	Circuit area: 165.980000	Circuit delay: 482.040000
+Evaluating Design: [4, 3, 6, 4, 7, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197154	Circuit area: 171.300000	Circuit delay: 461.530000
+Evaluating Design: [4, 3, 6, 4, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 168.380000	Circuit delay: 511.190000
+Evaluating Design: [4, 3, 6, 4, 7, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075479	Circuit area: 167.310000	Circuit delay: 481.730000
+Evaluating Design: [3, 3, 6, 4, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 173.170000	Circuit delay: 455.240000
+Evaluating Design: [4, 2, 6, 4, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 178.750000	Circuit delay: 485.020000
+Evaluating Design: [4, 3, 6, 4, 7, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019460	Circuit area: 161.990000	Circuit delay: 482.040000
+Evaluating Design: [4, 3, 6, 3, 7, 5, 6, 6, 8, 6, 6, 4]
+----- Approximating part 3 to degree 3
+Simulation error: 0.013380	Circuit area: 166.520000	Circuit delay: 497.840000
+Evaluating Design: [4, 3, 6, 4, 7, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046797	Circuit area: 162.530000	Circuit delay: 497.840000
+--------------- Finishing Iteration12---------------
+Partition [array([0, 1, 2, 4, 5])] being approximated
+Approximated error: 0.013380	Area : 165.720000	Delay : 484.300000	Time used: 7.683630 sec
+
+Current stream of factorization degree:
+ [4, 3, 4, 6, 6, 5, 6, 6, 8, 6, 6, 4]
+[4, 3, 4, 5, 7, 5, 6, 6, 8, 6, 6, 4]
+[4, 3, 5, 4, 7, 5, 6, 6, 8, 6, 6, 4]
+--------------- Iteration 13 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [3, 3, 4, 6, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 172.370000	Circuit delay: 455.240000
+Evaluating Design: [4, 3, 4, 6, 6, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023139	Circuit area: 163.320000	Circuit delay: 510.190000
+Evaluating Design: [4, 3, 4, 6, 6, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016738	Circuit area: 160.930000	Circuit delay: 483.960000
+Evaluating Design: [4, 2, 4, 6, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 178.490000	Circuit delay: 463.990000
+Evaluating Design: [4, 3, 4, 6, 5, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 182.740000	Circuit delay: 470.300000
+Evaluating Design: [4, 3, 4, 6, 6, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019461	Circuit area: 160.130000	Circuit delay: 480.560000
+Evaluating Design: [4, 3, 4, 6, 6, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135808	Circuit area: 164.920000	Circuit delay: 465.020000
+Evaluating Design: [4, 3, 4, 6, 6, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197154	Circuit area: 169.970000	Circuit delay: 471.940000
+Evaluating Design: [4, 3, 4, 6, 6, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046797	Circuit area: 164.120000	Circuit delay: 484.300000
+Evaluating Design: [4, 3, 4, 6, 6, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075479	Circuit area: 163.860000	Circuit delay: 484.300000
+Evaluating Design: [4, 3, 4, 5, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 168.380000	Circuit delay: 511.190000
+Evaluating Design: [4, 3, 3, 6, 6, 5, 6, 6, 8, 6, 6, 4]
+----- Approximating part 2 to degree 3
+Simulation error: 0.013380	Circuit area: 183.010000	Circuit delay: 427.350000
+==========TRACK 1 ==========
+Evaluating Design: [4, 2, 4, 5, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 178.750000	Circuit delay: 485.020000
+Evaluating Design: [4, 3, 4, 5, 7, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046797	Circuit area: 162.530000	Circuit delay: 497.840000
+Evaluating Design: [4, 3, 4, 5, 7, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019460	Circuit area: 161.990000	Circuit delay: 482.040000
+Evaluating Design: [4, 3, 4, 5, 7, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197154	Circuit area: 160.400000	Circuit delay: 497.660000
+Evaluating Design: [4, 3, 3, 5, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 183.270000	Circuit delay: 449.940000
+Evaluating Design: [3, 3, 4, 5, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 173.170000	Circuit delay: 455.240000
+Evaluating Design: [4, 3, 4, 4, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 166.520000	Circuit delay: 497.840000
+Evaluating Design: [4, 3, 4, 5, 7, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135808	Circuit area: 154.010000	Circuit delay: 500.120000
+Evaluating Design: [4, 3, 4, 5, 7, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023139	Circuit area: 165.980000	Circuit delay: 482.040000
+Evaluating Design: [4, 3, 4, 5, 7, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075479	Circuit area: 167.310000	Circuit delay: 481.730000
+Evaluating Design: [4, 3, 4, 5, 7, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016738	Circuit area: 168.110000	Circuit delay: 481.550000
+==========TRACK 2 ==========
+Evaluating Design: [4, 3, 5, 4, 7, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016738	Circuit area: 168.110000	Circuit delay: 481.550000
+Evaluating Design: [3, 3, 5, 4, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 173.170000	Circuit delay: 455.240000
+Evaluating Design: [4, 2, 5, 4, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 178.750000	Circuit delay: 485.020000
+Evaluating Design: [4, 3, 5, 3, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 166.520000	Circuit delay: 497.840000
+Evaluating Design: [4, 3, 5, 4, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 168.380000	Circuit delay: 511.190000
+Evaluating Design: [4, 3, 5, 4, 7, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019460	Circuit area: 161.990000	Circuit delay: 482.040000
+Evaluating Design: [4, 3, 5, 4, 7, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023139	Circuit area: 165.980000	Circuit delay: 482.040000
+Evaluating Design: [4, 3, 5, 4, 7, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046797	Circuit area: 162.530000	Circuit delay: 497.840000
+Evaluating Design: [4, 3, 5, 4, 7, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075479	Circuit area: 167.310000	Circuit delay: 481.730000
+Evaluating Design: [4, 3, 5, 4, 7, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135808	Circuit area: 154.010000	Circuit delay: 500.120000
+Evaluating Design: [4, 3, 5, 4, 7, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197154	Circuit area: 160.400000	Circuit delay: 497.660000
+--------------- Finishing Iteration13---------------
+Partition [array([0, 1, 2, 3, 4, 5])] being approximated
+Approximated error: 0.013380	Area : 166.520000	Delay : 497.840000	Time used: 7.555130 sec
+
+Current stream of factorization degree:
+ [4, 3, 4, 4, 7, 5, 6, 6, 8, 6, 6, 4]
+[4, 3, 5, 3, 7, 5, 6, 6, 8, 6, 6, 4]
+[4, 3, 4, 5, 6, 5, 6, 6, 8, 6, 6, 4]
+--------------- Iteration 14 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [4, 2, 4, 4, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 178.750000	Circuit delay: 485.020000
+Evaluating Design: [4, 3, 4, 4, 7, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046797	Circuit area: 162.530000	Circuit delay: 497.840000
+Evaluating Design: [4, 3, 4, 4, 7, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197154	Circuit area: 160.400000	Circuit delay: 497.660000
+Evaluating Design: [4, 3, 4, 4, 7, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019460	Circuit area: 161.990000	Circuit delay: 482.040000
+Evaluating Design: [4, 3, 3, 4, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 183.270000	Circuit delay: 449.940000
+Evaluating Design: [4, 3, 4, 4, 7, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023139	Circuit area: 165.980000	Circuit delay: 482.040000
+Evaluating Design: [4, 3, 4, 4, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 168.380000	Circuit delay: 511.190000
+Evaluating Design: [3, 3, 4, 4, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 173.170000	Circuit delay: 455.240000
+Evaluating Design: [4, 3, 4, 4, 7, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016738	Circuit area: 168.110000	Circuit delay: 481.550000
+Evaluating Design: [4, 3, 4, 4, 7, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135808	Circuit area: 154.010000	Circuit delay: 500.120000
+Evaluating Design: [4, 3, 4, 3, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 166.520000	Circuit delay: 497.840000
+Evaluating Design: [4, 3, 4, 4, 7, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075479	Circuit area: 167.310000	Circuit delay: 481.730000
+==========TRACK 1 ==========
+Evaluating Design: [4, 2, 5, 3, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 178.750000	Circuit delay: 485.020000
+Evaluating Design: [3, 3, 5, 3, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 173.170000	Circuit delay: 455.240000
+Evaluating Design: [4, 3, 5, 3, 7, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016738	Circuit area: 168.110000	Circuit delay: 481.550000
+Evaluating Design: [4, 3, 5, 3, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 168.380000	Circuit delay: 511.190000
+Evaluating Design: [4, 3, 5, 3, 7, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019460	Circuit area: 161.990000	Circuit delay: 482.040000
+Evaluating Design: [4, 3, 5, 3, 7, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075479	Circuit area: 167.310000	Circuit delay: 481.730000
+Evaluating Design: [4, 3, 5, 3, 7, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023139	Circuit area: 165.980000	Circuit delay: 482.040000
+Evaluating Design: [4, 3, 5, 3, 7, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135808	Circuit area: 154.010000	Circuit delay: 500.120000
+Evaluating Design: [4, 3, 5, 3, 7, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197154	Circuit area: 160.400000	Circuit delay: 497.660000
+Evaluating Design: [4, 3, 5, 2, 7, 5, 6, 6, 8, 6, 6, 4]
+----- Approximating part 3 to degree 2
+Simulation error: 0.013380	Circuit area: 184.600000	Circuit delay: 492.060000
+Evaluating Design: [4, 3, 5, 3, 7, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046797	Circuit area: 162.530000	Circuit delay: 497.840000
+==========TRACK 2 ==========
+Evaluating Design: [4, 3, 4, 5, 6, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197154	Circuit area: 162.260000	Circuit delay: 511.010000
+Evaluating Design: [4, 3, 4, 5, 5, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 181.410000	Circuit delay: 461.730000
+Evaluating Design: [4, 3, 4, 5, 6, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135808	Circuit area: 152.680000	Circuit delay: 501.110000
+Evaluating Design: [4, 3, 4, 5, 6, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046797	Circuit area: 163.860000	Circuit delay: 511.190000
+Evaluating Design: [4, 3, 4, 5, 6, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016738	Circuit area: 164.920000	Circuit delay: 511.020000
+Evaluating Design: [4, 3, 4, 5, 6, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023139	Circuit area: 162.790000	Circuit delay: 511.520000
+Evaluating Design: [4, 2, 4, 5, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 177.160000	Circuit delay: 493.810000
+Evaluating Design: [4, 3, 4, 5, 6, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075479	Circuit area: 164.120000	Circuit delay: 511.200000
+Evaluating Design: [3, 3, 4, 5, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 172.370000	Circuit delay: 455.240000
+Evaluating Design: [4, 3, 4, 5, 6, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019461	Circuit area: 158.800000	Circuit delay: 511.510000
+Evaluating Design: [4, 3, 3, 5, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 183.010000	Circuit delay: 427.350000
+--------------- Finishing Iteration14---------------
+Partition [array([0, 1, 2, 3, 4, 5])] being approximated
+Approximated error: 0.013380	Area : 166.520000	Delay : 497.840000	Time used: 7.378484 sec
+
+Current stream of factorization degree:
+ [4, 3, 4, 3, 7, 5, 6, 6, 8, 6, 6, 4]
+[4, 3, 4, 4, 6, 5, 6, 6, 8, 6, 6, 4]
+[4, 3, 5, 3, 6, 5, 6, 6, 8, 6, 6, 4]
+--------------- Iteration 15 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [3, 3, 4, 3, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 173.170000	Circuit delay: 455.240000
+Evaluating Design: [4, 3, 3, 3, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 183.270000	Circuit delay: 449.940000
+Evaluating Design: [4, 3, 4, 3, 7, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075479	Circuit area: 167.310000	Circuit delay: 481.730000
+Evaluating Design: [4, 3, 4, 3, 7, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046797	Circuit area: 162.530000	Circuit delay: 497.840000
+Evaluating Design: [4, 3, 4, 3, 7, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016738	Circuit area: 168.110000	Circuit delay: 481.550000
+Evaluating Design: [4, 3, 4, 3, 7, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019460	Circuit area: 161.990000	Circuit delay: 482.040000
+Evaluating Design: [4, 3, 4, 3, 7, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135808	Circuit area: 154.010000	Circuit delay: 500.120000
+Evaluating Design: [4, 3, 4, 3, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 168.380000	Circuit delay: 511.190000
+Evaluating Design: [4, 3, 4, 2, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 184.600000	Circuit delay: 492.060000
+Evaluating Design: [4, 3, 4, 3, 7, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197154	Circuit area: 160.400000	Circuit delay: 497.660000
+Evaluating Design: [4, 2, 4, 3, 7, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 178.750000	Circuit delay: 485.020000
+Evaluating Design: [4, 3, 4, 3, 7, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023139	Circuit area: 165.980000	Circuit delay: 482.040000
+==========TRACK 1 ==========
+Evaluating Design: [4, 3, 4, 4, 6, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075479	Circuit area: 164.120000	Circuit delay: 511.200000
+Evaluating Design: [4, 3, 4, 4, 6, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197154	Circuit area: 162.260000	Circuit delay: 511.010000
+Evaluating Design: [4, 3, 4, 4, 6, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023139	Circuit area: 162.790000	Circuit delay: 511.520000
+Evaluating Design: [4, 3, 4, 4, 5, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 181.410000	Circuit delay: 461.730000
+Evaluating Design: [4, 2, 4, 4, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 177.160000	Circuit delay: 493.810000
+Evaluating Design: [4, 3, 3, 4, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 183.010000	Circuit delay: 427.350000
+Evaluating Design: [4, 3, 4, 4, 6, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046797	Circuit area: 163.860000	Circuit delay: 511.190000
+Evaluating Design: [4, 3, 4, 4, 6, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019461	Circuit area: 158.800000	Circuit delay: 511.510000
+Evaluating Design: [3, 3, 4, 4, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 172.370000	Circuit delay: 455.240000
+Evaluating Design: [4, 3, 4, 4, 6, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135808	Circuit area: 152.680000	Circuit delay: 501.110000
+Evaluating Design: [4, 3, 4, 4, 6, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016738	Circuit area: 164.920000	Circuit delay: 511.020000
+==========TRACK 2 ==========
+Evaluating Design: [4, 3, 5, 3, 6, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016738	Circuit area: 164.920000	Circuit delay: 511.020000
+Evaluating Design: [4, 3, 5, 3, 6, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075479	Circuit area: 164.120000	Circuit delay: 511.200000
+Evaluating Design: [4, 3, 5, 3, 5, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 181.410000	Circuit delay: 461.730000
+Evaluating Design: [4, 2, 5, 3, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 177.160000	Circuit delay: 493.810000
+Evaluating Design: [4, 3, 5, 3, 6, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197154	Circuit area: 162.260000	Circuit delay: 511.010000
+Evaluating Design: [4, 3, 5, 3, 6, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023139	Circuit area: 162.790000	Circuit delay: 511.520000
+Evaluating Design: [4, 3, 5, 3, 6, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019461	Circuit area: 158.800000	Circuit delay: 511.510000
+Evaluating Design: [3, 3, 5, 3, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 172.370000	Circuit delay: 455.240000
+Evaluating Design: [4, 3, 5, 3, 6, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135808	Circuit area: 152.680000	Circuit delay: 501.110000
+Evaluating Design: [4, 3, 5, 3, 6, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046797	Circuit area: 163.860000	Circuit delay: 511.190000
+Evaluating Design: [4, 3, 5, 2, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 182.480000	Circuit delay: 488.330000
+--------------- Finishing Iteration15---------------
+Partition [array([0, 1, 2, 3, 4, 5])] being approximated
+Approximated error: 0.013380	Area : 168.380000	Delay : 511.190000	Time used: 7.452054 sec
+
+Current stream of factorization degree:
+ [4, 3, 4, 3, 6, 5, 6, 6, 8, 6, 6, 4]
+[3, 3, 4, 4, 6, 5, 6, 6, 8, 6, 6, 4]
+[3, 3, 5, 3, 6, 5, 6, 6, 8, 6, 6, 4]
+--------------- Iteration 16 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [4, 3, 3, 3, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 183.010000	Circuit delay: 427.350000
+Evaluating Design: [4, 2, 4, 3, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 177.160000	Circuit delay: 493.810000
+Evaluating Design: [4, 3, 4, 3, 6, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016738	Circuit area: 164.920000	Circuit delay: 511.020000
+Evaluating Design: [4, 3, 4, 2, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 182.480000	Circuit delay: 488.330000
+Evaluating Design: [4, 3, 4, 3, 6, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135808	Circuit area: 152.680000	Circuit delay: 501.110000
+Evaluating Design: [4, 3, 4, 3, 6, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019461	Circuit area: 158.800000	Circuit delay: 511.510000
+Evaluating Design: [4, 3, 4, 3, 5, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 181.410000	Circuit delay: 461.730000
+Evaluating Design: [4, 3, 4, 3, 6, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023139	Circuit area: 162.790000	Circuit delay: 511.520000
+Evaluating Design: [4, 3, 4, 3, 6, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046797	Circuit area: 163.860000	Circuit delay: 511.190000
+Evaluating Design: [4, 3, 4, 3, 6, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197154	Circuit area: 162.260000	Circuit delay: 511.010000
+Evaluating Design: [4, 3, 4, 3, 6, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075479	Circuit area: 164.120000	Circuit delay: 511.200000
+Evaluating Design: [3, 3, 4, 3, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 172.370000	Circuit delay: 455.240000
+==========TRACK 1 ==========
+Evaluating Design: [3, 3, 4, 4, 6, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016738	Circuit area: 183.010000	Circuit delay: 439.180000
+Evaluating Design: [3, 3, 3, 4, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 180.080000	Circuit delay: 470.220000
+Evaluating Design: [3, 3, 4, 4, 5, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 171.570000	Circuit delay: 469.030000
+Evaluating Design: [3, 3, 4, 4, 6, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019461	Circuit area: 165.980000	Circuit delay: 455.240000
+Evaluating Design: [3, 3, 4, 4, 6, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197154	Circuit area: 167.050000	Circuit delay: 455.240000
+Evaluating Design: [3, 3, 4, 4, 6, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135808	Circuit area: 170.510000	Circuit delay: 452.630000
+Evaluating Design: [3, 3, 4, 4, 6, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075479	Circuit area: 168.910000	Circuit delay: 456.310000
+Evaluating Design: [3, 3, 4, 4, 6, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023139	Circuit area: 170.240000	Circuit delay: 455.380000
+Evaluating Design: [3, 2, 4, 4, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 182.210000	Circuit delay: 470.550000
+Evaluating Design: [2, 3, 4, 4, 6, 5, 6, 6, 8, 6, 6, 4]
+----- Approximating part 0 to degree 2
+Simulation error: 0.013380	Circuit area: 168.380000	Circuit delay: 471.060000
+Evaluating Design: [3, 3, 4, 4, 6, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046797	Circuit area: 168.380000	Circuit delay: 458.850000
+==========TRACK 2 ==========
+Evaluating Design: [3, 3, 5, 3, 6, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135808	Circuit area: 170.510000	Circuit delay: 452.630000
+Evaluating Design: [2, 3, 5, 3, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 168.380000	Circuit delay: 471.060000
+Evaluating Design: [3, 2, 5, 3, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 182.210000	Circuit delay: 470.550000
+Evaluating Design: [3, 3, 5, 2, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 183.010000	Circuit delay: 491.200000
+Evaluating Design: [3, 3, 5, 3, 6, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019461	Circuit area: 165.980000	Circuit delay: 455.240000
+Evaluating Design: [3, 3, 5, 3, 6, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046797	Circuit area: 168.380000	Circuit delay: 458.850000
+Evaluating Design: [3, 3, 5, 3, 6, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016738	Circuit area: 183.010000	Circuit delay: 439.180000
+Evaluating Design: [3, 3, 5, 3, 5, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 171.570000	Circuit delay: 469.030000
+Evaluating Design: [3, 3, 5, 3, 6, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197154	Circuit area: 167.050000	Circuit delay: 455.240000
+Evaluating Design: [3, 3, 5, 3, 6, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075479	Circuit area: 168.910000	Circuit delay: 456.310000
+Evaluating Design: [3, 3, 5, 3, 6, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023139	Circuit area: 170.240000	Circuit delay: 455.380000
+--------------- Finishing Iteration16---------------
+Partition [array([0, 1, 2, 3, 4, 5])] being approximated
+Approximated error: 0.013380	Area : 168.380000	Delay : 471.060000	Time used: 7.322201 sec
+
+Current stream of factorization degree:
+ [2, 3, 4, 4, 6, 5, 6, 6, 8, 6, 6, 4]
+[2, 3, 5, 3, 6, 5, 6, 6, 8, 6, 6, 4]
+[3, 3, 4, 4, 5, 5, 6, 6, 8, 6, 6, 4]
+--------------- Iteration 17 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [2, 3, 4, 4, 6, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197154	Circuit area: 164.120000	Circuit delay: 453.430000
+Evaluating Design: [2, 3, 4, 4, 5, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 175.030000	Circuit delay: 444.790000
+Evaluating Design: [2, 3, 4, 4, 6, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046797	Circuit area: 166.250000	Circuit delay: 450.880000
+Evaluating Design: [2, 2, 4, 4, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 171.840000	Circuit delay: 484.180000
+Evaluating Design: [2, 3, 4, 4, 6, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016738	Circuit area: 166.250000	Circuit delay: 456.520000
+Evaluating Design: [2, 3, 4, 4, 6, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023139	Circuit area: 167.580000	Circuit delay: 457.360000
+Evaluating Design: [2, 3, 4, 4, 6, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135808	Circuit area: 153.220000	Circuit delay: 489.570000
+Evaluating Design: [2, 3, 3, 4, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 173.170000	Circuit delay: 439.740000
+Evaluating Design: [2, 3, 4, 4, 6, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075479	Circuit area: 167.850000	Circuit delay: 449.340000
+Evaluating Design: [2, 3, 4, 4, 6, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019461	Circuit area: 164.390000	Circuit delay: 473.990000
+Evaluating Design: [2, 3, 4, 3, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 168.380000	Circuit delay: 471.060000
+Evaluating Design: [1, 3, 4, 4, 6, 5, 6, 6, 8, 6, 6, 4]
+----- Approximating part 0 to degree 1
+Simulation error: 0.013380	Circuit area: 157.210000	Circuit delay: 443.370000
+==========TRACK 1 ==========
+Evaluating Design: [1, 3, 5, 3, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 157.210000	Circuit delay: 443.370000
+Evaluating Design: [2, 3, 5, 2, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 172.900000	Circuit delay: 493.030000
+Evaluating Design: [2, 3, 5, 3, 6, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046797	Circuit area: 167.050000	Circuit delay: 456.130000
+Evaluating Design: [2, 3, 5, 3, 6, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023139	Circuit area: 168.110000	Circuit delay: 457.260000
+Evaluating Design: [2, 2, 5, 3, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 171.840000	Circuit delay: 484.180000
+Evaluating Design: [2, 3, 5, 3, 6, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135808	Circuit area: 154.010000	Circuit delay: 499.340000
+Evaluating Design: [2, 3, 5, 3, 6, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075479	Circuit area: 167.850000	Circuit delay: 449.340000
+Evaluating Design: [2, 3, 5, 3, 6, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019461	Circuit area: 164.390000	Circuit delay: 473.990000
+Evaluating Design: [2, 3, 5, 3, 6, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197154	Circuit area: 157.210000	Circuit delay: 464.420000
+Evaluating Design: [2, 3, 5, 3, 6, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016738	Circuit area: 166.250000	Circuit delay: 456.520000
+Evaluating Design: [2, 3, 5, 3, 5, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 174.760000	Circuit delay: 444.760000
+==========TRACK 2 ==========
+Evaluating Design: [3, 3, 3, 4, 5, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 179.550000	Circuit delay: 467.860000
+Evaluating Design: [3, 2, 4, 4, 5, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 176.620000	Circuit delay: 460.270000
+Evaluating Design: [3, 3, 4, 4, 5, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016752	Circuit area: 185.400000	Circuit delay: 461.660000
+Evaluating Design: [3, 3, 4, 3, 5, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 171.570000	Circuit delay: 469.030000
+Evaluating Design: [3, 3, 4, 4, 5, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135819	Circuit area: 169.440000	Circuit delay: 460.920000
+Evaluating Design: [3, 3, 4, 4, 5, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046809	Circuit area: 169.180000	Circuit delay: 451.640000
+Evaluating Design: [3, 3, 4, 4, 5, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075490	Circuit area: 168.910000	Circuit delay: 451.880000
+Evaluating Design: [3, 3, 4, 4, 5, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019475	Circuit area: 165.450000	Circuit delay: 467.450000
+Evaluating Design: [3, 3, 4, 4, 5, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023151	Circuit area: 170.770000	Circuit delay: 451.170000
+Evaluating Design: [3, 3, 4, 4, 5, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197168	Circuit area: 169.710000	Circuit delay: 451.350000
+Evaluating Design: [3, 3, 4, 4, 4, 5, 6, 6, 8, 6, 6, 4]
+----- Approximating part 4 to degree 4
+Simulation error: 0.013394	Circuit area: 172.370000	Circuit delay: 492.820000
+--------------- Finishing Iteration17---------------
+Partition [array([0, 1, 2, 3, 4, 5])] being approximated
+Approximated error: 0.013380	Area : 157.210000	Delay : 443.370000	Time used: 7.399736 sec
+
+Current stream of factorization degree:
+ [1, 3, 4, 4, 6, 5, 6, 6, 8, 6, 6, 4]
+[1, 3, 5, 3, 6, 5, 6, 6, 8, 6, 6, 4]
+[2, 3, 4, 3, 6, 5, 6, 6, 8, 6, 6, 4]
+--------------- Iteration 18 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [1, 3, 4, 4, 6, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023139	Circuit area: 154.550000	Circuit delay: 443.270000
+Evaluating Design: [1, 3, 3, 4, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 163.860000	Circuit delay: 407.590000
+Evaluating Design: [1, 3, 4, 4, 6, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197154	Circuit area: 151.090000	Circuit delay: 447.080000
+Evaluating Design: [1, 2, 4, 4, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 165.980000	Circuit delay: 447.020000
+Evaluating Design: [1, 3, 4, 4, 5, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 161.990000	Circuit delay: 416.520000
+Evaluating Design: [1, 3, 4, 4, 6, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016738	Circuit area: 152.150000	Circuit delay: 445.420000
+Evaluating Design: [1, 3, 4, 3, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 157.210000	Circuit delay: 443.370000
+Evaluating Design: [1, 3, 4, 4, 6, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019461	Circuit area: 150.820000	Circuit delay: 451.540000
+Evaluating Design: [1, 3, 4, 4, 6, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075479	Circuit area: 154.810000	Circuit delay: 445.340000
+Evaluating Design: [1, 3, 4, 4, 6, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046797	Circuit area: 153.480000	Circuit delay: 444.940000
+Evaluating Design: [1, 3, 4, 4, 6, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135808	Circuit area: 151.350000	Circuit delay: 447.080000
+==========TRACK 1 ==========
+Evaluating Design: [1, 3, 5, 2, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 159.870000	Circuit delay: 475.310000
+Evaluating Design: [1, 3, 5, 3, 5, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 161.990000	Circuit delay: 416.520000
+Evaluating Design: [1, 3, 5, 3, 6, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046797	Circuit area: 154.010000	Circuit delay: 439.370000
+Evaluating Design: [1, 3, 5, 3, 6, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135808	Circuit area: 151.350000	Circuit delay: 447.080000
+Evaluating Design: [1, 3, 5, 3, 6, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016738	Circuit area: 152.150000	Circuit delay: 445.420000
+Evaluating Design: [1, 3, 5, 3, 6, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023139	Circuit area: 154.550000	Circuit delay: 443.270000
+Evaluating Design: [1, 3, 5, 3, 6, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075479	Circuit area: 153.220000	Circuit delay: 446.770000
+Evaluating Design: [1, 2, 5, 3, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 165.980000	Circuit delay: 447.020000
+Evaluating Design: [1, 3, 5, 3, 6, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019461	Circuit area: 151.090000	Circuit delay: 441.920000
+Evaluating Design: [1, 3, 5, 3, 6, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197154	Circuit area: 151.090000	Circuit delay: 447.080000
+==========TRACK 2 ==========
+Evaluating Design: [2, 3, 4, 3, 6, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019461	Circuit area: 164.390000	Circuit delay: 473.990000
+Evaluating Design: [2, 3, 4, 3, 6, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023139	Circuit area: 164.650000	Circuit delay: 483.810000
+Evaluating Design: [2, 3, 4, 3, 6, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046797	Circuit area: 159.600000	Circuit delay: 461.750000
+Evaluating Design: [2, 3, 4, 3, 5, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 174.760000	Circuit delay: 444.790000
+Evaluating Design: [2, 3, 3, 3, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 173.170000	Circuit delay: 439.740000
+Evaluating Design: [2, 3, 4, 3, 6, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075479	Circuit area: 166.520000	Circuit delay: 469.180000
+Evaluating Design: [2, 3, 4, 3, 6, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016738	Circuit area: 164.920000	Circuit delay: 451.200000
+Evaluating Design: [2, 2, 4, 3, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 171.840000	Circuit delay: 484.180000
+Evaluating Design: [2, 3, 4, 3, 6, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135808	Circuit area: 152.420000	Circuit delay: 479.100000
+Evaluating Design: [2, 3, 4, 3, 6, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197154	Circuit area: 164.120000	Circuit delay: 470.600000
+Evaluating Design: [2, 3, 4, 2, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 172.900000	Circuit delay: 493.030000
+--------------- Finishing Iteration18---------------
+Partition [array([0, 1, 2, 3, 4, 5])] being approximated
+Approximated error: 0.013380	Area : 157.210000	Delay : 443.370000	Time used: 6.907016 sec
+
+Current stream of factorization degree:
+ [1, 3, 4, 3, 6, 5, 6, 6, 8, 6, 6, 4]
+[1, 3, 5, 2, 6, 5, 6, 6, 8, 6, 6, 4]
+[1, 3, 4, 4, 5, 5, 6, 6, 8, 6, 6, 4]
+--------------- Iteration 19 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [1, 3, 4, 3, 6, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016738	Circuit area: 152.150000	Circuit delay: 445.420000
+Evaluating Design: [1, 3, 4, 2, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 161.730000	Circuit delay: 490.930000
+Evaluating Design: [1, 3, 4, 3, 6, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023139	Circuit area: 154.550000	Circuit delay: 443.270000
+Evaluating Design: [1, 3, 4, 3, 6, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075479	Circuit area: 153.220000	Circuit delay: 446.770000
+Evaluating Design: [1, 2, 4, 3, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 165.450000	Circuit delay: 454.660000
+Evaluating Design: [1, 3, 4, 3, 6, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019461	Circuit area: 151.090000	Circuit delay: 441.920000
+Evaluating Design: [1, 3, 3, 3, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 163.320000	Circuit delay: 396.740000
+Evaluating Design: [1, 3, 4, 3, 6, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046797	Circuit area: 152.680000	Circuit delay: 454.560000
+Evaluating Design: [1, 3, 4, 3, 5, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 160.400000	Circuit delay: 424.230000
+Evaluating Design: [1, 3, 4, 3, 6, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197154	Circuit area: 151.090000	Circuit delay: 447.080000
+Evaluating Design: [1, 3, 4, 3, 6, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135808	Circuit area: 151.350000	Circuit delay: 447.080000
+==========TRACK 1 ==========
+Evaluating Design: [1, 3, 5, 2, 6, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023139	Circuit area: 160.130000	Circuit delay: 493.530000
+Evaluating Design: [1, 2, 5, 2, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 163.060000	Circuit delay: 441.650000
+Evaluating Design: [1, 3, 5, 2, 6, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016738	Circuit area: 159.330000	Circuit delay: 492.790000
+Evaluating Design: [1, 3, 5, 2, 5, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 166.520000	Circuit delay: 413.140000
+Evaluating Design: [1, 3, 5, 2, 6, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197154	Circuit area: 155.340000	Circuit delay: 489.700000
+Evaluating Design: [1, 3, 5, 2, 6, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075479	Circuit area: 159.070000	Circuit delay: 490.580000
+Evaluating Design: [1, 3, 5, 1, 6, 5, 6, 6, 8, 6, 6, 4]
+----- Approximating part 3 to degree 1
+Simulation error: 0.013380	Circuit area: 155.080000	Circuit delay: 408.350000
+Evaluating Design: [1, 3, 5, 2, 6, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019461	Circuit area: 157.210000	Circuit delay: 493.530000
+Evaluating Design: [1, 3, 5, 2, 6, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046797	Circuit area: 158.800000	Circuit delay: 492.410000
+Evaluating Design: [1, 3, 5, 2, 6, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135808	Circuit area: 156.140000	Circuit delay: 478.550000
+==========TRACK 2 ==========
+Evaluating Design: [1, 3, 4, 4, 5, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023151	Circuit area: 158.800000	Circuit delay: 420.420000
+Evaluating Design: [1, 3, 4, 4, 5, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046809	Circuit area: 157.740000	Circuit delay: 415.030000
+Evaluating Design: [1, 3, 4, 4, 5, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197168	Circuit area: 155.340000	Circuit delay: 424.230000
+Evaluating Design: [1, 3, 3, 4, 5, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 164.390000	Circuit delay: 449.390000
+Evaluating Design: [1, 3, 4, 4, 5, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075490	Circuit area: 158.540000	Circuit delay: 416.770000
+Evaluating Design: [1, 2, 4, 4, 5, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 168.640000	Circuit delay: 421.920000
+Evaluating Design: [1, 3, 4, 4, 5, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135819	Circuit area: 155.610000	Circuit delay: 424.230000
+Evaluating Design: [1, 3, 4, 4, 5, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016752	Circuit area: 159.070000	Circuit delay: 414.890000
+Evaluating Design: [1, 3, 4, 4, 4, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 161.990000	Circuit delay: 424.820000
+Evaluating Design: [1, 3, 4, 4, 5, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019475	Circuit area: 155.080000	Circuit delay: 421.210000
+--------------- Finishing Iteration19---------------
+Partition [array([0, 1, 2, 3, 4, 5])] being approximated
+Approximated error: 0.013380	Area : 155.080000	Delay : 408.350000	Time used: 7.266757 sec
+
+Current stream of factorization degree:
+ [1, 3, 5, 1, 6, 5, 6, 6, 8, 6, 6, 4]
+[1, 3, 4, 3, 5, 5, 6, 6, 8, 6, 6, 4]
+[1, 3, 4, 2, 6, 5, 6, 6, 8, 6, 6, 4]
+--------------- Iteration 20 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [1, 3, 5, 1, 6, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023139	Circuit area: 150.290000	Circuit delay: 424.310000
+Evaluating Design: [1, 3, 5, 1, 6, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197154	Circuit area: 149.760000	Circuit delay: 421.610000
+Evaluating Design: [1, 3, 5, 1, 6, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016738	Circuit area: 153.220000	Circuit delay: 413.520000
+Evaluating Design: [1, 2, 5, 1, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 161.200000	Circuit delay: 420.420000
+Evaluating Design: [1, 3, 5, 1, 6, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075479	Circuit area: 152.150000	Circuit delay: 406.630000
+Evaluating Design: [1, 3, 5, 1, 6, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046797	Circuit area: 152.950000	Circuit delay: 407.540000
+Evaluating Design: [1, 3, 5, 1, 5, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 152.150000	Circuit delay: 420.750000
+Evaluating Design: [1, 3, 5, 1, 6, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135808	Circuit area: 152.420000	Circuit delay: 431.870000
+Evaluating Design: [1, 3, 5, 1, 6, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019461	Circuit area: 148.430000	Circuit delay: 404.880000
+Evaluating Design: [1, 3, 4, 1, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 154.010000	Circuit delay: 406.380000
+==========TRACK 1 ==========
+Evaluating Design: [1, 3, 4, 3, 5, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019475	Circuit area: 155.080000	Circuit delay: 421.210000
+Evaluating Design: [1, 3, 4, 3, 5, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046809	Circuit area: 157.740000	Circuit delay: 415.030000
+Evaluating Design: [1, 3, 4, 3, 5, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023151	Circuit area: 158.540000	Circuit delay: 420.420000
+Evaluating Design: [1, 3, 4, 3, 5, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197168	Circuit area: 155.340000	Circuit delay: 424.230000
+Evaluating Design: [1, 3, 4, 3, 5, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075490	Circuit area: 157.470000	Circuit delay: 423.890000
+Evaluating Design: [1, 3, 4, 2, 5, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 166.520000	Circuit delay: 413.140000
+Evaluating Design: [1, 3, 4, 3, 5, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016752	Circuit area: 158.000000	Circuit delay: 414.890000
+Evaluating Design: [1, 3, 4, 3, 4, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 161.990000	Circuit delay: 424.820000
+Evaluating Design: [1, 3, 4, 3, 5, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135819	Circuit area: 155.610000	Circuit delay: 424.230000
+Evaluating Design: [1, 3, 3, 3, 5, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 164.390000	Circuit delay: 449.390000
+Evaluating Design: [1, 2, 4, 3, 5, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 168.640000	Circuit delay: 421.920000
+==========TRACK 2 ==========
+Evaluating Design: [1, 3, 4, 2, 6, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019461	Circuit area: 156.940000	Circuit delay: 492.370000
+Evaluating Design: [1, 2, 4, 2, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 163.060000	Circuit delay: 441.650000
+Evaluating Design: [1, 3, 4, 2, 6, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135808	Circuit area: 156.140000	Circuit delay: 478.550000
+Evaluating Design: [1, 3, 4, 2, 6, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023139	Circuit area: 160.130000	Circuit delay: 493.530000
+Evaluating Design: [1, 3, 4, 2, 6, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197154	Circuit area: 155.610000	Circuit delay: 489.700000
+Evaluating Design: [1, 3, 3, 2, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 163.590000	Circuit delay: 424.420000
+Evaluating Design: [1, 3, 4, 2, 6, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016738	Circuit area: 158.800000	Circuit delay: 492.790000
+Evaluating Design: [1, 3, 4, 2, 6, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075479	Circuit area: 159.070000	Circuit delay: 490.580000
+Evaluating Design: [1, 3, 4, 2, 6, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046797	Circuit area: 158.800000	Circuit delay: 492.410000
+--------------- Finishing Iteration20---------------
+Partition [array([0, 1, 2, 3, 4, 5])] being approximated
+Approximated error: 0.013394	Area : 152.150000	Delay : 420.750000	Time used: 6.670223 sec
+
+Current stream of factorization degree:
+ [1, 3, 5, 1, 5, 5, 6, 6, 8, 6, 6, 4]
+[1, 3, 4, 1, 6, 5, 6, 6, 8, 6, 6, 4]
+[1, 2, 5, 1, 6, 5, 6, 6, 8, 6, 6, 4]
+--------------- Iteration 21 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [1, 3, 4, 1, 5, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 152.150000	Circuit delay: 420.750000
+Evaluating Design: [1, 3, 5, 1, 4, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 154.010000	Circuit delay: 418.340000
+Evaluating Design: [1, 3, 5, 1, 5, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023151	Circuit area: 151.350000	Circuit delay: 418.740000
+Evaluating Design: [1, 3, 5, 1, 5, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197168	Circuit area: 148.690000	Circuit delay: 417.310000
+Evaluating Design: [1, 3, 5, 1, 5, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075490	Circuit area: 150.290000	Circuit delay: 418.170000
+Evaluating Design: [1, 3, 5, 1, 5, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019475	Circuit area: 146.570000	Circuit delay: 420.120000
+Evaluating Design: [1, 2, 5, 1, 5, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 155.880000	Circuit delay: 434.860000
+Evaluating Design: [1, 3, 5, 1, 5, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016752	Circuit area: 152.950000	Circuit delay: 407.130000
+Evaluating Design: [1, 3, 5, 1, 5, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135819	Circuit area: 152.950000	Circuit delay: 420.130000
+Evaluating Design: [1, 3, 5, 1, 5, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046809	Circuit area: 150.020000	Circuit delay: 418.270000
+==========TRACK 1 ==========
+Evaluating Design: [1, 3, 4, 1, 6, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016738	Circuit area: 154.810000	Circuit delay: 413.520000
+Evaluating Design: [1, 3, 3, 1, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 156.410000	Circuit delay: 386.910000
+Evaluating Design: [1, 3, 4, 1, 6, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075479	Circuit area: 152.150000	Circuit delay: 406.630000
+Evaluating Design: [1, 3, 4, 1, 6, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019461	Circuit area: 148.430000	Circuit delay: 404.880000
+Evaluating Design: [1, 3, 4, 1, 6, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197154	Circuit area: 149.760000	Circuit delay: 421.610000
+Evaluating Design: [1, 3, 4, 1, 6, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135808	Circuit area: 152.420000	Circuit delay: 431.870000
+Evaluating Design: [1, 2, 4, 1, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 161.200000	Circuit delay: 420.420000
+Evaluating Design: [1, 3, 4, 1, 6, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046797	Circuit area: 152.950000	Circuit delay: 407.540000
+Evaluating Design: [1, 3, 4, 1, 6, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023139	Circuit area: 150.020000	Circuit delay: 424.310000
+==========TRACK 2 ==========
+Evaluating Design: [1, 2, 5, 1, 6, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016738	Circuit area: 158.000000	Circuit delay: 430.720000
+Evaluating Design: [1, 2, 5, 1, 6, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197154	Circuit area: 155.340000	Circuit delay: 425.280000
+Evaluating Design: [1, 2, 5, 1, 6, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019461	Circuit area: 152.420000	Circuit delay: 422.010000
+Evaluating Design: [1, 1, 5, 1, 6, 5, 6, 6, 8, 6, 6, 4]
+----- Approximating part 1 to degree 1
+Simulation error: 0.013380	Circuit area: 148.960000	Circuit delay: 388.010000
+Evaluating Design: [1, 2, 5, 1, 6, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046797	Circuit area: 158.000000	Circuit delay: 421.830000
+Evaluating Design: [1, 2, 5, 1, 6, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023139	Circuit area: 156.940000	Circuit delay: 434.760000
+Evaluating Design: [1, 2, 5, 1, 6, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075479	Circuit area: 159.070000	Circuit delay: 420.670000
+Evaluating Design: [1, 2, 5, 1, 6, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135808	Circuit area: 157.740000	Circuit delay: 445.920000
+--------------- Finishing Iteration21---------------
+Partition [array([0, 1, 2, 3, 4, 5])] being approximated
+Approximated error: 0.013380	Area : 148.960000	Delay : 388.010000	Time used: 6.325162 sec
+
+Current stream of factorization degree:
+ [1, 1, 5, 1, 6, 5, 6, 6, 8, 6, 6, 4]
+[1, 3, 4, 1, 5, 5, 6, 6, 8, 6, 6, 4]
+[1, 3, 5, 1, 4, 5, 6, 6, 8, 6, 6, 4]
+--------------- Iteration 22 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [1, 1, 5, 1, 6, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023139	Circuit area: 146.830000	Circuit delay: 402.770000
+Evaluating Design: [1, 1, 5, 1, 6, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016738	Circuit area: 149.760000	Circuit delay: 395.090000
+Evaluating Design: [1, 1, 5, 1, 6, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197154	Circuit area: 145.500000	Circuit delay: 404.920000
+Evaluating Design: [1, 1, 5, 1, 6, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075479	Circuit area: 147.900000	Circuit delay: 389.940000
+Evaluating Design: [1, 1, 4, 1, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 150.020000	Circuit delay: 389.980000
+Evaluating Design: [1, 1, 5, 1, 6, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019461	Circuit area: 143.370000	Circuit delay: 385.370000
+Evaluating Design: [1, 1, 5, 1, 5, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 148.160000	Circuit delay: 382.270000
+Evaluating Design: [1, 1, 5, 1, 6, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135808	Circuit area: 147.360000	Circuit delay: 413.500000
+Evaluating Design: [1, 1, 5, 1, 6, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046797	Circuit area: 147.900000	Circuit delay: 389.170000
+==========TRACK 1 ==========
+Evaluating Design: [1, 3, 4, 1, 4, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 154.010000	Circuit delay: 413.990000
+Evaluating Design: [1, 2, 4, 1, 5, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 155.880000	Circuit delay: 434.860000
+Evaluating Design: [1, 3, 4, 1, 5, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075490	Circuit area: 150.290000	Circuit delay: 419.520000
+Evaluating Design: [1, 3, 4, 1, 5, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046809	Circuit area: 150.020000	Circuit delay: 418.270000
+Evaluating Design: [1, 3, 4, 1, 5, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023151	Circuit area: 151.350000	Circuit delay: 418.740000
+Evaluating Design: [1, 3, 4, 1, 5, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135819	Circuit area: 152.950000	Circuit delay: 420.130000
+Evaluating Design: [1, 3, 3, 1, 5, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 159.330000	Circuit delay: 454.200000
+Evaluating Design: [1, 3, 4, 1, 5, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016752	Circuit area: 152.950000	Circuit delay: 405.770000
+Evaluating Design: [1, 3, 4, 1, 5, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197168	Circuit area: 148.690000	Circuit delay: 415.950000
+Evaluating Design: [1, 3, 4, 1, 5, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019475	Circuit area: 146.830000	Circuit delay: 420.120000
+==========TRACK 2 ==========
+Evaluating Design: [1, 3, 5, 1, 4, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046809	Circuit area: 151.890000	Circuit delay: 415.850000
+Evaluating Design: [1, 3, 5, 1, 4, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016751	Circuit area: 154.810000	Circuit delay: 403.360000
+Evaluating Design: [1, 3, 5, 1, 4, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075490	Circuit area: 152.150000	Circuit delay: 415.750000
+Evaluating Design: [1, 2, 5, 1, 4, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 156.410000	Circuit delay: 462.120000
+Evaluating Design: [1, 3, 5, 1, 4, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023151	Circuit area: 151.620000	Circuit delay: 412.550000
+Evaluating Design: [1, 3, 5, 1, 4, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019475	Circuit area: 148.430000	Circuit delay: 417.770000
+Evaluating Design: [1, 3, 5, 1, 4, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135818	Circuit area: 153.480000	Circuit delay: 417.640000
+Evaluating Design: [1, 3, 5, 1, 3, 5, 6, 6, 8, 6, 6, 4]
+----- Approximating part 4 to degree 3
+Simulation error: 0.013415	Circuit area: 159.070000	Circuit delay: 408.730000
+Evaluating Design: [1, 3, 5, 1, 4, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197168	Circuit area: 150.560000	Circuit delay: 413.540000
+--------------- Finishing Iteration22---------------
+Partition [array([0, 1, 2, 3, 4, 5])] being approximated
+Approximated error: 0.013394	Area : 148.160000	Delay : 382.270000	Time used: 6.540457 sec
+
+Current stream of factorization degree:
+ [1, 1, 5, 1, 5, 5, 6, 6, 8, 6, 6, 4]
+[1, 1, 4, 1, 6, 5, 6, 6, 8, 6, 6, 4]
+[1, 3, 4, 1, 4, 5, 6, 6, 8, 6, 6, 4]
+--------------- Iteration 23 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [1, 1, 5, 1, 5, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016752	Circuit area: 148.960000	Circuit delay: 392.600000
+Evaluating Design: [1, 1, 5, 1, 5, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046809	Circuit area: 147.630000	Circuit delay: 385.330000
+Evaluating Design: [1, 1, 5, 1, 5, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019475	Circuit area: 143.640000	Circuit delay: 384.460000
+Evaluating Design: [1, 1, 5, 1, 5, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075490	Circuit area: 146.830000	Circuit delay: 383.090000
+Evaluating Design: [1, 1, 5, 1, 5, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023151	Circuit area: 146.830000	Circuit delay: 398.520000
+Evaluating Design: [1, 1, 5, 1, 5, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197168	Circuit area: 143.910000	Circuit delay: 401.640000
+Evaluating Design: [1, 1, 5, 1, 4, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 150.020000	Circuit delay: 382.330000
+Evaluating Design: [1, 1, 5, 1, 5, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135819	Circuit area: 145.500000	Circuit delay: 408.310000
+Evaluating Design: [1, 1, 4, 1, 5, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 149.490000	Circuit delay: 384.820000
+==========TRACK 1 ==========
+Evaluating Design: [1, 1, 3, 1, 6, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013380	Circuit area: 151.350000	Circuit delay: 373.940000
+Evaluating Design: [1, 1, 4, 1, 6, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135808	Circuit area: 145.770000	Circuit delay: 413.500000
+Evaluating Design: [1, 1, 4, 1, 6, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023139	Circuit area: 146.830000	Circuit delay: 402.770000
+Evaluating Design: [1, 1, 4, 1, 6, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016738	Circuit area: 149.760000	Circuit delay: 395.090000
+Evaluating Design: [1, 1, 4, 1, 6, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046797	Circuit area: 147.900000	Circuit delay: 389.170000
+Evaluating Design: [1, 1, 4, 1, 6, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019461	Circuit area: 143.640000	Circuit delay: 385.370000
+Evaluating Design: [1, 1, 4, 1, 6, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197154	Circuit area: 145.500000	Circuit delay: 404.920000
+Evaluating Design: [1, 1, 4, 1, 6, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075479	Circuit area: 147.900000	Circuit delay: 389.940000
+==========TRACK 2 ==========
+Evaluating Design: [1, 2, 4, 1, 4, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 156.410000	Circuit delay: 462.120000
+Evaluating Design: [1, 3, 4, 1, 4, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023151	Circuit area: 151.620000	Circuit delay: 412.550000
+Evaluating Design: [1, 3, 4, 1, 4, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075490	Circuit area: 152.150000	Circuit delay: 415.750000
+Evaluating Design: [1, 3, 4, 1, 4, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019475	Circuit area: 148.430000	Circuit delay: 417.770000
+Evaluating Design: [1, 3, 4, 1, 3, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013415	Circuit area: 159.070000	Circuit delay: 408.730000
+Evaluating Design: [1, 3, 3, 1, 4, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 157.740000	Circuit delay: 451.000000
+Evaluating Design: [1, 3, 4, 1, 4, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197168	Circuit area: 150.560000	Circuit delay: 413.540000
+Evaluating Design: [1, 3, 4, 1, 4, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016751	Circuit area: 154.810000	Circuit delay: 403.360000
+Evaluating Design: [1, 3, 4, 1, 4, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046809	Circuit area: 151.890000	Circuit delay: 415.850000
+Evaluating Design: [1, 3, 4, 1, 4, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135818	Circuit area: 153.480000	Circuit delay: 417.640000
+--------------- Finishing Iteration23---------------
+Partition [array([0, 1, 2, 3, 4, 5])] being approximated
+Approximated error: 0.013394	Area : 149.490000	Delay : 384.820000	Time used: 6.233238 sec
+
+Current stream of factorization degree:
+ [1, 1, 4, 1, 5, 5, 6, 6, 8, 6, 6, 4]
+[1, 1, 5, 1, 4, 5, 6, 6, 8, 6, 6, 4]
+[1, 1, 3, 1, 6, 5, 6, 6, 8, 6, 6, 4]
+--------------- Iteration 24 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [1, 1, 4, 1, 5, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135819	Circuit area: 145.500000	Circuit delay: 409.670000
+Evaluating Design: [1, 1, 4, 1, 5, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019475	Circuit area: 143.640000	Circuit delay: 385.820000
+Evaluating Design: [1, 1, 3, 1, 5, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 154.280000	Circuit delay: 413.670000
+Evaluating Design: [1, 1, 4, 1, 5, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023151	Circuit area: 146.830000	Circuit delay: 399.880000
+Evaluating Design: [1, 1, 4, 1, 5, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046809	Circuit area: 147.630000	Circuit delay: 383.970000
+Evaluating Design: [1, 1, 4, 1, 4, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 150.020000	Circuit delay: 382.330000
+Evaluating Design: [1, 1, 4, 1, 5, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075490	Circuit area: 146.830000	Circuit delay: 384.450000
+Evaluating Design: [1, 1, 4, 1, 5, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016752	Circuit area: 148.960000	Circuit delay: 393.960000
+Evaluating Design: [1, 1, 4, 1, 5, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197168	Circuit area: 143.910000	Circuit delay: 401.640000
+==========TRACK 1 ==========
+Evaluating Design: [1, 1, 5, 1, 3, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013415	Circuit area: 149.760000	Circuit delay: 399.240000
+Evaluating Design: [1, 1, 5, 1, 4, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019475	Circuit area: 144.170000	Circuit delay: 381.980000
+Evaluating Design: [1, 1, 5, 1, 4, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023151	Circuit area: 147.360000	Circuit delay: 396.030000
+Evaluating Design: [1, 1, 5, 1, 4, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135818	Circuit area: 146.030000	Circuit delay: 405.820000
+Evaluating Design: [1, 1, 5, 1, 4, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075490	Circuit area: 147.360000	Circuit delay: 380.600000
+Evaluating Design: [1, 1, 5, 1, 4, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016751	Circuit area: 149.490000	Circuit delay: 390.110000
+Evaluating Design: [1, 1, 5, 1, 4, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046809	Circuit area: 148.160000	Circuit delay: 381.490000
+Evaluating Design: [1, 1, 5, 1, 4, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197168	Circuit area: 144.440000	Circuit delay: 397.800000
+==========TRACK 2 ==========
+Evaluating Design: [1, 1, 3, 1, 6, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075479	Circuit area: 148.160000	Circuit delay: 375.500000
+Evaluating Design: [1, 1, 3, 1, 6, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016738	Circuit area: 150.020000	Circuit delay: 381.430000
+Evaluating Design: [1, 1, 3, 1, 6, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197154	Circuit area: 146.030000	Circuit delay: 374.240000
+Evaluating Design: [1, 1, 3, 1, 6, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023139	Circuit area: 148.430000	Circuit delay: 374.820000
+Evaluating Design: [1, 1, 3, 1, 6, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019461	Circuit area: 144.170000	Circuit delay: 375.710000
+Evaluating Design: [1, 1, 3, 1, 6, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046797	Circuit area: 148.960000	Circuit delay: 380.490000
+Evaluating Design: [1, 1, 2, 1, 6, 5, 6, 6, 8, 6, 6, 4]
+----- Approximating part 2 to degree 2
+Simulation error: 0.013408	Circuit area: 150.820000	Circuit delay: 397.050000
+Evaluating Design: [1, 1, 3, 1, 6, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135808	Circuit area: 146.830000	Circuit delay: 394.900000
+--------------- Finishing Iteration24---------------
+Partition [array([0, 1, 2, 3, 4, 5])] being approximated
+Approximated error: 0.013415	Area : 149.760000	Delay : 399.240000	Time used: 6.447568 sec
+
+Current stream of factorization degree:
+ [1, 1, 5, 1, 3, 5, 6, 6, 8, 6, 6, 4]
+[1, 1, 4, 1, 4, 5, 6, 6, 8, 6, 6, 4]
+[1, 1, 2, 1, 6, 5, 6, 6, 8, 6, 6, 4]
+--------------- Iteration 25 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [1, 1, 5, 1, 3, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016772	Circuit area: 148.690000	Circuit delay: 409.500000
+Evaluating Design: [1, 1, 5, 1, 3, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075507	Circuit area: 147.100000	Circuit delay: 399.480000
+Evaluating Design: [1, 1, 5, 1, 3, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019497	Circuit area: 142.840000	Circuit delay: 402.610000
+Evaluating Design: [1, 1, 5, 1, 3, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197189	Circuit area: 145.500000	Circuit delay: 436.190000
+Evaluating Design: [1, 1, 4, 1, 3, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013415	Circuit area: 149.760000	Circuit delay: 399.240000
+Evaluating Design: [1, 1, 5, 1, 3, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135834	Circuit area: 145.770000	Circuit delay: 424.710000
+Evaluating Design: [1, 1, 5, 1, 3, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046827	Circuit area: 147.360000	Circuit delay: 400.610000
+Evaluating Design: [1, 1, 5, 1, 3, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023170	Circuit area: 147.360000	Circuit delay: 404.630000
+Evaluating Design: [1, 1, 5, 1, 2, 5, 6, 6, 8, 6, 6, 4]
+----- Approximating part 4 to degree 2
+Simulation error: 0.013415	Circuit area: 141.510000	Circuit delay: 371.010000
+==========TRACK 1 ==========
+Evaluating Design: [1, 1, 4, 1, 4, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023151	Circuit area: 147.360000	Circuit delay: 396.030000
+Evaluating Design: [1, 1, 4, 1, 4, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016751	Circuit area: 149.490000	Circuit delay: 390.110000
+Evaluating Design: [1, 1, 4, 1, 4, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019475	Circuit area: 144.170000	Circuit delay: 381.980000
+Evaluating Design: [1, 1, 4, 1, 4, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075490	Circuit area: 147.360000	Circuit delay: 380.600000
+Evaluating Design: [1, 1, 4, 1, 4, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135818	Circuit area: 146.030000	Circuit delay: 405.820000
+Evaluating Design: [1, 1, 3, 1, 4, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013394	Circuit area: 152.680000	Circuit delay: 431.580000
+Evaluating Design: [1, 1, 4, 1, 4, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197168	Circuit area: 144.970000	Circuit delay: 395.560000
+Evaluating Design: [1, 1, 4, 1, 4, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046809	Circuit area: 148.160000	Circuit delay: 381.490000
+==========TRACK 2 ==========
+Evaluating Design: [1, 1, 2, 1, 6, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197182	Circuit area: 146.030000	Circuit delay: 415.060000
+Evaluating Design: [1, 1, 2, 1, 6, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135829	Circuit area: 148.960000	Circuit delay: 424.160000
+Evaluating Design: [1, 1, 2, 1, 6, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016765	Circuit area: 152.150000	Circuit delay: 407.300000
+Evaluating Design: [1, 1, 2, 1, 6, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075501	Circuit area: 150.560000	Circuit delay: 397.870000
+Evaluating Design: [1, 1, 2, 1, 6, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019489	Circuit area: 144.700000	Circuit delay: 399.240000
+Evaluating Design: [1, 1, 2, 1, 6, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023163	Circuit area: 149.490000	Circuit delay: 413.300000
+Evaluating Design: [1, 1, 2, 1, 5, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013408	Circuit area: 152.950000	Circuit delay: 413.670000
+Evaluating Design: [1, 1, 1, 1, 6, 5, 6, 6, 8, 6, 6, 4]
+----- Approximating part 2 to degree 1
+Simulation error: 0.013408	Circuit area: 147.360000	Circuit delay: 354.770000
+Evaluating Design: [1, 1, 2, 1, 6, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046821	Circuit area: 149.760000	Circuit delay: 398.750000
+--------------- Finishing Iteration25---------------
+Partition [array([0, 1, 2, 3, 4, 5])] being approximated
+Approximated error: 0.013415	Area : 141.510000	Delay : 371.010000	Time used: 6.144429 sec
+
+Current stream of factorization degree:
+ [1, 1, 5, 1, 2, 5, 6, 6, 8, 6, 6, 4]
+[1, 1, 1, 1, 6, 5, 6, 6, 8, 6, 6, 4]
+[1, 1, 4, 1, 3, 5, 6, 6, 8, 6, 6, 4]
+--------------- Iteration 26 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [1, 1, 5, 1, 2, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197189	Circuit area: 132.730000	Circuit delay: 398.630000
+Evaluating Design: [1, 1, 5, 1, 2, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135834	Circuit area: 135.390000	Circuit delay: 409.120000
+Evaluating Design: [1, 1, 5, 1, 2, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023170	Circuit area: 139.380000	Circuit delay: 380.960000
+Evaluating Design: [1, 1, 5, 1, 2, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019497	Circuit area: 130.610000	Circuit delay: 377.050000
+Evaluating Design: [1, 1, 5, 1, 2, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016772	Circuit area: 139.650000	Circuit delay: 378.670000
+Evaluating Design: [1, 1, 4, 1, 2, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013415	Circuit area: 139.380000	Circuit delay: 416.950000
+Evaluating Design: [1, 1, 5, 1, 2, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046827	Circuit area: 139.120000	Circuit delay: 371.680000
+Evaluating Design: [1, 1, 5, 1, 2, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075507	Circuit area: 138.590000	Circuit delay: 368.650000
+Evaluating Design: [1, 1, 5, 1, 1, 5, 6, 6, 8, 6, 6, 4]
+----- Approximating part 4 to degree 1
+Simulation error: 0.013415	Circuit area: 129.280000	Circuit delay: 335.430000
+==========TRACK 1 ==========
+Evaluating Design: [1, 1, 1, 1, 6, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016765	Circuit area: 145.500000	Circuit delay: 354.640000
+Evaluating Design: [1, 1, 1, 1, 6, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046821	Circuit area: 144.970000	Circuit delay: 354.640000
+Evaluating Design: [1, 1, 1, 1, 6, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197182	Circuit area: 143.640000	Circuit delay: 354.330000
+Evaluating Design: [1, 1, 1, 1, 6, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023163	Circuit area: 144.970000	Circuit delay: 353.620000
+Evaluating Design: [1, 1, 1, 1, 6, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135829	Circuit area: 146.300000	Circuit delay: 405.440000
+Evaluating Design: [1, 1, 1, 1, 6, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075501	Circuit area: 146.300000	Circuit delay: 354.640000
+Evaluating Design: [1, 1, 1, 1, 5, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013408	Circuit area: 145.770000	Circuit delay: 397.100000
+Evaluating Design: [1, 1, 1, 1, 6, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019489	Circuit area: 137.520000	Circuit delay: 354.490000
+==========TRACK 2 ==========
+Evaluating Design: [1, 1, 4, 1, 3, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046827	Circuit area: 147.360000	Circuit delay: 400.610000
+Evaluating Design: [1, 1, 4, 1, 3, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016772	Circuit area: 148.690000	Circuit delay: 409.480000
+Evaluating Design: [1, 1, 4, 1, 3, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075507	Circuit area: 149.230000	Circuit delay: 431.800000
+Evaluating Design: [1, 1, 4, 1, 3, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019497	Circuit area: 142.840000	Circuit delay: 402.610000
+Evaluating Design: [1, 1, 4, 1, 3, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023170	Circuit area: 148.960000	Circuit delay: 448.760000
+Evaluating Design: [1, 1, 4, 1, 3, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135834	Circuit area: 146.830000	Circuit delay: 426.950000
+Evaluating Design: [1, 1, 4, 1, 3, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197189	Circuit area: 143.370000	Circuit delay: 409.680000
+Evaluating Design: [1, 1, 3, 1, 3, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013415	Circuit area: 150.290000	Circuit delay: 424.180000
+--------------- Finishing Iteration26---------------
+Partition [array([0, 1, 2, 3, 4, 5])] being approximated
+Approximated error: 0.013415	Area : 129.280000	Delay : 335.430000	Time used: 5.807747 sec
+
+Current stream of factorization degree:
+ [1, 1, 5, 1, 1, 5, 6, 6, 8, 6, 6, 4]
+[1, 1, 4, 1, 2, 5, 6, 6, 8, 6, 6, 4]
+[1, 1, 1, 1, 5, 5, 6, 6, 8, 6, 6, 4]
+--------------- Iteration 27 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [1, 1, 5, 1, 1, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019497	Circuit area: 118.900000	Circuit delay: 336.580000
+Evaluating Design: [1, 1, 5, 1, 1, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046827	Circuit area: 123.690000	Circuit delay: 333.220000
+Evaluating Design: [1, 1, 5, 1, 1, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075507	Circuit area: 125.020000	Circuit delay: 334.280000
+Evaluating Design: [1, 1, 5, 1, 1, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135834	Circuit area: 122.890000	Circuit delay: 347.230000
+Evaluating Design: [1, 1, 4, 1, 1, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013415	Circuit area: 129.280000	Circuit delay: 335.430000
+Evaluating Design: [1, 1, 5, 1, 1, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016772	Circuit area: 122.630000	Circuit delay: 344.380000
+Evaluating Design: [1, 1, 5, 1, 1, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023170	Circuit area: 124.220000	Circuit delay: 346.000000
+Evaluating Design: [1, 1, 5, 1, 1, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197189	Circuit area: 119.170000	Circuit delay: 352.990000
+==========TRACK 1 ==========
+Evaluating Design: [1, 1, 4, 1, 2, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019497	Circuit area: 130.610000	Circuit delay: 377.050000
+Evaluating Design: [1, 1, 4, 1, 2, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197189	Circuit area: 132.730000	Circuit delay: 398.630000
+Evaluating Design: [1, 1, 4, 1, 2, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016772	Circuit area: 139.650000	Circuit delay: 378.670000
+Evaluating Design: [1, 1, 4, 1, 2, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075507	Circuit area: 138.590000	Circuit delay: 368.650000
+Evaluating Design: [1, 1, 4, 1, 2, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046827	Circuit area: 139.120000	Circuit delay: 371.680000
+Evaluating Design: [1, 1, 3, 1, 2, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013415	Circuit area: 143.110000	Circuit delay: 403.110000
+Evaluating Design: [1, 1, 4, 1, 2, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135834	Circuit area: 135.390000	Circuit delay: 409.120000
+Evaluating Design: [1, 1, 4, 1, 2, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023170	Circuit area: 139.380000	Circuit delay: 380.960000
+==========TRACK 2 ==========
+Evaluating Design: [1, 1, 1, 1, 5, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019489	Circuit area: 138.850000	Circuit delay: 401.240000
+Evaluating Design: [1, 1, 1, 1, 4, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013408	Circuit area: 146.830000	Circuit delay: 371.170000
+Evaluating Design: [1, 1, 1, 1, 5, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046821	Circuit area: 143.910000	Circuit delay: 396.260000
+Evaluating Design: [1, 1, 1, 1, 5, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135829	Circuit area: 139.380000	Circuit delay: 419.730000
+Evaluating Design: [1, 1, 1, 1, 5, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075501	Circuit area: 143.110000	Circuit delay: 395.350000
+Evaluating Design: [1, 1, 1, 1, 5, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016765	Circuit area: 141.510000	Circuit delay: 405.360000
+Evaluating Design: [1, 1, 1, 1, 5, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197182	Circuit area: 138.850000	Circuit delay: 411.470000
+Evaluating Design: [1, 1, 1, 1, 5, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023163	Circuit area: 144.170000	Circuit delay: 395.110000
+--------------- Finishing Iteration27---------------
+Partition [array([0, 1, 2, 3, 4, 5])] being approximated
+Approximated error: 0.013415	Area : 129.280000	Delay : 335.430000	Time used: 5.647256 sec
+
+Current stream of factorization degree:
+ [1, 1, 4, 1, 1, 5, 6, 6, 8, 6, 6, 4]
+[1, 1, 5, 1, 1, 5, 5, 6, 8, 6, 6, 4]
+[1, 1, 3, 1, 2, 5, 6, 6, 8, 6, 6, 4]
+--------------- Iteration 28 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [1, 1, 4, 1, 1, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197189	Circuit area: 119.170000	Circuit delay: 352.990000
+Evaluating Design: [1, 1, 4, 1, 1, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023170	Circuit area: 124.220000	Circuit delay: 346.000000
+Evaluating Design: [1, 1, 4, 1, 1, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046827	Circuit area: 123.690000	Circuit delay: 333.220000
+Evaluating Design: [1, 1, 4, 1, 1, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019497	Circuit area: 118.900000	Circuit delay: 336.580000
+Evaluating Design: [1, 1, 3, 1, 1, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013415	Circuit area: 129.280000	Circuit delay: 328.490000
+Evaluating Design: [1, 1, 4, 1, 1, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135834	Circuit area: 122.890000	Circuit delay: 347.230000
+Evaluating Design: [1, 1, 4, 1, 1, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016772	Circuit area: 122.630000	Circuit delay: 344.380000
+Evaluating Design: [1, 1, 4, 1, 1, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075507	Circuit area: 125.020000	Circuit delay: 334.280000
+==========TRACK 1 ==========
+Evaluating Design: [1, 1, 5, 1, 1, 4, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.022854	Circuit area: 118.900000	Circuit delay: 353.160000
+Evaluating Design: [1, 1, 5, 1, 1, 5, 5, 6, 7, 6, 6, 4]
+Simulation error: 0.049969	Circuit area: 120.500000	Circuit delay: 334.030000
+Evaluating Design: [1, 1, 5, 1, 1, 5, 5, 6, 8, 6, 5, 4]
+Simulation error: 0.199194	Circuit area: 116.240000	Circuit delay: 353.810000
+Evaluating Design: [1, 1, 5, 1, 1, 5, 5, 5, 8, 6, 6, 4]
+Simulation error: 0.026512	Circuit area: 122.090000	Circuit delay: 333.460000
+Evaluating Design: [1, 1, 5, 1, 1, 5, 4, 6, 8, 6, 6, 4]
+Simulation error: 0.019719	Circuit area: 117.040000	Circuit delay: 346.290000
+Evaluating Design: [1, 1, 5, 1, 1, 5, 5, 6, 8, 6, 6, 3]
+Simulation error: 0.138847	Circuit area: 119.700000	Circuit delay: 347.760000
+Evaluating Design: [1, 1, 5, 1, 1, 5, 5, 6, 8, 5, 6, 4]
+Simulation error: 0.078422	Circuit area: 120.500000	Circuit delay: 343.980000
+==========TRACK 2 ==========
+Evaluating Design: [1, 1, 3, 1, 2, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046827	Circuit area: 140.980000	Circuit delay: 402.300000
+Evaluating Design: [1, 1, 3, 1, 2, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197189	Circuit area: 137.790000	Circuit delay: 416.370000
+Evaluating Design: [1, 1, 3, 1, 2, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019497	Circuit area: 136.720000	Circuit delay: 408.190000
+Evaluating Design: [1, 1, 3, 1, 2, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075507	Circuit area: 140.180000	Circuit delay: 401.390000
+Evaluating Design: [1, 1, 2, 1, 2, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013428	Circuit area: 142.040000	Circuit delay: 395.490000
+Evaluating Design: [1, 1, 3, 1, 2, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023170	Circuit area: 140.180000	Circuit delay: 413.700000
+Evaluating Design: [1, 1, 3, 1, 2, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016772	Circuit area: 142.310000	Circuit delay: 411.490000
+Evaluating Design: [1, 1, 3, 1, 2, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135834	Circuit area: 139.380000	Circuit delay: 426.860000
+--------------- Finishing Iteration28---------------
+Partition [array([0, 1, 2, 3, 4, 5])] being approximated
+Approximated error: 0.013415	Area : 129.280000	Delay : 328.490000	Time used: 5.650508 sec
+
+Current stream of factorization degree:
+ [1, 1, 3, 1, 1, 5, 6, 6, 8, 6, 6, 4]
+[1, 1, 4, 1, 1, 5, 5, 6, 8, 6, 6, 4]
+[1, 1, 2, 1, 2, 5, 6, 6, 8, 6, 6, 4]
+--------------- Iteration 29 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [1, 1, 3, 1, 1, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019497	Circuit area: 122.090000	Circuit delay: 344.630000
+Evaluating Design: [1, 1, 2, 1, 1, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013428	Circuit area: 122.630000	Circuit delay: 280.500000
+Evaluating Design: [1, 1, 3, 1, 1, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075507	Circuit area: 125.550000	Circuit delay: 329.310000
+Evaluating Design: [1, 1, 3, 1, 1, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046827	Circuit area: 126.880000	Circuit delay: 328.490000
+Evaluating Design: [1, 1, 3, 1, 1, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135834	Circuit area: 122.890000	Circuit delay: 354.560000
+Evaluating Design: [1, 1, 3, 1, 1, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016772	Circuit area: 126.350000	Circuit delay: 338.850000
+Evaluating Design: [1, 1, 3, 1, 1, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023170	Circuit area: 126.620000	Circuit delay: 341.040000
+Evaluating Design: [1, 1, 3, 1, 1, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197189	Circuit area: 120.500000	Circuit delay: 333.910000
+==========TRACK 1 ==========
+Evaluating Design: [1, 1, 4, 1, 1, 5, 4, 6, 8, 6, 6, 4]
+Simulation error: 0.019719	Circuit area: 117.040000	Circuit delay: 346.290000
+Evaluating Design: [1, 1, 4, 1, 1, 4, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.022854	Circuit area: 118.900000	Circuit delay: 353.160000
+Evaluating Design: [1, 1, 4, 1, 1, 5, 5, 6, 8, 6, 6, 3]
+Simulation error: 0.138847	Circuit area: 119.700000	Circuit delay: 347.760000
+Evaluating Design: [1, 1, 4, 1, 1, 5, 5, 5, 8, 6, 6, 4]
+Simulation error: 0.026512	Circuit area: 122.090000	Circuit delay: 333.460000
+Evaluating Design: [1, 1, 4, 1, 1, 5, 5, 6, 7, 6, 6, 4]
+Simulation error: 0.049969	Circuit area: 120.500000	Circuit delay: 334.030000
+Evaluating Design: [1, 1, 4, 1, 1, 5, 5, 6, 8, 5, 6, 4]
+Simulation error: 0.078422	Circuit area: 120.500000	Circuit delay: 343.980000
+Evaluating Design: [1, 1, 4, 1, 1, 5, 5, 6, 8, 6, 5, 4]
+Simulation error: 0.199194	Circuit area: 116.240000	Circuit delay: 353.810000
+==========TRACK 2 ==========
+Evaluating Design: [1, 1, 2, 1, 2, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075518	Circuit area: 138.050000	Circuit delay: 359.650000
+Evaluating Design: [1, 1, 2, 1, 2, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197203	Circuit area: 134.860000	Circuit delay: 374.440000
+Evaluating Design: [1, 1, 1, 1, 2, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013428	Circuit area: 140.710000	Circuit delay: 349.140000
+Evaluating Design: [1, 1, 2, 1, 2, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016786	Circuit area: 140.180000	Circuit delay: 369.470000
+Evaluating Design: [1, 1, 2, 1, 2, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023182	Circuit area: 138.320000	Circuit delay: 371.770000
+Evaluating Design: [1, 1, 2, 1, 2, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019511	Circuit area: 132.470000	Circuit delay: 376.550000
+Evaluating Design: [1, 1, 2, 1, 2, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046839	Circuit area: 138.320000	Circuit delay: 364.650000
+Evaluating Design: [1, 1, 2, 1, 2, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135845	Circuit area: 137.260000	Circuit delay: 384.930000
+--------------- Finishing Iteration29---------------
+Partition [array([0, 1, 2, 3, 4, 5])] being approximated
+Approximated error: 0.013428	Area : 122.630000	Delay : 280.500000	Time used: 5.381361 sec
+
+Current stream of factorization degree:
+ [1, 1, 2, 1, 1, 5, 6, 6, 8, 6, 6, 4]
+[1, 1, 1, 1, 2, 5, 6, 6, 8, 6, 6, 4]
+[1, 1, 3, 1, 1, 5, 5, 6, 8, 6, 6, 4]
+--------------- Iteration 30 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [1, 1, 2, 1, 1, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016786	Circuit area: 121.560000	Circuit delay: 290.850000
+Evaluating Design: [1, 1, 2, 1, 1, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019511	Circuit area: 117.840000	Circuit delay: 300.480000
+Evaluating Design: [1, 1, 2, 1, 1, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135845	Circuit area: 118.100000	Circuit delay: 306.560000
+Evaluating Design: [1, 1, 2, 1, 1, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023182	Circuit area: 121.830000	Circuit delay: 290.800000
+Evaluating Design: [1, 1, 2, 1, 1, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197203	Circuit area: 114.380000	Circuit delay: 300.580000
+Evaluating Design: [1, 1, 2, 1, 1, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075518	Circuit area: 119.700000	Circuit delay: 281.310000
+Evaluating Design: [1, 1, 2, 1, 1, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046839	Circuit area: 122.090000	Circuit delay: 280.500000
+Evaluating Design: [1, 1, 1, 1, 1, 5, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.013428	Circuit area: 106.930000	Circuit delay: 234.730000
+==========TRACK 1 ==========
+Evaluating Design: [1, 1, 1, 1, 2, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023182	Circuit area: 138.850000	Circuit delay: 352.620000
+Evaluating Design: [1, 1, 1, 1, 2, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046839	Circuit area: 138.050000	Circuit delay: 349.010000
+Evaluating Design: [1, 1, 1, 1, 2, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197203	Circuit area: 136.990000	Circuit delay: 348.700000
+Evaluating Design: [1, 1, 1, 1, 2, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075518	Circuit area: 138.050000	Circuit delay: 349.010000
+Evaluating Design: [1, 1, 1, 1, 2, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019511	Circuit area: 134.600000	Circuit delay: 358.770000
+Evaluating Design: [1, 1, 1, 1, 2, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016786	Circuit area: 137.520000	Circuit delay: 350.090000
+Evaluating Design: [1, 1, 1, 1, 2, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135845	Circuit area: 130.070000	Circuit delay: 401.740000
+==========TRACK 2 ==========
+Evaluating Design: [1, 1, 3, 1, 1, 5, 5, 5, 8, 6, 6, 4]
+Simulation error: 0.026512	Circuit area: 122.890000	Circuit delay: 323.950000
+Evaluating Design: [1, 1, 3, 1, 1, 5, 5, 6, 8, 6, 6, 3]
+Simulation error: 0.138847	Circuit area: 120.500000	Circuit delay: 354.510000
+Evaluating Design: [1, 1, 3, 1, 1, 5, 5, 6, 8, 6, 5, 4]
+Simulation error: 0.199194	Circuit area: 119.700000	Circuit delay: 345.500000
+Evaluating Design: [1, 1, 3, 1, 1, 5, 5, 6, 8, 5, 6, 4]
+Simulation error: 0.078422	Circuit area: 122.090000	Circuit delay: 339.100000
+Evaluating Design: [1, 1, 3, 1, 1, 5, 4, 6, 8, 6, 6, 4]
+Simulation error: 0.019719	Circuit area: 119.430000	Circuit delay: 341.330000
+Evaluating Design: [1, 1, 3, 1, 1, 4, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.022854	Circuit area: 120.230000	Circuit delay: 344.760000
+Evaluating Design: [1, 1, 3, 1, 1, 5, 5, 6, 7, 6, 6, 4]
+Simulation error: 0.049969	Circuit area: 121.300000	Circuit delay: 325.190000
+--------------- Finishing Iteration30---------------
+Partition [array([0, 1, 2, 3, 4, 5])] being approximated
+Approximated error: 0.013428	Area : 106.930000	Delay : 234.730000	Time used: 5.215704 sec
+
+Current stream of factorization degree:
+ [1, 1, 1, 1, 1, 5, 6, 6, 8, 6, 6, 4]
+[1, 1, 2, 1, 1, 5, 5, 6, 8, 6, 6, 4]
+[1, 1, 2, 1, 1, 4, 6, 6, 8, 6, 6, 4]
+--------------- Iteration 31 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [1, 1, 1, 1, 1, 5, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.075518	Circuit area: 119.970000	Circuit delay: 228.540000
+Evaluating Design: [1, 1, 1, 1, 1, 4, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.019511	Circuit area: 102.140000	Circuit delay: 230.330000
+Evaluating Design: [1, 1, 1, 1, 1, 5, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.016786	Circuit area: 105.600000	Circuit delay: 216.450000
+Evaluating Design: [1, 1, 1, 1, 1, 5, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.046839	Circuit area: 109.590000	Circuit delay: 251.820000
+Evaluating Design: [1, 1, 1, 1, 1, 5, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.135845	Circuit area: 114.650000	Circuit delay: 227.550000
+Evaluating Design: [1, 1, 1, 1, 1, 5, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.197203	Circuit area: 116.240000	Circuit delay: 212.770000
+Evaluating Design: [1, 1, 1, 1, 1, 5, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.023182	Circuit area: 107.200000	Circuit delay: 240.640000
+==========TRACK 1 ==========
+Evaluating Design: [1, 1, 2, 1, 1, 5, 5, 6, 8, 6, 5, 4]
+Simulation error: 0.199208	Circuit area: 112.250000	Circuit delay: 296.650000
+Evaluating Design: [1, 1, 2, 1, 1, 5, 4, 6, 8, 6, 6, 4]
+Simulation error: 0.019734	Circuit area: 114.380000	Circuit delay: 290.820000
+Evaluating Design: [1, 1, 2, 1, 1, 4, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.022869	Circuit area: 113.050000	Circuit delay: 300.710000
+Evaluating Design: [1, 1, 2, 1, 1, 5, 5, 5, 8, 6, 6, 4]
+Simulation error: 0.026524	Circuit area: 118.100000	Circuit delay: 280.500000
+Evaluating Design: [1, 1, 2, 1, 1, 5, 5, 6, 8, 6, 6, 3]
+Simulation error: 0.138857	Circuit area: 115.710000	Circuit delay: 306.510000
+Evaluating Design: [1, 1, 2, 1, 1, 5, 5, 6, 8, 5, 6, 4]
+Simulation error: 0.078433	Circuit area: 117.040000	Circuit delay: 297.860000
+Evaluating Design: [1, 1, 2, 1, 1, 5, 5, 6, 7, 6, 6, 4]
+Simulation error: 0.049981	Circuit area: 116.240000	Circuit delay: 281.000000
+==========TRACK 2 ==========
+Evaluating Design: [1, 1, 2, 1, 1, 3, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.024736	Circuit area: 109.060000	Circuit delay: 293.040000
+Evaluating Design: [1, 1, 2, 1, 1, 4, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.080294	Circuit area: 112.780000	Circuit delay: 304.120000
+Evaluating Design: [1, 1, 2, 1, 1, 4, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.203544	Circuit area: 108.530000	Circuit delay: 298.440000
+Evaluating Design: [1, 1, 2, 1, 1, 4, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.141009	Circuit area: 112.250000	Circuit delay: 313.180000
+Evaluating Design: [1, 1, 2, 1, 1, 4, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.029472	Circuit area: 113.850000	Circuit delay: 300.510000
+Evaluating Design: [1, 1, 2, 1, 1, 4, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.052106	Circuit area: 114.380000	Circuit delay: 300.480000
+--------------- Finishing Iteration31---------------
+Partition [array([0, 1, 2, 3, 4, 5, 6])] being approximated
+Approximated error: 0.016786	Area : 105.600000	Delay : 216.450000	Time used: 5.025287 sec
+
+Current stream of factorization degree:
+ [1, 1, 1, 1, 1, 5, 5, 6, 8, 6, 6, 4]
+[1, 1, 1, 1, 1, 4, 6, 6, 8, 6, 6, 4]
+[1, 1, 2, 1, 1, 5, 4, 6, 8, 6, 6, 4]
+--------------- Iteration 32 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [1, 1, 1, 1, 1, 5, 4, 6, 8, 6, 6, 4]
+Simulation error: 0.019734	Circuit area: 100.020000	Circuit delay: 213.590000
+Evaluating Design: [1, 1, 1, 1, 1, 5, 5, 5, 8, 6, 6, 4]
+Simulation error: 0.026524	Circuit area: 105.070000	Circuit delay: 238.090000
+Evaluating Design: [1, 1, 1, 1, 1, 5, 5, 6, 7, 6, 6, 4]
+Simulation error: 0.049981	Circuit area: 105.070000	Circuit delay: 235.430000
+Evaluating Design: [1, 1, 1, 1, 1, 5, 5, 6, 8, 6, 5, 4]
+Simulation error: 0.199208	Circuit area: 108.260000	Circuit delay: 206.750000
+Evaluating Design: [1, 1, 1, 1, 1, 5, 5, 6, 8, 5, 6, 4]
+Simulation error: 0.078433	Circuit area: 101.350000	Circuit delay: 234.030000
+Evaluating Design: [1, 1, 1, 1, 1, 5, 5, 6, 8, 6, 6, 3]
+Simulation error: 0.138857	Circuit area: 104.270000	Circuit delay: 224.200000
+Evaluating Design: [1, 1, 1, 1, 1, 4, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.022869	Circuit area: 102.680000	Circuit delay: 210.810000
+==========TRACK 1 ==========
+Evaluating Design: [1, 1, 1, 1, 1, 3, 6, 6, 8, 6, 6, 4]
+Simulation error: 0.024736	Circuit area: 97.620000	Circuit delay: 209.330000
+Evaluating Design: [1, 1, 1, 1, 1, 4, 6, 6, 7, 6, 6, 4]
+Simulation error: 0.052106	Circuit area: 98.690000	Circuit delay: 225.650000
+Evaluating Design: [1, 1, 1, 1, 1, 4, 6, 6, 8, 6, 5, 4]
+Simulation error: 0.203544	Circuit area: 102.410000	Circuit delay: 215.660000
+Evaluating Design: [1, 1, 1, 1, 1, 4, 6, 6, 8, 5, 6, 4]
+Simulation error: 0.080294	Circuit area: 98.950000	Circuit delay: 234.970000
+Evaluating Design: [1, 1, 1, 1, 1, 4, 6, 5, 8, 6, 6, 4]
+Simulation error: 0.029472	Circuit area: 99.750000	Circuit delay: 229.600000
+Evaluating Design: [1, 1, 1, 1, 1, 4, 6, 6, 8, 6, 6, 3]
+Simulation error: 0.141009	Circuit area: 100.020000	Circuit delay: 228.480000
+==========TRACK 2 ==========
+Evaluating Design: [1, 1, 2, 1, 1, 5, 4, 6, 8, 6, 6, 3]
+Simulation error: 0.141356	Circuit area: 108.790000	Circuit delay: 306.490000
+Evaluating Design: [1, 1, 2, 1, 1, 5, 4, 6, 7, 6, 6, 4]
+Simulation error: 0.052328	Circuit area: 110.660000	Circuit delay: 280.470000
+Evaluating Design: [1, 1, 2, 1, 1, 5, 4, 5, 8, 6, 6, 4]
+Simulation error: 0.029497	Circuit area: 113.320000	Circuit delay: 290.800000
+Evaluating Design: [1, 1, 2, 1, 1, 5, 4, 6, 8, 6, 5, 4]
+Simulation error: 0.202338	Circuit area: 106.400000	Circuit delay: 303.070000
+Evaluating Design: [1, 1, 2, 1, 1, 4, 4, 6, 8, 6, 6, 4]
+Simulation error: 0.024736	Circuit area: 109.060000	Circuit delay: 293.040000
+Evaluating Design: [1, 1, 2, 1, 1, 5, 4, 6, 8, 5, 6, 4]
+Simulation error: 0.081240	Circuit area: 110.390000	Circuit delay: 281.310000
+Evaluating Design: [1, 1, 2, 1, 1, 5, 3, 6, 8, 6, 6, 4]
+----- Approximating part 6 to degree 3
+Simulation error: 0.019734	Circuit area: 114.380000	Circuit delay: 290.820000
+--------------- Finishing Iteration32---------------
+Partition [array([0, 1, 2, 3, 4, 5, 6])] being approximated
+Approximated error: 0.019734	Area : 100.020000	Delay : 213.590000	Time used: 5.191362 sec
+
+Current stream of factorization degree:
+ [1, 1, 1, 1, 1, 5, 4, 6, 8, 6, 6, 4]
+[1, 1, 2, 1, 1, 5, 3, 6, 8, 6, 6, 4]
+[1, 1, 1, 1, 1, 4, 5, 6, 8, 6, 6, 4]
+--------------- Iteration 33 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [1, 1, 1, 1, 1, 4, 4, 6, 8, 6, 6, 4]
+Simulation error: 0.024736	Circuit area: 97.620000	Circuit delay: 209.330000
+Evaluating Design: [1, 1, 1, 1, 1, 5, 4, 6, 8, 6, 6, 3]
+Simulation error: 0.141356	Circuit area: 94.160000	Circuit delay: 229.550000
+Evaluating Design: [1, 1, 1, 1, 1, 5, 4, 5, 8, 6, 6, 4]
+Simulation error: 0.029497	Circuit area: 98.420000	Circuit delay: 214.710000
+Evaluating Design: [1, 1, 1, 1, 1, 5, 4, 6, 8, 5, 6, 4]
+Simulation error: 0.081240	Circuit area: 97.090000	Circuit delay: 208.160000
+Evaluating Design: [1, 1, 1, 1, 1, 5, 3, 6, 8, 6, 6, 4]
+Simulation error: 0.019734	Circuit area: 100.020000	Circuit delay: 213.590000
+Evaluating Design: [1, 1, 1, 1, 1, 5, 4, 6, 8, 6, 5, 4]
+Simulation error: 0.202338	Circuit area: 94.700000	Circuit delay: 218.300000
+Evaluating Design: [1, 1, 1, 1, 1, 5, 4, 6, 7, 6, 6, 4]
+Simulation error: 0.052328	Circuit area: 99.750000	Circuit delay: 205.850000
+==========TRACK 1 ==========
+Evaluating Design: [1, 1, 2, 1, 1, 5, 3, 6, 8, 5, 6, 4]
+Simulation error: 0.081240	Circuit area: 110.390000	Circuit delay: 281.310000
+Evaluating Design: [1, 1, 2, 1, 1, 5, 3, 5, 8, 6, 6, 4]
+Simulation error: 0.029497	Circuit area: 113.320000	Circuit delay: 290.800000
+Evaluating Design: [1, 1, 2, 1, 1, 5, 3, 6, 8, 6, 5, 4]
+Simulation error: 0.202338	Circuit area: 106.400000	Circuit delay: 303.070000
+Evaluating Design: [1, 1, 2, 1, 1, 5, 3, 6, 7, 6, 6, 4]
+Simulation error: 0.052328	Circuit area: 110.660000	Circuit delay: 280.470000
+Evaluating Design: [1, 1, 2, 1, 1, 5, 3, 6, 8, 6, 6, 3]
+Simulation error: 0.141356	Circuit area: 108.790000	Circuit delay: 306.490000
+Evaluating Design: [1, 1, 2, 1, 1, 4, 3, 6, 8, 6, 6, 4]
+Simulation error: 0.024736	Circuit area: 109.060000	Circuit delay: 293.040000
+Evaluating Design: [1, 1, 2, 1, 1, 5, 2, 6, 8, 6, 6, 4]
+----- Approximating part 6 to degree 2
+Simulation error: 0.019734	Circuit area: 106.400000	Circuit delay: 320.630000
+==========TRACK 2 ==========
+Evaluating Design: [1, 1, 1, 1, 1, 4, 5, 5, 8, 6, 6, 4]
+Simulation error: 0.032814	Circuit area: 97.620000	Circuit delay: 212.690000
+Evaluating Design: [1, 1, 1, 1, 1, 4, 5, 6, 8, 6, 5, 4]
+Simulation error: 0.205549	Circuit area: 99.480000	Circuit delay: 219.290000
+Evaluating Design: [1, 1, 1, 1, 1, 4, 5, 6, 8, 6, 6, 3]
+Simulation error: 0.144021	Circuit area: 96.560000	Circuit delay: 221.270000
+Evaluating Design: [1, 1, 1, 1, 1, 4, 5, 6, 8, 5, 6, 4]
+Simulation error: 0.083210	Circuit area: 100.280000	Circuit delay: 232.420000
+Evaluating Design: [1, 1, 1, 1, 1, 3, 5, 6, 8, 6, 6, 4]
+Simulation error: 0.024736	Circuit area: 97.620000	Circuit delay: 209.330000
+Evaluating Design: [1, 1, 1, 1, 1, 4, 5, 6, 7, 6, 6, 4]
+Simulation error: 0.055248	Circuit area: 100.020000	Circuit delay: 219.490000
+--------------- Finishing Iteration33---------------
+Partition [array([0, 1, 2, 3, 4, 5, 6])] being approximated
+Approximated error: 0.019734	Area : 100.020000	Delay : 213.590000	Time used: 4.968979 sec
+
+Current stream of factorization degree:
+ [1, 1, 1, 1, 1, 5, 3, 6, 8, 6, 6, 4]
+[1, 1, 2, 1, 1, 5, 2, 6, 8, 6, 6, 4]
+[1, 1, 1, 1, 1, 4, 4, 6, 8, 6, 6, 4]
+--------------- Iteration 34 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [1, 1, 1, 1, 1, 5, 3, 6, 8, 6, 5, 4]
+Simulation error: 0.202338	Circuit area: 94.700000	Circuit delay: 218.300000
+Evaluating Design: [1, 1, 1, 1, 1, 5, 3, 5, 8, 6, 6, 4]
+Simulation error: 0.029497	Circuit area: 98.420000	Circuit delay: 214.710000
+Evaluating Design: [1, 1, 1, 1, 1, 5, 2, 6, 8, 6, 6, 4]
+Simulation error: 0.019734	Circuit area: 94.160000	Circuit delay: 204.830000
+Evaluating Design: [1, 1, 1, 1, 1, 5, 3, 6, 8, 5, 6, 4]
+Simulation error: 0.081240	Circuit area: 97.090000	Circuit delay: 208.160000
+Evaluating Design: [1, 1, 1, 1, 1, 4, 3, 6, 8, 6, 6, 4]
+Simulation error: 0.024736	Circuit area: 97.620000	Circuit delay: 209.330000
+Evaluating Design: [1, 1, 1, 1, 1, 5, 3, 6, 8, 6, 6, 3]
+Simulation error: 0.141356	Circuit area: 94.160000	Circuit delay: 229.550000
+Evaluating Design: [1, 1, 1, 1, 1, 5, 3, 6, 7, 6, 6, 4]
+Simulation error: 0.052328	Circuit area: 99.750000	Circuit delay: 205.850000
+==========TRACK 1 ==========
+Evaluating Design: [1, 1, 2, 1, 1, 5, 2, 5, 8, 6, 6, 4]
+Simulation error: 0.029497	Circuit area: 105.070000	Circuit delay: 320.630000
+Evaluating Design: [1, 1, 2, 1, 1, 4, 2, 6, 8, 6, 6, 4]
+Simulation error: 0.024736	Circuit area: 102.140000	Circuit delay: 320.710000
+Evaluating Design: [1, 1, 2, 1, 1, 5, 2, 6, 8, 6, 6, 3]
+Simulation error: 0.141356	Circuit area: 112.250000	Circuit delay: 281.100000
+Evaluating Design: [1, 1, 2, 1, 1, 5, 2, 6, 7, 6, 6, 4]
+Simulation error: 0.052328	Circuit area: 102.140000	Circuit delay: 322.590000
+Evaluating Design: [1, 1, 2, 1, 1, 5, 2, 6, 8, 5, 6, 4]
+Simulation error: 0.081240	Circuit area: 103.210000	Circuit delay: 323.070000
+Evaluating Design: [1, 1, 2, 1, 1, 5, 2, 6, 8, 6, 5, 4]
+Simulation error: 0.202338	Circuit area: 101.610000	Circuit delay: 320.630000
+Evaluating Design: [1, 1, 2, 1, 1, 5, 1, 6, 8, 6, 6, 4]
+----- Approximating part 6 to degree 1
+Simulation error: 0.019734	Circuit area: 103.470000	Circuit delay: 320.850000
+==========TRACK 2 ==========
+Evaluating Design: [1, 1, 1, 1, 1, 4, 4, 5, 8, 6, 6, 4]
+Simulation error: 0.034666	Circuit area: 92.040000	Circuit delay: 220.840000
+Evaluating Design: [1, 1, 1, 1, 1, 4, 4, 6, 8, 6, 5, 4]
+Simulation error: 0.207340	Circuit area: 92.570000	Circuit delay: 209.350000
+Evaluating Design: [1, 1, 1, 1, 1, 4, 4, 6, 8, 5, 6, 4]
+Simulation error: 0.084652	Circuit area: 93.100000	Circuit delay: 208.920000
+Evaluating Design: [1, 1, 1, 1, 1, 4, 4, 6, 8, 6, 6, 3]
+Simulation error: 0.145513	Circuit area: 90.710000	Circuit delay: 216.400000
+Evaluating Design: [1, 1, 1, 1, 1, 3, 4, 6, 8, 6, 6, 4]
+Simulation error: 0.024736	Circuit area: 97.620000	Circuit delay: 209.330000
+Evaluating Design: [1, 1, 1, 1, 1, 4, 4, 6, 7, 6, 6, 4]
+Simulation error: 0.056937	Circuit area: 91.770000	Circuit delay: 207.340000
+--------------- Finishing Iteration34---------------
+Partition [array([0, 1, 2, 3, 4, 5, 6])] being approximated
+Approximated error: 0.019734	Area : 94.160000	Delay : 204.830000	Time used: 4.827900 sec
+
+Current stream of factorization degree:
+ [1, 1, 1, 1, 1, 5, 2, 6, 8, 6, 6, 4]
+[1, 1, 2, 1, 1, 5, 1, 6, 8, 6, 6, 4]
+[1, 1, 1, 1, 1, 4, 3, 6, 8, 6, 6, 4]
+--------------- Iteration 35 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [1, 1, 1, 1, 1, 5, 1, 6, 8, 6, 6, 4]
+Simulation error: 0.019734	Circuit area: 92.300000	Circuit delay: 189.100000
+Evaluating Design: [1, 1, 1, 1, 1, 5, 2, 6, 8, 6, 5, 4]
+Simulation error: 0.202338	Circuit area: 89.380000	Circuit delay: 208.470000
+Evaluating Design: [1, 1, 1, 1, 1, 5, 2, 6, 7, 6, 6, 4]
+Simulation error: 0.052328	Circuit area: 92.570000	Circuit delay: 220.420000
+Evaluating Design: [1, 1, 1, 1, 1, 5, 2, 5, 8, 6, 6, 4]
+Simulation error: 0.029497	Circuit area: 96.030000	Circuit delay: 201.730000
+Evaluating Design: [1, 1, 1, 1, 1, 5, 2, 6, 8, 5, 6, 4]
+Simulation error: 0.081240	Circuit area: 92.830000	Circuit delay: 199.370000
+Evaluating Design: [1, 1, 1, 1, 1, 4, 2, 6, 8, 6, 6, 4]
+Simulation error: 0.024736	Circuit area: 90.440000	Circuit delay: 208.470000
+Evaluating Design: [1, 1, 1, 1, 1, 5, 2, 6, 8, 6, 6, 3]
+Simulation error: 0.141356	Circuit area: 92.570000	Circuit delay: 227.610000
+==========TRACK 1 ==========
+Evaluating Design: [1, 1, 2, 1, 1, 5, 1, 5, 8, 6, 6, 4]
+Simulation error: 0.029497	Circuit area: 103.740000	Circuit delay: 323.070000
+Evaluating Design: [1, 1, 2, 1, 1, 5, 1, 6, 8, 5, 6, 4]
+Simulation error: 0.081240	Circuit area: 100.550000	Circuit delay: 323.280000
+Evaluating Design: [1, 1, 2, 1, 1, 4, 1, 6, 8, 6, 6, 4]
+Simulation error: 0.024736	Circuit area: 100.280000	Circuit delay: 323.070000
+Evaluating Design: [1, 1, 2, 1, 1, 5, 1, 6, 8, 6, 6, 3]
+Simulation error: 0.141356	Circuit area: 108.530000	Circuit delay: 289.110000
+Evaluating Design: [1, 1, 2, 1, 1, 5, 1, 6, 8, 6, 5, 4]
+Simulation error: 0.202338	Circuit area: 99.480000	Circuit delay: 321.400000
+Evaluating Design: [1, 1, 2, 1, 1, 5, 1, 6, 7, 6, 6, 4]
+Simulation error: 0.052328	Circuit area: 100.550000	Circuit delay: 320.830000
+==========TRACK 2 ==========
+Evaluating Design: [1, 1, 1, 1, 1, 4, 3, 6, 7, 6, 6, 4]
+Simulation error: 0.056937	Circuit area: 91.770000	Circuit delay: 207.340000
+Evaluating Design: [1, 1, 1, 1, 1, 4, 3, 6, 8, 6, 6, 3]
+Simulation error: 0.145513	Circuit area: 90.710000	Circuit delay: 216.400000
+Evaluating Design: [1, 1, 1, 1, 1, 4, 3, 6, 8, 6, 5, 4]
+Simulation error: 0.207340	Circuit area: 92.570000	Circuit delay: 209.350000
+Evaluating Design: [1, 1, 1, 1, 1, 4, 3, 6, 8, 5, 6, 4]
+Simulation error: 0.084652	Circuit area: 93.100000	Circuit delay: 208.920000
+Evaluating Design: [1, 1, 1, 1, 1, 3, 3, 6, 8, 6, 6, 4]
+Simulation error: 0.024736	Circuit area: 97.620000	Circuit delay: 209.330000
+Evaluating Design: [1, 1, 1, 1, 1, 4, 3, 5, 8, 6, 6, 4]
+Simulation error: 0.034666	Circuit area: 92.040000	Circuit delay: 220.840000
+--------------- Finishing Iteration35---------------
+Partition [array([0, 1, 2, 3, 4, 5, 6])] being approximated
+Approximated error: 0.019734	Area : 92.300000	Delay : 189.100000	Time used: 4.657060 sec
+
+Current stream of factorization degree:
+ [1, 1, 1, 1, 1, 5, 1, 6, 8, 6, 6, 4]
+[1, 1, 1, 1, 1, 4, 2, 6, 8, 6, 6, 4]
+[1, 1, 1, 1, 1, 3, 3, 6, 8, 6, 6, 4]
+--------------- Iteration 36 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [1, 1, 1, 1, 1, 5, 1, 5, 8, 6, 6, 4]
+Simulation error: 0.029497	Circuit area: 86.180000	Circuit delay: 211.140000
+Evaluating Design: [1, 1, 1, 1, 1, 4, 1, 6, 8, 6, 6, 4]
+Simulation error: 0.024736	Circuit area: 86.180000	Circuit delay: 185.230000
+Evaluating Design: [1, 1, 1, 1, 1, 5, 1, 6, 7, 6, 6, 4]
+Simulation error: 0.052328	Circuit area: 84.590000	Circuit delay: 199.190000
+Evaluating Design: [1, 1, 1, 1, 1, 5, 1, 6, 8, 6, 6, 3]
+Simulation error: 0.141356	Circuit area: 89.910000	Circuit delay: 219.780000
+Evaluating Design: [1, 1, 1, 1, 1, 5, 1, 6, 8, 6, 5, 4]
+Simulation error: 0.202338	Circuit area: 85.920000	Circuit delay: 190.500000
+Evaluating Design: [1, 1, 1, 1, 1, 5, 1, 6, 8, 5, 6, 4]
+Simulation error: 0.081240	Circuit area: 90.440000	Circuit delay: 194.210000
+==========TRACK 1 ==========
+Evaluating Design: [1, 1, 1, 1, 1, 3, 2, 6, 8, 6, 6, 4]
+Simulation error: 0.024736	Circuit area: 90.440000	Circuit delay: 208.470000
+Evaluating Design: [1, 1, 1, 1, 1, 4, 2, 6, 7, 6, 6, 4]
+Simulation error: 0.056937	Circuit area: 85.650000	Circuit delay: 208.440000
+Evaluating Design: [1, 1, 1, 1, 1, 4, 2, 6, 8, 6, 5, 4]
+Simulation error: 0.207340	Circuit area: 86.180000	Circuit delay: 210.580000
+Evaluating Design: [1, 1, 1, 1, 1, 4, 2, 5, 8, 6, 6, 4]
+Simulation error: 0.034666	Circuit area: 87.250000	Circuit delay: 204.840000
+Evaluating Design: [1, 1, 1, 1, 1, 4, 2, 6, 8, 5, 6, 4]
+Simulation error: 0.084652	Circuit area: 86.720000	Circuit delay: 210.530000
+Evaluating Design: [1, 1, 1, 1, 1, 4, 2, 6, 8, 6, 6, 3]
+Simulation error: 0.145513	Circuit area: 90.170000	Circuit delay: 222.600000
+==========TRACK 2 ==========
+Evaluating Design: [1, 1, 1, 1, 1, 2, 3, 6, 8, 6, 6, 4]
+Simulation error: 0.024736	Circuit area: 96.290000	Circuit delay: 223.770000
+Evaluating Design: [1, 1, 1, 1, 1, 3, 3, 6, 8, 6, 5, 4]
+Simulation error: 0.207340	Circuit area: 92.570000	Circuit delay: 209.350000
+Evaluating Design: [1, 1, 1, 1, 1, 3, 3, 5, 8, 6, 6, 4]
+Simulation error: 0.034666	Circuit area: 92.040000	Circuit delay: 220.840000
+Evaluating Design: [1, 1, 1, 1, 1, 3, 3, 6, 8, 5, 6, 4]
+Simulation error: 0.084652	Circuit area: 93.100000	Circuit delay: 208.920000
+Evaluating Design: [1, 1, 1, 1, 1, 3, 3, 6, 8, 6, 6, 3]
+Simulation error: 0.145513	Circuit area: 90.710000	Circuit delay: 216.400000
+Evaluating Design: [1, 1, 1, 1, 1, 3, 3, 6, 7, 6, 6, 4]
+Simulation error: 0.056937	Circuit area: 91.770000	Circuit delay: 207.340000
+--------------- Finishing Iteration36---------------
+Partition [array([0, 1, 2, 3, 4, 5, 6])] being approximated
+Approximated error: 0.024736	Area : 86.180000	Delay : 185.230000	Time used: 4.817600 sec
+
+Current stream of factorization degree:
+ [1, 1, 1, 1, 1, 4, 1, 6, 8, 6, 6, 4]
+[1, 1, 1, 1, 1, 3, 2, 6, 8, 6, 6, 4]
+[1, 1, 1, 1, 1, 2, 3, 6, 8, 6, 6, 4]
+--------------- Iteration 37 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [1, 1, 1, 1, 1, 4, 1, 6, 8, 6, 5, 4]
+Simulation error: 0.207340	Circuit area: 82.190000	Circuit delay: 181.450000
+Evaluating Design: [1, 1, 1, 1, 1, 4, 1, 6, 8, 6, 6, 3]
+Simulation error: 0.145513	Circuit area: 82.730000	Circuit delay: 187.800000
+Evaluating Design: [1, 1, 1, 1, 1, 4, 1, 6, 8, 5, 6, 4]
+Simulation error: 0.084652	Circuit area: 83.260000	Circuit delay: 181.850000
+Evaluating Design: [1, 1, 1, 1, 1, 4, 1, 5, 8, 6, 6, 4]
+Simulation error: 0.034666	Circuit area: 79.800000	Circuit delay: 190.270000
+Evaluating Design: [1, 1, 1, 1, 1, 3, 1, 6, 8, 6, 6, 4]
+Simulation error: 0.024736	Circuit area: 86.180000	Circuit delay: 185.230000
+Evaluating Design: [1, 1, 1, 1, 1, 4, 1, 6, 7, 6, 6, 4]
+Simulation error: 0.056937	Circuit area: 86.450000	Circuit delay: 205.670000
+==========TRACK 1 ==========
+Evaluating Design: [1, 1, 1, 1, 1, 3, 2, 5, 8, 6, 6, 4]
+Simulation error: 0.034666	Circuit area: 87.250000	Circuit delay: 204.840000
+Evaluating Design: [1, 1, 1, 1, 1, 3, 2, 6, 8, 6, 6, 3]
+Simulation error: 0.145513	Circuit area: 90.170000	Circuit delay: 222.600000
+Evaluating Design: [1, 1, 1, 1, 1, 3, 2, 6, 7, 6, 6, 4]
+Simulation error: 0.056937	Circuit area: 85.650000	Circuit delay: 208.440000
+Evaluating Design: [1, 1, 1, 1, 1, 3, 2, 6, 8, 5, 6, 4]
+Simulation error: 0.084652	Circuit area: 86.720000	Circuit delay: 210.530000
+Evaluating Design: [1, 1, 1, 1, 1, 3, 2, 6, 8, 6, 5, 4]
+Simulation error: 0.207340	Circuit area: 86.180000	Circuit delay: 210.580000
+Evaluating Design: [1, 1, 1, 1, 1, 2, 2, 6, 8, 6, 6, 4]
+Simulation error: 0.024736	Circuit area: 93.370000	Circuit delay: 207.290000
+==========TRACK 2 ==========
+Evaluating Design: [1, 1, 1, 1, 1, 2, 3, 5, 8, 6, 6, 4]
+Simulation error: 0.034666	Circuit area: 93.370000	Circuit delay: 217.150000
+Evaluating Design: [1, 1, 1, 1, 1, 2, 3, 6, 8, 6, 5, 4]
+Simulation error: 0.207340	Circuit area: 92.830000	Circuit delay: 225.710000
+Evaluating Design: [1, 1, 1, 1, 1, 2, 3, 6, 8, 5, 6, 4]
+Simulation error: 0.084652	Circuit area: 92.300000	Circuit delay: 226.130000
+Evaluating Design: [1, 1, 1, 1, 1, 2, 3, 6, 8, 6, 6, 3]
+Simulation error: 0.145513	Circuit area: 95.490000	Circuit delay: 235.950000
+Evaluating Design: [1, 1, 1, 1, 1, 2, 3, 6, 7, 6, 6, 4]
+Simulation error: 0.056937	Circuit area: 94.160000	Circuit delay: 220.200000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 3, 6, 8, 6, 6, 4]
+----- Approximating part 5 to degree 1
+Simulation error: 0.024736	Circuit area: 90.710000	Circuit delay: 220.750000
+--------------- Finishing Iteration37---------------
+Partition [array([0, 1, 2, 3, 4, 5, 6])] being approximated
+Approximated error: 0.024736	Area : 86.180000	Delay : 185.230000	Time used: 4.637250 sec
+
+Current stream of factorization degree:
+ [1, 1, 1, 1, 1, 3, 1, 6, 8, 6, 6, 4]
+[1, 1, 1, 1, 1, 1, 3, 6, 8, 6, 6, 4]
+[1, 1, 1, 1, 1, 2, 2, 6, 8, 6, 6, 4]
+--------------- Iteration 38 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [1, 1, 1, 1, 1, 2, 1, 6, 8, 6, 6, 4]
+Simulation error: 0.024736	Circuit area: 81.130000	Circuit delay: 174.720000
+Evaluating Design: [1, 1, 1, 1, 1, 3, 1, 6, 8, 5, 6, 4]
+Simulation error: 0.084652	Circuit area: 83.260000	Circuit delay: 181.850000
+Evaluating Design: [1, 1, 1, 1, 1, 3, 1, 6, 8, 6, 5, 4]
+Simulation error: 0.207340	Circuit area: 82.190000	Circuit delay: 181.450000
+Evaluating Design: [1, 1, 1, 1, 1, 3, 1, 6, 8, 6, 6, 3]
+Simulation error: 0.145513	Circuit area: 82.730000	Circuit delay: 187.800000
+Evaluating Design: [1, 1, 1, 1, 1, 3, 1, 6, 7, 6, 6, 4]
+Simulation error: 0.056937	Circuit area: 86.450000	Circuit delay: 205.670000
+Evaluating Design: [1, 1, 1, 1, 1, 3, 1, 5, 8, 6, 6, 4]
+Simulation error: 0.034666	Circuit area: 79.800000	Circuit delay: 190.270000
+==========TRACK 1 ==========
+Evaluating Design: [1, 1, 1, 1, 1, 1, 3, 5, 8, 6, 6, 4]
+Simulation error: 0.034666	Circuit area: 86.450000	Circuit delay: 222.570000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 3, 6, 7, 6, 6, 4]
+Simulation error: 0.056937	Circuit area: 86.450000	Circuit delay: 222.140000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 3, 6, 8, 6, 6, 3]
+Simulation error: 0.145513	Circuit area: 89.910000	Circuit delay: 233.390000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 3, 6, 8, 6, 5, 4]
+Simulation error: 0.207340	Circuit area: 87.250000	Circuit delay: 222.970000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 2, 6, 8, 6, 6, 4]
+Simulation error: 0.024736	Circuit area: 86.180000	Circuit delay: 203.120000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 3, 6, 8, 5, 6, 4]
+Simulation error: 0.084652	Circuit area: 88.310000	Circuit delay: 222.090000
+==========TRACK 2 ==========
+Evaluating Design: [1, 1, 1, 1, 1, 2, 2, 6, 8, 6, 5, 4]
+Simulation error: 0.207340	Circuit area: 89.110000	Circuit delay: 206.000000
+Evaluating Design: [1, 1, 1, 1, 1, 2, 2, 5, 8, 6, 6, 4]
+Simulation error: 0.034666	Circuit area: 88.050000	Circuit delay: 215.590000
+Evaluating Design: [1, 1, 1, 1, 1, 2, 2, 6, 7, 6, 6, 4]
+Simulation error: 0.056937	Circuit area: 88.050000	Circuit delay: 207.320000
+Evaluating Design: [1, 1, 1, 1, 1, 2, 2, 6, 8, 5, 6, 4]
+Simulation error: 0.084652	Circuit area: 88.050000	Circuit delay: 206.180000
+Evaluating Design: [1, 1, 1, 1, 1, 2, 2, 6, 8, 6, 6, 3]
+Simulation error: 0.145513	Circuit area: 86.980000	Circuit delay: 220.780000
+--------------- Finishing Iteration38---------------
+Partition [array([0, 1, 2, 3, 4, 5, 6])] being approximated
+Approximated error: 0.024736	Area : 81.130000	Delay : 174.720000	Time used: 4.506496 sec
+
+Current stream of factorization degree:
+ [1, 1, 1, 1, 1, 2, 1, 6, 8, 6, 6, 4]
+[1, 1, 1, 1, 1, 1, 2, 6, 8, 6, 6, 4]
+[1, 1, 1, 1, 1, 3, 1, 5, 8, 6, 6, 4]
+--------------- Iteration 39 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [1, 1, 1, 1, 1, 1, 1, 6, 8, 6, 6, 4]
+Simulation error: 0.024736	Circuit area: 81.130000	Circuit delay: 162.950000
+Evaluating Design: [1, 1, 1, 1, 1, 2, 1, 6, 8, 6, 5, 4]
+Simulation error: 0.207340	Circuit area: 76.080000	Circuit delay: 175.160000
+Evaluating Design: [1, 1, 1, 1, 1, 2, 1, 5, 8, 6, 6, 4]
+Simulation error: 0.034666	Circuit area: 77.410000	Circuit delay: 174.460000
+Evaluating Design: [1, 1, 1, 1, 1, 2, 1, 6, 7, 6, 6, 4]
+Simulation error: 0.056937	Circuit area: 82.460000	Circuit delay: 183.020000
+Evaluating Design: [1, 1, 1, 1, 1, 2, 1, 6, 8, 6, 6, 3]
+Simulation error: 0.145513	Circuit area: 82.730000	Circuit delay: 168.280000
+Evaluating Design: [1, 1, 1, 1, 1, 2, 1, 6, 8, 5, 6, 4]
+Simulation error: 0.084652	Circuit area: 77.940000	Circuit delay: 193.660000
+==========TRACK 1 ==========
+Evaluating Design: [1, 1, 1, 1, 1, 1, 2, 6, 7, 6, 6, 4]
+Simulation error: 0.056937	Circuit area: 81.130000	Circuit delay: 194.820000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 2, 6, 8, 6, 5, 4]
+Simulation error: 0.207340	Circuit area: 80.070000	Circuit delay: 205.570000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 2, 5, 8, 6, 6, 4]
+Simulation error: 0.034666	Circuit area: 80.600000	Circuit delay: 202.340000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 2, 6, 8, 5, 6, 4]
+Simulation error: 0.084652	Circuit area: 82.190000	Circuit delay: 204.090000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 2, 6, 8, 6, 6, 3]
+Simulation error: 0.145513	Circuit area: 81.400000	Circuit delay: 218.780000
+==========TRACK 2 ==========
+Evaluating Design: [1, 1, 1, 1, 1, 3, 1, 5, 8, 6, 6, 3]
+Simulation error: 0.154821	Circuit area: 78.740000	Circuit delay: 195.070000
+Evaluating Design: [1, 1, 1, 1, 1, 3, 1, 5, 8, 6, 5, 4]
+Simulation error: 0.211509	Circuit area: 76.610000	Circuit delay: 199.780000
+Evaluating Design: [1, 1, 1, 1, 1, 3, 1, 5, 7, 6, 6, 4]
+Simulation error: 0.066648	Circuit area: 80.600000	Circuit delay: 195.280000
+Evaluating Design: [1, 1, 1, 1, 1, 3, 1, 4, 8, 6, 6, 4]
+----- Approximating part 7 to degree 4
+Simulation error: 0.042209	Circuit area: 77.410000	Circuit delay: 191.700000
+Evaluating Design: [1, 1, 1, 1, 1, 3, 1, 5, 8, 5, 6, 4]
+Simulation error: 0.093607	Circuit area: 79.000000	Circuit delay: 186.690000
+--------------- Finishing Iteration39---------------
+Partition [array([0, 1, 2, 3, 4, 5, 6])] being approximated
+Approximated error: 0.024736	Area : 81.130000	Delay : 162.950000	Time used: 4.749035 sec
+
+Current stream of factorization degree:
+ [1, 1, 1, 1, 1, 1, 1, 6, 8, 6, 6, 4]
+[1, 1, 1, 1, 1, 2, 1, 5, 8, 6, 6, 4]
+[1, 1, 1, 1, 1, 1, 2, 5, 8, 6, 6, 4]
+--------------- Iteration 40 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [1, 1, 1, 1, 1, 1, 1, 6, 7, 6, 6, 4]
+Simulation error: 0.056938	Circuit area: 77.140000	Circuit delay: 174.700000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 1, 6, 8, 5, 6, 4]
+Simulation error: 0.084652	Circuit area: 79.530000	Circuit delay: 176.430000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 1, 6, 8, 6, 6, 3]
+Simulation error: 0.145513	Circuit area: 81.130000	Circuit delay: 171.680000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 1, 6, 8, 6, 5, 4]
+Simulation error: 0.207340	Circuit area: 75.540000	Circuit delay: 150.520000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 1, 5, 8, 6, 6, 4]
+Simulation error: 0.034666	Circuit area: 72.090000	Circuit delay: 163.370000
+==========TRACK 1 ==========
+Evaluating Design: [1, 1, 1, 1, 1, 2, 1, 5, 8, 5, 6, 4]
+Simulation error: 0.093607	Circuit area: 76.340000	Circuit delay: 176.470000
+Evaluating Design: [1, 1, 1, 1, 1, 2, 1, 5, 8, 6, 5, 4]
+Simulation error: 0.211509	Circuit area: 73.150000	Circuit delay: 174.460000
+Evaluating Design: [1, 1, 1, 1, 1, 2, 1, 5, 7, 6, 6, 4]
+Simulation error: 0.066649	Circuit area: 80.330000	Circuit delay: 186.760000
+Evaluating Design: [1, 1, 1, 1, 1, 2, 1, 4, 8, 6, 6, 4]
+Simulation error: 0.042209	Circuit area: 75.540000	Circuit delay: 174.500000
+Evaluating Design: [1, 1, 1, 1, 1, 2, 1, 5, 8, 6, 6, 3]
+Simulation error: 0.154822	Circuit area: 76.340000	Circuit delay: 174.840000
+==========TRACK 2 ==========
+Evaluating Design: [1, 1, 1, 1, 1, 1, 2, 5, 8, 6, 5, 4]
+Simulation error: 0.211509	Circuit area: 75.540000	Circuit delay: 204.550000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 2, 5, 8, 5, 6, 4]
+Simulation error: 0.093607	Circuit area: 76.610000	Circuit delay: 202.210000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 2, 4, 8, 6, 6, 4]
+Simulation error: 0.042209	Circuit area: 78.200000	Circuit delay: 199.880000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 2, 5, 7, 6, 6, 4]
+Simulation error: 0.066649	Circuit area: 79.000000	Circuit delay: 227.700000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 2, 5, 8, 6, 6, 3]
+Simulation error: 0.154822	Circuit area: 78.470000	Circuit delay: 212.850000
+--------------- Finishing Iteration40---------------
+Partition [array([0, 1, 2, 3, 4, 5, 6, 7])] being approximated
+Approximated error: 0.034666	Area : 72.090000	Delay : 163.370000	Time used: 4.538990 sec
+
+Current stream of factorization degree:
+ [1, 1, 1, 1, 1, 1, 1, 5, 8, 6, 6, 4]
+[1, 1, 1, 1, 1, 2, 1, 4, 8, 6, 6, 4]
+[1, 1, 1, 1, 1, 1, 2, 4, 8, 6, 6, 4]
+--------------- Iteration 41 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [1, 1, 1, 1, 1, 1, 1, 5, 8, 5, 6, 4]
+Simulation error: 0.093607	Circuit area: 75.280000	Circuit delay: 162.680000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 1, 5, 7, 6, 6, 4]
+Simulation error: 0.066649	Circuit area: 72.090000	Circuit delay: 173.540000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 1, 4, 8, 6, 6, 4]
+Simulation error: 0.042209	Circuit area: 72.090000	Circuit delay: 156.040000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 1, 5, 8, 6, 6, 3]
+Simulation error: 0.154822	Circuit area: 70.760000	Circuit delay: 162.230000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 1, 5, 8, 6, 5, 4]
+Simulation error: 0.211509	Circuit area: 74.750000	Circuit delay: 150.520000
+==========TRACK 1 ==========
+Evaluating Design: [1, 1, 1, 1, 1, 2, 1, 4, 8, 6, 5, 4]
+Simulation error: 0.219053	Circuit area: 69.430000	Circuit delay: 175.160000
+Evaluating Design: [1, 1, 1, 1, 1, 2, 1, 4, 8, 5, 6, 4]
+Simulation error: 0.099370	Circuit area: 71.020000	Circuit delay: 174.460000
+Evaluating Design: [1, 1, 1, 1, 1, 2, 1, 4, 8, 6, 6, 3]
+Simulation error: 0.161865	Circuit area: 74.210000	Circuit delay: 168.280000
+Evaluating Design: [1, 1, 1, 1, 1, 2, 1, 3, 8, 6, 6, 4]
+----- Approximating part 7 to degree 3
+Simulation error: 0.042209	Circuit area: 75.540000	Circuit delay: 174.500000
+Evaluating Design: [1, 1, 1, 1, 1, 2, 1, 4, 7, 6, 6, 4]
+Simulation error: 0.072630	Circuit area: 71.820000	Circuit delay: 174.500000
+==========TRACK 2 ==========
+Evaluating Design: [1, 1, 1, 1, 1, 1, 2, 4, 7, 6, 6, 4]
+Simulation error: 0.072630	Circuit area: 74.750000	Circuit delay: 200.520000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 2, 4, 8, 6, 5, 4]
+Simulation error: 0.219053	Circuit area: 72.620000	Circuit delay: 209.920000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 2, 4, 8, 5, 6, 4]
+Simulation error: 0.099370	Circuit area: 74.750000	Circuit delay: 199.880000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 2, 4, 8, 6, 6, 3]
+Simulation error: 0.161865	Circuit area: 74.210000	Circuit delay: 210.700000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 2, 3, 8, 6, 6, 4]
+Simulation error: 0.042209	Circuit area: 78.200000	Circuit delay: 199.880000
+--------------- Finishing Iteration41---------------
+Partition [array([0, 1, 2, 3, 4, 5, 6, 7])] being approximated
+Approximated error: 0.042209	Area : 72.090000	Delay : 156.040000	Time used: 4.571631 sec
+
+Current stream of factorization degree:
+ [1, 1, 1, 1, 1, 1, 1, 4, 8, 6, 6, 4]
+[1, 1, 1, 1, 1, 2, 1, 3, 8, 6, 6, 4]
+[1, 1, 1, 1, 1, 1, 2, 3, 8, 6, 6, 4]
+--------------- Iteration 42 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [1, 1, 1, 1, 1, 1, 1, 4, 8, 6, 5, 4]
+Simulation error: 0.219053	Circuit area: 67.300000	Circuit delay: 153.070000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 1, 4, 8, 6, 6, 3]
+Simulation error: 0.161865	Circuit area: 69.160000	Circuit delay: 162.440000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 1, 3, 8, 6, 6, 4]
+Simulation error: 0.042209	Circuit area: 72.090000	Circuit delay: 156.040000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 1, 4, 8, 5, 6, 4]
+Simulation error: 0.099370	Circuit area: 69.430000	Circuit delay: 165.830000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 1, 4, 7, 6, 6, 4]
+Simulation error: 0.072630	Circuit area: 70.490000	Circuit delay: 167.370000
+==========TRACK 1 ==========
+Evaluating Design: [1, 1, 1, 1, 1, 2, 1, 3, 7, 6, 6, 4]
+Simulation error: 0.072630	Circuit area: 71.820000	Circuit delay: 174.500000
+Evaluating Design: [1, 1, 1, 1, 1, 2, 1, 3, 8, 6, 5, 4]
+Simulation error: 0.219053	Circuit area: 69.430000	Circuit delay: 175.160000
+Evaluating Design: [1, 1, 1, 1, 1, 2, 1, 3, 8, 5, 6, 4]
+Simulation error: 0.099370	Circuit area: 71.020000	Circuit delay: 174.460000
+Evaluating Design: [1, 1, 1, 1, 1, 2, 1, 3, 8, 6, 6, 3]
+Simulation error: 0.161865	Circuit area: 74.210000	Circuit delay: 168.280000
+Evaluating Design: [1, 1, 1, 1, 1, 2, 1, 2, 8, 6, 6, 4]
+----- Approximating part 7 to degree 2
+Simulation error: 0.042209	Circuit area: 73.680000	Circuit delay: 190.210000
+==========TRACK 2 ==========
+Evaluating Design: [1, 1, 1, 1, 1, 1, 2, 3, 8, 6, 5, 4]
+Simulation error: 0.219053	Circuit area: 72.620000	Circuit delay: 209.920000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 2, 3, 8, 5, 6, 4]
+Simulation error: 0.099370	Circuit area: 74.750000	Circuit delay: 199.880000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 2, 3, 7, 6, 6, 4]
+Simulation error: 0.072630	Circuit area: 74.750000	Circuit delay: 200.520000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 2, 3, 8, 6, 6, 3]
+Simulation error: 0.161865	Circuit area: 74.210000	Circuit delay: 210.700000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 2, 2, 8, 6, 6, 4]
+Simulation error: 0.042209	Circuit area: 77.940000	Circuit delay: 179.720000
+--------------- Finishing Iteration42---------------
+Partition [array([0, 1, 2, 3, 4, 5, 6, 7])] being approximated
+Approximated error: 0.042209	Area : 72.090000	Delay : 156.040000	Time used: 4.383517 sec
+
+Current stream of factorization degree:
+ [1, 1, 1, 1, 1, 1, 1, 3, 8, 6, 6, 4]
+[1, 1, 1, 1, 1, 2, 1, 2, 8, 6, 6, 4]
+[1, 1, 1, 1, 1, 1, 2, 2, 8, 6, 6, 4]
+--------------- Iteration 43 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [1, 1, 1, 1, 1, 1, 1, 2, 8, 6, 6, 4]
+Simulation error: 0.042209	Circuit area: 67.030000	Circuit delay: 165.520000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 1, 3, 8, 5, 6, 4]
+Simulation error: 0.099370	Circuit area: 69.430000	Circuit delay: 165.830000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 1, 3, 8, 6, 6, 3]
+Simulation error: 0.161865	Circuit area: 69.160000	Circuit delay: 162.440000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 1, 3, 8, 6, 5, 4]
+Simulation error: 0.219053	Circuit area: 67.300000	Circuit delay: 153.070000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 1, 3, 7, 6, 6, 4]
+Simulation error: 0.072630	Circuit area: 70.490000	Circuit delay: 167.370000
+==========TRACK 1 ==========
+Evaluating Design: [1, 1, 1, 1, 1, 2, 1, 2, 8, 6, 5, 4]
+Simulation error: 0.219053	Circuit area: 69.960000	Circuit delay: 190.000000
+Evaluating Design: [1, 1, 1, 1, 1, 2, 1, 2, 8, 5, 6, 4]
+Simulation error: 0.099370	Circuit area: 70.220000	Circuit delay: 190.210000
+Evaluating Design: [1, 1, 1, 1, 1, 2, 1, 2, 8, 6, 6, 3]
+Simulation error: 0.161865	Circuit area: 82.730000	Circuit delay: 199.390000
+Evaluating Design: [1, 1, 1, 1, 1, 2, 1, 1, 8, 6, 6, 4]
+----- Approximating part 7 to degree 1
+Simulation error: 0.042209	Circuit area: 66.230000	Circuit delay: 177.630000
+Evaluating Design: [1, 1, 1, 1, 1, 2, 1, 2, 7, 6, 6, 4]
+Simulation error: 0.072630	Circuit area: 71.020000	Circuit delay: 199.540000
+==========TRACK 2 ==========
+Evaluating Design: [1, 1, 1, 1, 1, 1, 2, 2, 8, 6, 5, 4]
+Simulation error: 0.219053	Circuit area: 72.350000	Circuit delay: 187.690000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 2, 2, 7, 6, 6, 4]
+Simulation error: 0.072630	Circuit area: 73.420000	Circuit delay: 190.100000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 2, 1, 8, 6, 6, 4]
+Simulation error: 0.042209	Circuit area: 76.610000	Circuit delay: 187.960000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 2, 2, 8, 6, 6, 3]
+Simulation error: 0.161865	Circuit area: 73.420000	Circuit delay: 197.890000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 2, 2, 8, 5, 6, 4]
+Simulation error: 0.099370	Circuit area: 75.010000	Circuit delay: 183.030000
+--------------- Finishing Iteration43---------------
+Partition [array([0, 1, 2, 3, 4, 5, 6, 7])] being approximated
+Approximated error: 0.042209	Area : 66.230000	Delay : 177.630000	Time used: 4.185277 sec
+
+Current stream of factorization degree:
+ [1, 1, 1, 1, 1, 2, 1, 1, 8, 6, 6, 4]
+[1, 1, 1, 1, 1, 1, 1, 2, 8, 6, 6, 4]
+[1, 1, 1, 1, 1, 1, 2, 1, 8, 6, 6, 4]
+--------------- Iteration 44 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [1, 1, 1, 1, 1, 1, 1, 1, 8, 6, 6, 4]
+Simulation error: 0.042209	Circuit area: 63.570000	Circuit delay: 134.340000
+Evaluating Design: [1, 1, 1, 1, 1, 2, 1, 1, 8, 6, 5, 4]
+Simulation error: 0.219053	Circuit area: 62.240000	Circuit delay: 177.650000
+Evaluating Design: [1, 1, 1, 1, 1, 2, 1, 1, 8, 6, 6, 3]
+Simulation error: 0.161865	Circuit area: 68.630000	Circuit delay: 220.260000
+Evaluating Design: [1, 1, 1, 1, 1, 2, 1, 1, 7, 6, 6, 4]
+Simulation error: 0.072630	Circuit area: 65.170000	Circuit delay: 175.780000
+Evaluating Design: [1, 1, 1, 1, 1, 2, 1, 1, 8, 5, 6, 4]
+Simulation error: 0.099370	Circuit area: 63.310000	Circuit delay: 179.510000
+==========TRACK 1 ==========
+Evaluating Design: [1, 1, 1, 1, 1, 1, 1, 2, 8, 6, 5, 4]
+Simulation error: 0.219053	Circuit area: 61.450000	Circuit delay: 152.740000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 1, 2, 7, 6, 6, 4]
+Simulation error: 0.072630	Circuit area: 63.310000	Circuit delay: 170.750000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 1, 2, 8, 5, 6, 4]
+Simulation error: 0.099370	Circuit area: 63.570000	Circuit delay: 158.470000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 1, 2, 8, 6, 6, 3]
+Simulation error: 0.161865	Circuit area: 65.440000	Circuit delay: 166.870000
+==========TRACK 2 ==========
+Evaluating Design: [1, 1, 1, 1, 1, 1, 2, 1, 8, 6, 6, 3]
+Simulation error: 0.161865	Circuit area: 72.350000	Circuit delay: 206.120000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 2, 1, 8, 6, 5, 4]
+Simulation error: 0.219053	Circuit area: 69.960000	Circuit delay: 196.690000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 2, 1, 8, 5, 6, 4]
+Simulation error: 0.099370	Circuit area: 72.620000	Circuit delay: 182.050000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 2, 1, 7, 6, 6, 4]
+Simulation error: 0.072630	Circuit area: 73.950000	Circuit delay: 187.960000
+--------------- Finishing Iteration44---------------
+Partition [array([0, 1, 2, 3, 4, 5, 6, 7])] being approximated
+Approximated error: 0.042209	Area : 63.570000	Delay : 134.340000	Time used: 4.241583 sec
+
+Current stream of factorization degree:
+ [1, 1, 1, 1, 1, 1, 1, 1, 8, 6, 6, 4]
+[1, 1, 1, 1, 1, 1, 1, 2, 8, 6, 5, 4]
+[1, 1, 1, 1, 1, 2, 1, 1, 8, 6, 5, 4]
+--------------- Iteration 45 ---------------
+==========TRACK 0 ==========
+Evaluating Design: [1, 1, 1, 1, 1, 1, 1, 1, 8, 6, 5, 4]
+Simulation error: 0.219053	Circuit area: 59.850000	Circuit delay: 129.960000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 1, 1, 7, 6, 6, 4]
+Simulation error: 0.072630	Circuit area: 62.780000	Circuit delay: 155.870000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 1, 1, 8, 5, 6, 4]
+Simulation error: 0.099370	Circuit area: 65.170000	Circuit delay: 145.590000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 1, 1, 8, 6, 6, 3]
+Simulation error: 0.161865	Circuit area: 62.240000	Circuit delay: 137.880000
+==========TRACK 1 ==========
+Evaluating Design: [1, 1, 1, 1, 1, 1, 1, 2, 7, 6, 5, 4]
+Simulation error: 0.223168	Circuit area: 57.190000	Circuit delay: 163.810000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 1, 2, 8, 6, 5, 3]
+Simulation error: 0.338709	Circuit area: 60.380000	Circuit delay: 167.170000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 1, 2, 8, 5, 5, 4]
+Simulation error: 0.225538	Circuit area: 56.920000	Circuit delay: 152.210000
+Evaluating Design: [1, 1, 1, 1, 1, 1, 1, 2, 8, 6, 4, 4]
+----- Approximating part 10 to degree 4
+Simulation error: 0.247042	Circuit area: 57.990000	Circuit delay: 152.740000
+==========TRACK 2 ==========
+Evaluating Design: [1, 1, 1, 1, 1, 2, 1, 1, 8, 5, 5, 4]
+Simulation error: 0.225538	Circuit area: 62.510000	Circuit delay: 184.240000
+Evaluating Design: [1, 1, 1, 1, 1, 2, 1, 1, 7, 6, 5, 4]
+Simulation error: 0.223168	Circuit area: 59.850000	Circuit delay: 171.410000
+Evaluating Design: [1, 1, 1, 1, 1, 2, 1, 1, 8, 6, 5, 3]
+Simulation error: 0.338709	Circuit area: 62.240000	Circuit delay: 220.260000
+Evaluating Design: [1, 1, 1, 1, 1, 2, 1, 1, 8, 6, 4, 4]
+Simulation error: 0.247042	Circuit area: 58.790000	Circuit delay: 177.630000
+--------------- Finishing Iteration45---------------
+Partition [array([ 0,  1,  2,  3,  4,  5,  6,  7,  9, 10])] being approximated
+Approximated error: 0.225538	Area : 56.920000	Delay : 152.210000	Time used: 4.362872 sec
+
+Reach threshold on 0.06066536
+Reach error threshold. Exit approximation.
+
+\time python blasys.py -i bacs/buttfly.v -tb bacs/buttfly_tb.v -lib nangate_45nm_typ.lib -m MAE -ts 0.06066536 -cpu 12 --parallel > buttfly.log
+2313.47user 140.95system 5:06.89elapsed 799%CPU (0avgtext+0avgdata 187644maxresident)k
+760inputs+5795056outputs (1521major+41478408minor)pagefaults 0swaps

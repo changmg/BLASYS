@@ -253,7 +253,7 @@ class GreedyWorker():
                 continue
 
             inp, out = inpout(mod_path)
-            if inp > 16:
+            if inp > 8:
                 lsoracle_command = 'read_verilog ' + mod_path + '; ' \
                         'partitioning 3 -c ' + self.path['part_config'] + '; ' \
                         'get_all_partitions ' + part_dir
@@ -265,7 +265,8 @@ class GreedyWorker():
                     subprocess.call(['cat', mod_path], stdout=top)
 
                 os.remove(mod_path)
-            elif 0 < inp <= 16:
+            else:
+                assert inp > 0
                 self.modulenames.append(mod)
 
         print('Number of partitions', len(self.modulenames))
@@ -541,7 +542,7 @@ class GreedyWorker():
                     k_lists_choice = k_lists_tmp[batch_num*20 : (batch_num+1)*20]
                     # Parallel mode
                     if parallel:
-                        print(cpu_count)
+                        # print(cpu_count)
                         pool = mp.Pool(cpu_count)
                         results = [pool.apply_async(evaluate_design,args=(k_lists_choice[i], self, '{}_{}-{}-{}'.format(self.modulename, num_iter, num_track, i), True)) for i in range(len(k_lists_choice))]
                         pool.close()
